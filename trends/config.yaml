@@ -1,0 +1,53 @@
+# 숏폼 유행 수집 설정 — 여기만 고치면 검색어·모델을 바꿀 수 있습니다.
+
+# 장르별 검색어. 검색어 1개 = 유튜브 할당량 100단위.
+# 지금 5장르 x 2개 = 10회 = 1,000단위 (하루 한도 10,000단위의 10%)
+genres:
+  복수극:
+    - 복수 숏드라마
+    - 복수극 쇼츠
+  회귀·환생:
+    - 회귀 숏드라마
+    - 환생 숏드라마
+  신분 반전:
+    - 신분 반전 숏드라마
+    - 재벌 숏드라마
+  계약 로맨스:
+    - 계약결혼 숏드라마
+    - 계약 연애 쇼츠 드라마
+  직장·현실 사이다:
+    - 사이다 숏드라마
+    - 직장 사이다 쇼츠
+
+youtube:
+  region: KR            # 지역
+  language: ko          # 언어
+  days: 7               # 최근 며칠 안에 올라온 영상만
+  min_views: 10000      # 최소 조회수
+  max_duration_sec: 180 # 3분 이하만 (쇼츠 기준)
+  results_per_search: 25  # 검색 1회에 받을 영상 수 (최대 50, 할당량은 같음)
+  top_per_genre: 10     # 장르별로 남길 영상 수
+  comments_per_video: 10  # 인기 댓글 수 (영상당 1단위)
+  rank_by: views        # 정렬 기준: views(조회수) / ratio(구독자 대비) / velocity(상승 속도)
+  quota_budget: 9000    # 이 단위를 넘을 것 같으면 검색을 멈춤 (하루 한도 10,000)
+  retention_days: 30    # 이보다 오래된 원본(raw.json)·누적 기록은 자동 삭제
+
+gemini:
+  # 무료 등급 플래시 모델 (2026-11 공식 문서 기준: gemini-3.8-flash = 최신 안정판).
+  # gemini-2.5-flash는 2026-12-01부터 지원 종료. 막히면 아래 이름만 바꾸면 됩니다.
+  model: gemini-3.8-flash
+  fallback_model: gemini-3.5-flash-lite   # 첫 모델이 계속 실패할 때 한 번 시도
+  wait_between_requests_sec: 15   # 요청 사이 대기 (분당 한도 보호)
+  retry_wait_sec: 60              # 429(한도 초과) 시 기다리는 시간
+  max_retries: 3
+  thumbnails_per_genre: 3         # 썸네일 이미지 분석은 장르별 상위 3개만
+  temperature: 0.7
+
+# 내 배경 (회차 아이디어를 이 배경으로 바꿔서 제안)
+my_background:
+  - 배달 라이더
+  - 부동산
+  - 40대 가장
+
+telegram:
+  top_links_per_genre: 3
