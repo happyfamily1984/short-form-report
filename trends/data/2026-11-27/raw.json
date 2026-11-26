@@ -1,0 +1,1392 @@
+{
+  "date": "2026-11-27",
+  "sample": false,
+  "quota": {
+    "used_units": 1023,
+    "calls": {
+      "search": 10,
+      "videos": 4,
+      "channels": 1,
+      "commentThreads": 18
+    },
+    "log": [
+      "검색 '복수 숏드라마' → 누적 25개",
+      "검색 '복수극 쇼츠' → 누적 49개",
+      "검색 '회귀 숏드라마' → 누적 74개",
+      "검색 '환생 숏드라마' → 누적 77개",
+      "검색 '신분 반전 숏드라마' → 누적 79개",
+      "검색 '재벌 숏드라마' → 누적 100개",
+      "검색 '계약결혼 숏드라마' → 누적 125개",
+      "검색 '계약 연애 쇼츠 드라마' → 누적 126개",
+      "검색 '사이다 숏드라마' → 누적 149개",
+      "검색 '직장 사이다 쇼츠' → 누적 165개"
+    ]
+  },
+  "videos": [
+    {
+      "genre": "복수극",
+      "video_id": "X89o5SBIGeI",
+      "url": "https://www.youtube.com/shorts/X89o5SBIGeI",
+      "title": "오늘 이거 축의금으로 치자 결혼 잘해 #한국드라마 #숏드라마 #남주 #신분반전 #사이다 #복수 #AI드라마 #현대드라마 #재벌 #전여친",
+      "channel": "CubeCrusher",
+      "channel_id": "UCS44U67XQ1Bwl6Xacn85dvQ",
+      "published_at": "2026-11-24T06:19:34Z",
+      "duration_sec": 106,
+      "views": 742232,
+      "likes": 12770,
+      "comments": 59,
+      "description_head": "",
+      "hashtags": [
+        "#한국드라마",
+        "#숏드라마",
+        "#남주",
+        "#신분반전",
+        "#사이다",
+        "#복수",
+        "#AI드라마",
+        "#현대드라마",
+        "#재벌",
+        "#전여친"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/X89o5SBIGeI/hqdefault.jpg",
+      "subscribers": 19700,
+      "view_sub_ratio": 37.7,
+      "velocity": 272879,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "의리도모르사람은\n절대상대하지마세요",
+          "likes": 70
+        },
+        {
+          "text": "보는 재미가 쏠쏠\n현실이였으면 좋으렸만❤",
+          "likes": 81
+        },
+        {
+          "text": "속이 시원하네~~\"",
+          "likes": 42
+        },
+        {
+          "text": "정말 저런 싸가지를 봐나 쪽팔리겠네요",
+          "likes": 17
+        },
+        {
+          "text": "유쾌,상쾌,통쾌하다 ㅎㅎㅎ",
+          "likes": 22
+        },
+        {
+          "text": "참잘했어요👍👍👍",
+          "likes": 13
+        },
+        {
+          "text": "여자 심성 잘 파악해야 할듯",
+          "likes": 11
+        },
+        {
+          "text": "시원합니다",
+          "likes": 15
+        },
+        {
+          "text": "사이다 당",
+          "likes": 44
+        },
+        {
+          "text": "아주 잘했어요",
+          "likes": 14
+        }
+      ]
+    },
+    {
+      "genre": "복수극",
+      "video_id": "At9MRX-T_VQ",
+      "url": "https://www.youtube.com/shorts/At9MRX-T_VQ",
+      "title": "거지 취급받던 남자가 용상에 앉자… 조선 최고의 실세가 대가리 박은 사연 💥#숏드라마 #여성 중심 드라마 #인생역전 #사이다복수 #drama",
+      "channel": "몰입극장-YGGTHEATER",
+      "channel_id": "UCkNgP1S6D3owO3boMOiNIcg",
+      "published_at": "2026-11-22T13:17:30Z",
+      "duration_sec": 176,
+      "views": 175099,
+      "likes": 1541,
+      "comments": 15,
+      "description_head": "🎬✨ 몰입극장-YGGTHEATER에 오신 것을 환영합니다! 💫\n앱에서 시청하기➡️\n\n짧지만 강렬한 몰입감! 한 번 보기 시작하면 끝까지 눈을 뗄 수 없는 흥미진진한 이야기! 🎞️\n\n🎥 작품명:  왕의 귀향\n\n📖 줄거리:  \n가난한 청년으로 살다 내란을 평정하고 조선의 왕이 된 이훤. 그는 자신을 구해 줬다고 믿었던 정혼녀와의 약속을 지키려 신분을 숨기고 고",
+      "hashtags": [
+        "#숏드라마",
+        "#여성",
+        "#인생역전",
+        "#사이다복수",
+        "#drama",
+        "#우리집",
+        "#숏폼",
+        "#사극",
+        "#로맨스",
+        "#애절한사랑",
+        "#운명적사랑",
+        "#복수",
+        "#후회남",
+        "#몰아보기",
+        "#한글자막"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/At9MRX-T_VQ/hqdefault.jpg",
+      "subscribers": 23700,
+      "view_sub_ratio": 7.4,
+      "velocity": 39528,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "질질질질질~~~~~?",
+          "likes": 6
+        },
+        {
+          "text": "병판이 왕을 못 알아본다고? ㅋㅋㅋ",
+          "likes": 2
+        },
+        {
+          "text": "병판이 임금 얼굴도 모른다고",
+          "likes": 0
+        },
+        {
+          "text": "이따위 엉터리를.... 개판이야...",
+          "likes": 0
+        },
+        {
+          "text": "대원수가 병판보다 높은가?\n병판은 국방부장관, 도원수는 합참의장",
+          "likes": 1
+        },
+        {
+          "text": "짧고 굵게  질질 끌 지마시고요  그래야하는데  이건 내생각 입니다 요",
+          "likes": 0
+        },
+        {
+          "text": "그렇죠  병판이면 지금은 국방부장관이고 도원수는 그보다 아래계급인데 역사공부는 제대로 하고 드라마를 만들어야지 아마 중국판드라마이구먼 필시중국인이 만들어거야\n마지막도 질질 끌면서 돈벌이로 변질하는구나",
+          "likes": 0
+        },
+        {
+          "text": "병판과 도원수?역사공부 좀 하세요.",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "복수극",
+      "video_id": "lozWRC-PpUE",
+      "url": "https://www.youtube.com/shorts/lozWRC-PpUE",
+      "title": "오늘 내 생일인데  #한국드라마 #숏드라마 #회식 #생일 #사이다 #복수 #AI드라마 #현대드라마 #연구소 #후계자",
+      "channel": "Matthew Gren",
+      "channel_id": "UCyPc7ExNRygCrzCTm9GqYnw",
+      "published_at": "2026-11-24T06:27:13Z",
+      "duration_sec": 134,
+      "views": 143059,
+      "likes": 1956,
+      "comments": 16,
+      "description_head": "",
+      "hashtags": [
+        "#한국드라마",
+        "#숏드라마",
+        "#회식",
+        "#생일",
+        "#사이다",
+        "#복수",
+        "#AI드라마",
+        "#현대드라마",
+        "#연구소",
+        "#후계자"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/lozWRC-PpUE/hqdefault.jpg",
+      "subscribers": 7530,
+      "view_sub_ratio": 19.0,
+      "velocity": 52698,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "바보네~~남자",
+          "likes": 18
+        },
+        {
+          "text": "남친 복을 찼네",
+          "likes": 8
+        },
+        {
+          "text": "엿드세여 남자",
+          "likes": 16
+        },
+        {
+          "text": "잘못걸렸네.라인좀. 잘타지. 그랬니.",
+          "likes": 18
+        },
+        {
+          "text": "그냥 바람난 남자친구 여자친구를 호구로아는넘의 말로는 천지낭떠러지",
+          "likes": 6
+        },
+        {
+          "text": "잘하셨어요. 더치페이가 최고",
+          "likes": 10
+        },
+        {
+          "text": "쌤통 이다~❤",
+          "likes": 11
+        },
+        {
+          "text": "잘햇네",
+          "likes": 2
+        },
+        {
+          "text": "잘했어요\nㅋㅋㅋㅋㅋ",
+          "likes": 0
+        },
+        {
+          "text": "자막 글씨 점검하고 업로드. ..",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "복수극",
+      "video_id": "3WQG45_3ApM",
+      "url": "https://www.youtube.com/shorts/3WQG45_3ApM",
+      "title": "그 배 타지 마 타면 네가 죽어 #톱자국 #잉어 #그배타지마#한국드라마 #숏드라마 #사극 #조선시대 #전라도 #민담 #복수 #AI드라마 #동양풍 #반전",
+      "channel": "hb q",
+      "channel_id": "UCZcFMAT0rYL6JmAWonTQ1UQ",
+      "published_at": "2026-11-21T10:26:13Z",
+      "duration_sec": 154,
+      "views": 45358,
+      "likes": 1173,
+      "comments": 1,
+      "description_head": "잉어가 사람 말을 해",
+      "hashtags": [
+        "#톱자국",
+        "#잉어",
+        "#그배타지마",
+        "#한국드라마",
+        "#숏드라마",
+        "#사극",
+        "#조선시대",
+        "#전라도",
+        "#민담",
+        "#복수",
+        "#AI드라마",
+        "#동양풍",
+        "#반전"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/3WQG45_3ApM/hqdefault.jpg",
+      "subscribers": 39500,
+      "view_sub_ratio": 1.1,
+      "velocity": 8174,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "좋아요.",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "복수극",
+      "video_id": "iciyeBjpll8",
+      "url": "https://www.youtube.com/shorts/iciyeBjpll8",
+      "title": "시한부 첫사랑을 위해 이혼하자는 남편 2편 #숏드라마 #첫사랑 #이혼 #복수 #외도 #불륜 #시한부",
+      "channel": "숏드라마세상",
+      "channel_id": "UCLRYxFSkrxUkUvxms1KPoUQ",
+      "published_at": "2026-11-23T01:49:40Z",
+      "duration_sec": 144,
+      "views": 18047,
+      "likes": 393,
+      "comments": 0,
+      "description_head": "아내가 말없이 떠난 뒤에야,\n남편은 첫사랑의 거짓말을 알게 돼요.\n\n#숏드라마 #첫사랑 #이혼 #복수 #외도 #불륜 #시한부",
+      "hashtags": [
+        "#숏드라마",
+        "#첫사랑",
+        "#이혼",
+        "#복수",
+        "#외도",
+        "#불륜",
+        "#시한부"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/iciyeBjpll8/hqdefault.jpg",
+      "subscribers": 2110,
+      "view_sub_ratio": 8.6,
+      "velocity": 4619,
+      "velocity_type": "평균",
+      "rank": 5,
+      "top_comments": []
+    },
+    {
+      "genre": "복수극",
+      "video_id": "0NT6jgIhpcQ",
+      "url": "https://www.youtube.com/shorts/0NT6jgIhpcQ",
+      "title": "형들한테 공원 뺏긴 짱구의 복수극 ㅋㅋ",
+      "channel": "젤리곰",
+      "channel_id": "UCaH3-bfxZom-iuuwW3tZ82w",
+      "published_at": "2026-11-24T13:18:10Z",
+      "duration_sec": 72,
+      "views": 15797,
+      "likes": 220,
+      "comments": 0,
+      "description_head": "탱크 무선자동차로 공원을 통째로 차지한 형들\n과자 상자 장난감으로 덤볐다 비웃음만 산 짱구\n의문의 트럭을 끌고 다시 나타난 짱구의 승부 결과는\n\n#짱구는못말려 #짱구 #짱구애니 #무선자동차 #사나이의승부 #쇼츠 #shorts",
+      "hashtags": [
+        "#짱구는못말려",
+        "#짱구",
+        "#짱구애니",
+        "#무선자동차",
+        "#사나이의승부",
+        "#쇼츠",
+        "#shorts"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/0NT6jgIhpcQ/hqdefault.jpg",
+      "subscribers": 5380,
+      "view_sub_ratio": 2.9,
+      "velocity": 6503,
+      "velocity_type": "평균",
+      "rank": 6,
+      "top_comments": []
+    },
+    {
+      "genre": "복수극",
+      "video_id": "PIFHaOzcmSI",
+      "url": "https://www.youtube.com/shorts/PIFHaOzcmSI",
+      "title": "눈에는 눈, 이에는 이로 응수하는 백경정의 사이다 복수극 💥✨ #전희미 #백경정 #중드추천 #쇼츠 #shorts",
+      "channel": "채널차이나",
+      "channel_id": "UC1OeRozux20H3PmWzbqtVaA",
+      "published_at": "2026-11-22T03:00:11Z",
+      "duration_sec": 41,
+      "views": 10451,
+      "likes": 54,
+      "comments": 1,
+      "description_head": "음식을 두고 도망친 범인을 쫓아 거침없이 발걸음을 옮기는 윤쟁(백경정)!\n비열한 꼼수를 부리는 자들을 놓치지 않고 시원하게 참교육하는 \n윤쟁의 든든하고 멋진 매력♥️✨\n\n📌 채널차이나 구독 & 알림 설정으로 매일 업데이트되는 중드 쇼츠를 가장 먼저 만나보세요!\n👍 좋아요와 댓글은 영상 제작에 큰 힘이 됩니다!\n\n-------------------------",
+      "hashtags": [
+        "#전희미",
+        "#백경정",
+        "#중드추천",
+        "#쇼츠",
+        "#shorts",
+        "#채널차이나",
+        "#중국드라마",
+        "#드라마추천",
+        "#중드",
+        "#drama",
+        "#cdrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/PIFHaOzcmSI/hqdefault.jpg",
+      "subscribers": 27500,
+      "view_sub_ratio": 0.4,
+      "velocity": 2151,
+      "velocity_type": "평균",
+      "rank": 7,
+      "top_comments": [
+        {
+          "text": "꺅 ❤❤❤ 아내 찿으러온 남편 ❤멋졍 ❤❤❤역시 경경일상 재미있어요 ❤❤❤",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "회귀·환생",
+      "video_id": "ApflqATWRnI",
+      "url": "https://www.youtube.com/shorts/ApflqATWRnI",
+      "title": "조선과학자 30화 | 밟아도 안 터지는 고철 덩이, 조선의 지뢰 파진포 #shorts",
+      "channel": "드라마툰",
+      "channel_id": "UCP005qgXlHyG0RhfnEWiEGg",
+      "published_at": "2026-11-22T10:00:01Z",
+      "duration_sec": 138,
+      "views": 13809,
+      "likes": 149,
+      "comments": 0,
+      "description_head": "⏩ 이 화가 재밌었다면, 앞 이야기를 끊김 없이 정주행하세요\n▶ 1~10화 한 번에 몰아보기: https://youtube.com/watch?v=0eguRdQdiGE\n▶ 11~20화 한 번에 몰아보기: https://youtube.com/watch?v=HdwTlTIaN5I\n▶ 21~30화 한 번에 몰아보기: https://youtube.com/watch?v",
+      "hashtags": [
+        "#shorts",
+        "#조선과학자",
+        "#숏드라마",
+        "#사극",
+        "#환생",
+        "#드라마툰"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ApflqATWRnI/hqdefault.jpg",
+      "subscribers": 556,
+      "view_sub_ratio": 24.8,
+      "velocity": 3024,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": []
+    },
+    {
+      "genre": "신분 반전",
+      "video_id": "qAS36cIHbTA",
+      "url": "https://www.youtube.com/shorts/qAS36cIHbTA",
+      "title": "아들에게 재벌 맞선녀 붙인 시어머니, 하필 그 식당에서 마주친 사람 | 상견례 봉투 3화 #숏드라마 #반전드라마 #사이다",
+      "channel": "얼씨구 좋다",
+      "channel_id": "UCM9pojE1Kb3tQ5ROLIqhbHw",
+      "published_at": "2026-11-20T03:00:07Z",
+      "duration_sec": 62,
+      "views": 51996,
+      "likes": 635,
+      "comments": 1,
+      "description_head": "파혼 일주일 만에 아들에게 '재벌가 딸'과 맞선을 잡은 시어머니.\n맞선 장소는 장안에서 제일 비싼 레스토랑이었습니다.\n\n웃으며 들어서던 맞선녀의 얼굴이 순간 하얗게 질렸습니다.\n그녀가 본 사람은 누구였을까요?\n\n▶ 4화에서 이어집니다. 구독하고 다음 화를 가장 먼저 보세요.\n\n※ 이 영상은 AI로 제작된 창작 드라마이며, 실제 인물·단체와 관련이 없습니다.",
+      "hashtags": [
+        "#숏드라마",
+        "#반전드라마",
+        "#사이다",
+        "#시어머니",
+        "#맞선",
+        "#재벌",
+        "#며느리",
+        "#고부갈등",
+        "#참교육",
+        "#막장드라마",
+        "#AI드라마",
+        "#상견례봉투",
+        "#shorts"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/qAS36cIHbTA/hqdefault.jpg",
+      "subscribers": 999,
+      "view_sub_ratio": 52.0,
+      "velocity": 7581,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "재벌 며느리 좋아하네 , \n아들 발목 잡는 엄마, 격 떨어지는 소리한다 ,",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "신분 반전",
+      "video_id": "Imiqwiz0mbo",
+      "url": "https://www.youtube.com/shorts/Imiqwiz0mbo",
+      "title": "거지인 줄 알고 도와줬더니 재벌 회장이었다! 가짜 애인 제안의 충격적인 반전 #중국드라마",
+      "channel": "중드썰전",
+      "channel_id": "UCEbiKcXDFHwZ6BaHP5usj0Q",
+      "published_at": "2026-11-24T11:38:09Z",
+      "duration_sec": 174,
+      "views": 48253,
+      "likes": 865,
+      "comments": 0,
+      "description_head": "그녀가 도와준 남자는 사실 엄청난 비밀을 감추고 있었습니다.\n\n한때 자신을 사랑했던 전 여자친구는 초라해진 그의 모습을 보고 모른 척하며 비웃고, 심지어 사진까지 찍어 조롱합니다.\n\n하지만 그 남자의 손에는 심씨 그룹에 단 한 장뿐이라는 특별한 블랙카드가 있었습니다.\n\n자신을 도와준 여주인공에게 천만 원이 든 카드를 건네는 남자!\n\n그런데 여주인공은 그가 ",
+      "hashtags": [
+        "#중국드라마",
+        "#중드",
+        "#중국숏드라마",
+        "#숏드라마",
+        "#재벌회장",
+        "#신분반전",
+        "#가짜연애",
+        "#로맨스드라마",
+        "#드라마몰아보기",
+        "#반전드라마"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Imiqwiz0mbo/hqdefault.jpg",
+      "subscribers": 3900,
+      "view_sub_ratio": 12.4,
+      "velocity": 19311,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": []
+    },
+    {
+      "genre": "신분 반전",
+      "video_id": "C4NDX7hvaY0",
+      "url": "https://www.youtube.com/shorts/C4NDX7hvaY0",
+      "title": "친딸 아니라며 딸을 버린 재벌 회장, 6년 전 친딸의 인생까지 망친 진짜 범인은 따로 있었다!",
+      "channel": "Tapon Korean",
+      "channel_id": "UCxSfjOM4fIyx2E2tm2GLPIA",
+      "published_at": "2026-11-21T09:45:36Z",
+      "duration_sec": 31,
+      "views": 38412,
+      "likes": 376,
+      "comments": 0,
+      "description_head": "🔎 Tapon 앱에서  620083 을 검색하고, 이 라이트 노벨을 바로 만나보세요!\n\n가짜 딸의 거짓말에 속아 6년 동안 송정아의 인생을 짓밟았던 가족들. 하지만 숨겨졌던 진실이 밝혀지자, 모든 걸 잃을 차례는 따로 있었다. 이제 남천우가 그들에게 대가를 치르게 한다!\n\n#웹소설 #로맨스 #숏드라마 #재벌드라마 #복수극 #출생의비밀 #가족배신 #신분반전",
+      "hashtags": [
+        "#웹소설",
+        "#로맨스",
+        "#숏드라마",
+        "#재벌드라마",
+        "#복수극",
+        "#출생의비밀",
+        "#가족배신",
+        "#신분반전"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/C4NDX7hvaY0/hqdefault.jpg",
+      "subscribers": 7620,
+      "view_sub_ratio": 5.0,
+      "velocity": 6888,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": []
+    },
+    {
+      "genre": "신분 반전",
+      "video_id": "kEwKjWEiTGM",
+      "url": "https://www.youtube.com/shorts/kEwKjWEiTGM",
+      "title": "파혼하러 서울 가다가 약혼녀 목숨 구한 썰#숏드라마 #웹드라마 #사이다액션 #재벌물 #먼치킨 #복수극 #파혼 #드라마추천 #쇼츠드라마",
+      "channel": "샤오진드라마",
+      "channel_id": "UCvEUdPluufUmpQtinHBELKA",
+      "published_at": "2026-11-22T21:30:39Z",
+      "duration_sec": 160,
+      "views": 25145,
+      "likes": 1055,
+      "comments": 4,
+      "description_head": "어미 소 뺑소니치고 도망간 재벌녀, 소값 받으러 쫓아갔더니…\n목숨을 구해준 대가로 월 5억 경호원 제안?!\n\n하지만 시골 청년 강진우가 원하는 건 단 하나, 소값 1,500만 원과 '파혼'뿐이었다.\n알고 보니 10년 전 아버지가 정해둔 약혼녀가 바로 눈앞의 대진그룹 서지수 대표!\n\n킬러의 목에서 발견된 실종된 아버지의 군번줄,\n그리고 할아버지 서 회장을 노",
+      "hashtags": [
+        "#숏드라마",
+        "#웹드라마",
+        "#사이다액션",
+        "#재벌물",
+        "#먼치킨",
+        "#복수극",
+        "#파혼",
+        "#드라마추천",
+        "#쇼츠드라마"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/kEwKjWEiTGM/hqdefault.jpg",
+      "subscribers": 9350,
+      "view_sub_ratio": 2.7,
+      "velocity": 6152,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "청년 잘해써요",
+          "likes": 1
+        },
+        {
+          "text": "소갑 만이받아요",
+          "likes": 1
+        },
+        {
+          "text": "❤",
+          "likes": 2
+        },
+        {
+          "text": "다은편 부탁드려요",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "신분 반전",
+      "video_id": "wsjCpK_FPJU",
+      "url": "https://www.youtube.com/shorts/wsjCpK_FPJU",
+      "title": "고백 대신 해고 통보한 상사의 결말",
+      "channel": "숏힐스",
+      "channel_id": "UChnzyil6JzpmpbEVo_yJvmA",
+      "published_at": "2026-11-25T05:00:16Z",
+      "duration_sec": 36,
+      "views": 21543,
+      "likes": 175,
+      "comments": 0,
+      "description_head": "월간남친 속 재벌 상사가 직원에게 사귀자며 해고를 통보했다가 오히려 빨리 꼬시란 역공을 당하는 반전 로맨스 장면입니다.\n\n재벌 상사는 여자 직원에게 내일부터 출근하지 말라며 갑작스러운 해고 통보를 건넵니다. 당황한 여자가 지금 해고하는 거냐고 묻자, 남자는 회사 직원과는 연애를 안 하니 그쪽과 사귀려면 자르는 수밖에 없다며 예상치 못한 고백을 던집니다.\n\n",
+      "hashtags": [
+        "#드라마",
+        "#로맨스",
+        "#로맨틱코미디",
+        "#사내연애",
+        "#월간남친"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/wsjCpK_FPJU/hqdefault.jpg",
+      "subscribers": 1040,
+      "view_sub_ratio": 20.7,
+      "velocity": 12136,
+      "velocity_type": "평균",
+      "rank": 5,
+      "top_comments": []
+    },
+    {
+      "genre": "신분 반전",
+      "video_id": "K3CAl4lMowc",
+      "url": "https://www.youtube.com/shorts/K3CAl4lMowc",
+      "title": "【한국어 더빙】결혼식에 들이닥친 가짜 신부… 재벌 회장이 바로 신부 동생이었다! #숏드라마 #여성 중심 드라마 #인생역전 #Drama",
+      "channel": "드라마픽RU",
+      "channel_id": "UC2bxIYv6ECcWGCP-Fg5WWGQ",
+      "published_at": "2026-11-23T08:30:36Z",
+      "duration_sec": 122,
+      "views": 21474,
+      "likes": 290,
+      "comments": 0,
+      "description_head": "🎬✨ 드라마픽RU  오신 것을 환영합니다! 💫\n앱에서 시청하기➡️\n\n짧지만 강렬한 몰입감! 한 번 보기 시작하면 끝까지 눈을 뗄 수 없는 흥미진진한 이야기! 🎞️\n\n🎥 작품명:  그날 밤은 실수였나요?\n\n📖 줄거리:  \n폭우가 쏟아진 밤, 그림을 배달하던 화가 윤주연은 어린 시절의 상처로 숨을 쉬지 못하던 이현그룹 대표 이재현을 구한다. 하지만 돌아온 건 ",
+      "hashtags": [
+        "#숏드라마",
+        "#여성",
+        "#인생역전",
+        "#Drama",
+        "#그날밤은실수였나요",
+        "#재벌로맨스",
+        "#만삭재회",
+        "#비밀출산",
+        "#가족드라마",
+        "#사이다",
+        "#몰아보기",
+        "#우리집",
+        "#사극",
+        "#로맨스",
+        "#애절한사랑"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/K3CAl4lMowc/hqdefault.jpg",
+      "subscribers": 1530,
+      "view_sub_ratio": 14.0,
+      "velocity": 5917,
+      "velocity_type": "평균",
+      "rank": 6,
+      "top_comments": []
+    },
+    {
+      "genre": "신분 반전",
+      "video_id": "STAa0o8KYcY",
+      "url": "https://www.youtube.com/shorts/STAa0o8KYcY",
+      "title": "재벌 상속녀이자 천재 디자이너인 아내를 몰라본 가짜 사모님과 시어머니의 처참한 최후 [숏드라마 전편]",
+      "channel": "마음 한 편",
+      "channel_id": "UCnt3qdIw2mKTmMOc61me1Jw",
+      "published_at": "2026-11-20T10:30:16Z",
+      "duration_sec": 176,
+      "views": 17390,
+      "likes": 129,
+      "comments": 0,
+      "description_head": "신분을 숨긴 재벌 상속녀이자 세계적 천재 디자이너 '서머' 강지원!\n진짜 사장 부인을 몰라보고 갑질과 사칭을 일삼은 가짜 사모님 이윤주와 편견에 빠진 시어머니 최은주의 처참한 최후를 전편 몰아보기로 확인하세요!🔥\n\n📌 줄거리 요약\n민성그룹 대표 민우빈과 전격 결혼한 강지원은 '사장 부인'이자 천재 디자이너 '서머'라는 정체를 숨긴 채 디자인팀에 입사합니다.",
+      "hashtags": [
+        "#숏드라마",
+        "#사이다드라마",
+        "#참교육",
+        "#재벌상속녀",
+        "#가짜사모님",
+        "#고부갈등",
+        "#신분역전",
+        "#로맨스숏드라마",
+        "#전편몰아보기",
+        "#인기드라마",
+        "#DramaID_42000014449"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/STAa0o8KYcY/hqdefault.jpg",
+      "subscribers": 20300,
+      "view_sub_ratio": 0.9,
+      "velocity": 2657,
+      "velocity_type": "평균",
+      "rank": 7,
+      "top_comments": []
+    },
+    {
+      "genre": "신분 반전",
+      "video_id": "_lU6o66wqeY",
+      "url": "https://www.youtube.com/shorts/_lU6o66wqeY",
+      "title": "부잣집 혼처 뺏긴 언니, 욕심부린 동생의 최후 1편 #숏드라마 #결혼 #시어머니 #재벌 #성묘 #반전",
+      "channel": "숏드라마세상",
+      "channel_id": "UCLRYxFSkrxUkUvxms1KPoUQ",
+      "published_at": "2026-11-22T22:00:35Z",
+      "duration_sec": 161,
+      "views": 10910,
+      "likes": 288,
+      "comments": 2,
+      "description_head": "동생에게 부잣집 혼처를 빼앗긴 언니가 시골로 시집가요.\n그런데 남편 통장에는 200억이?\n\n#숏드라마 #결혼 #시어머니 #재벌 #반전 #부잣집 #귀농",
+      "hashtags": [
+        "#숏드라마",
+        "#결혼",
+        "#시어머니",
+        "#재벌",
+        "#성묘",
+        "#반전",
+        "#부잣집",
+        "#귀농"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/_lU6o66wqeY/hqdefault.jpg",
+      "subscribers": 2110,
+      "view_sub_ratio": 5.2,
+      "velocity": 2683,
+      "velocity_type": "평균",
+      "rank": 8,
+      "top_comments": [
+        {
+          "text": "❤",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "직장·현실 사이다",
+      "video_id": "GJ2uEJarvUM",
+      "url": "https://www.youtube.com/shorts/GJ2uEJarvUM",
+      "title": "결혼식장에서 새하얀 하객룩에, 신랑 옆에 딱 붙어서 팔짱 낀 하객의 최후  #시니어드라마 #쇼츠드라마 #사이다사연 #참교육",
+      "channel": "이웃집드라마",
+      "channel_id": "UCDPC8vnkz0y-6DvaGze3LIg",
+      "published_at": "2026-11-20T01:00:24Z",
+      "duration_sec": 61,
+      "views": 2286586,
+      "likes": 25818,
+      "comments": 185,
+      "description_head": "#사이다 #감동스토리 #숏드라마 #shorts\n\n\n\n-This is a fictional drama series exploring family conflict and social etiquette.\n-Script and direction by a human creator.\n-This video complies with YouTube's transparenc",
+      "hashtags": [
+        "#시니어드라마",
+        "#쇼츠드라마",
+        "#사이다사연",
+        "#참교육",
+        "#사이다",
+        "#감동스토리",
+        "#숏드라마",
+        "#shorts"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/GJ2uEJarvUM/hqdefault.jpg",
+      "subscribers": 67300,
+      "view_sub_ratio": 34.0,
+      "velocity": 329401,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "누가 보면 미련 뚝뚝 떨어지는 전여친인 줄...",
+          "likes": 76
+        },
+        {
+          "text": "재정신이 아닌가벼;; 병원 좀 가세요!!",
+          "likes": 176
+        },
+        {
+          "text": "참..제정신이..아니여요.",
+          "likes": 118
+        },
+        {
+          "text": "누가보면 임자있는사람 뺏어서 결혼하는줄 \n왜들저러냐 진짜",
+          "likes": 10
+        },
+        {
+          "text": "울긴 왜울어ㅡㅡ 노답",
+          "likes": 58
+        },
+        {
+          "text": "남의  결혼식 망치려고 온거지. 남을  망가뜨려야  자기가  좋은.",
+          "likes": 14
+        },
+        {
+          "text": "좋아했네 여자가 신랑을 에휴",
+          "likes": 41
+        },
+        {
+          "text": "귀신같네~~ 무섭다",
+          "likes": 43
+        },
+        {
+          "text": "살다살다 아무리 친구여도 그렇지ㆍ별시덥잖은게 선은지켜야지 ㆍ희한한꼴 다보네요ㅡ누가보면 신부인줄ㅡㅉㅉㅉ",
+          "likes": 35
+        },
+        {
+          "text": "저런 여자랑 10년을 친구로 있었다고? 남자도 이상한데?",
+          "likes": 16
+        }
+      ]
+    },
+    {
+      "genre": "직장·현실 사이다",
+      "video_id": "L2We05xPRTk",
+      "url": "https://www.youtube.com/shorts/L2We05xPRTk",
+      "title": "아버지 칠순 날 여동생 선물을 내던진 큰아들 #숏드라마 #시니어드라마 #사이다반전 #가족갈등 #5060",
+      "channel": "찐드라 | 안방극장",
+      "channel_id": "UCxK8fcivddEsDwoKKPo3tbg",
+      "published_at": "2026-11-20T13:23:19Z",
+      "duration_sec": 102,
+      "views": 1804295,
+      "likes": 28406,
+      "comments": 330,
+      "description_head": "",
+      "hashtags": [
+        "#숏드라마",
+        "#시니어드라마",
+        "#사이다반전",
+        "#가족갈등",
+        "#5060"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/L2We05xPRTk/hqdefault.jpg",
+      "subscribers": 15200,
+      "view_sub_ratio": 118.7,
+      "velocity": 280792,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "저런 놈자식이라고  아버님 쫓아버리고 연끝으세요",
+          "likes": 155
+        },
+        {
+          "text": "인간쓰레기같은 오빠입니다\n동생이 아버지 병원비 내는데...\n생생은 오빠니 참  뻔뻔한 합니다",
+          "likes": 53
+        },
+        {
+          "text": "아버지 딸잘키우셨네요",
+          "likes": 198
+        },
+        {
+          "text": "저런게 자식이냐 효도는 마음이밝고 맑아야된다 동생 복많이받으세요",
+          "likes": 46
+        },
+        {
+          "text": "미친 인간들이 왜케많아 오빠답게살아라",
+          "likes": 110
+        },
+        {
+          "text": "양심이 부도난 오빠네\n동생 을 매몰차게\n내쫓는 꼬락서니 하곤 아버님 최고에요 🎉",
+          "likes": 29
+        },
+        {
+          "text": "저런 자식이 진자 있을가요 동생이 낸 병원비를 자기라고 하는 인간이  아버지가  모른다고 헐  아버지 짱",
+          "likes": 214
+        },
+        {
+          "text": "저렇게 뻔뻔한 오빠가 있네요.\n저런 인간은 상종\n말아야 해요.\n여동생 전세집 줄여서 낸 딸\n자식노릇 잘 하\n네요.\n복 많이 받길 바랍니다,",
+          "likes": 223
+        },
+        {
+          "text": "욕심이 하늘을찌르는오빠\n이세상에 없어야됨\n착한동생이용하고무리하게구는군😢😢😢😢😢아버지잘하셨어요",
+          "likes": 85
+        },
+        {
+          "text": "저런 미친 것 지가 내야 하는돈을 동생이 집팔아가면서 냈는데 저런식으로 내몰아  애라이 석을 놈아 저런게 오빠라고 에휴",
+          "likes": 14
+        }
+      ]
+    },
+    {
+      "genre": "직장·현실 사이다",
+      "video_id": "PqBvhjGvGqg",
+      "url": "https://www.youtube.com/shorts/PqBvhjGvGqg",
+      "title": "그런 허름한 차림으로 서지 마요! #한국숏드라마 #반전드라마 #사이다드라마 #시니어드라마 #시니어쇼츠 #시니어",
+      "channel": "한서윤",
+      "channel_id": "UCEXM9jOnGHQjL2s6K6Yx7Sg",
+      "published_at": "2026-11-25T09:23:23Z",
+      "duration_sec": 155,
+      "views": 992368,
+      "likes": 39896,
+      "comments": 542,
+      "description_head": "",
+      "hashtags": [
+        "#한국숏드라마",
+        "#반전드라마",
+        "#사이다드라마",
+        "#시니어드라마",
+        "#시니어쇼츠",
+        "#시니어"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/PqBvhjGvGqg/hqdefault.jpg",
+      "subscribers": 595000,
+      "view_sub_ratio": 1.7,
+      "velocity": 623207,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "회장님 감사합니다",
+          "likes": 260
+        },
+        {
+          "text": "회장님 감사합니다 😂😂😂😂❤❤❤❤❤❤",
+          "likes": 58
+        },
+        {
+          "text": "큰 회장님 감사합니다",
+          "likes": 176
+        },
+        {
+          "text": "회장님 존경스럽습니다 🎉",
+          "likes": 145
+        },
+        {
+          "text": "회장님  너무 잘했읍니다",
+          "likes": 31
+        },
+        {
+          "text": "역시 회장님 다우십니다 존경합니다\n감사합니다👍😅",
+          "likes": 114
+        },
+        {
+          "text": "회장님\n멋지십니다 \n많은사람들의 본이됩니다\n감사합니다 ~ ❤❤❤",
+          "likes": 23
+        },
+        {
+          "text": "회장님 최고",
+          "likes": 45
+        },
+        {
+          "text": "회장님  최고입니다.",
+          "likes": 64
+        },
+        {
+          "text": "멋져요. 회장님",
+          "likes": 36
+        }
+      ]
+    },
+    {
+      "genre": "직장·현실 사이다",
+      "video_id": "m5ibu8iLjx8",
+      "url": "https://www.youtube.com/shorts/m5ibu8iLjx8",
+      "title": "전 접시 엎은 큰동서…투자 미팅 날 비서는 둘째 며느리를 '대표님'이라 불렀다 #shorts",
+      "channel": "옛사랑 극장",
+      "channel_id": "UCKLiw3XuA0OZTitTyddTojA",
+      "published_at": "2026-11-21T07:57:16Z",
+      "duration_sec": 160,
+      "views": 975899,
+      "likes": 33652,
+      "comments": 292,
+      "description_head": "\"어머, 손이 미끄러졌네. 빈손으로 와서 이것도 제대로 못 해?\"\n\n명절 큰집. 큰동서가 일부러 전 접시를 엎고,\n시어머니와 아가씨, 아주버님까지 둘째 며느리 지수를 식모 취급합니다.\n오늘은 망해 가는 큰아들 회사를 살려 줄 투자자가 오는 날.\n\n그런데 초인종이 울리고,\n들어온 비서가 고개를 숙인 사람은… 😱\n\n10년 동안 혼자 차례상을 차린 며느리의 통쾌",
+      "hashtags": [
+        "#shorts",
+        "#숏드라마",
+        "#사이다",
+        "#명절",
+        "#고부갈등",
+        "#동서갈등",
+        "#며느리",
+        "#시댁",
+        "#반전드라마",
+        "#막장드라마"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/m5ibu8iLjx8/hqdefault.jpg",
+      "subscribers": 5760,
+      "view_sub_ratio": 169.4,
+      "velocity": 172659,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "전 접시 일부러 엎고 \"손이 미끄러졌네~\" 😤\n여러분이 지수였으면 큰동서한테 뭐라고 하셨을 것 같아요? 👇\n\n구독해주시면 더 재미있는 이야기 보실수 있어요^^",
+          "likes": 53
+        },
+        {
+          "text": "속이 시원하네 인연 끊어요",
+          "likes": 95
+        },
+        {
+          "text": "상쾌 통쾌하다.ㅎㅎ\n꼴좋다 ~^^",
+          "likes": 46
+        },
+        {
+          "text": "참 잘하셨어요. 말투와 행동이 무개념\n상식밖 상종하지 마세요.\n멋진 남편 최고예요.",
+          "likes": 8
+        },
+        {
+          "text": "한마디로 \n통쾌 상쾌 유쾌",
+          "likes": 28
+        },
+        {
+          "text": "통쾌하다  엄마 올케 동서\n모두 거시기같네",
+          "likes": 6
+        },
+        {
+          "text": "시어머니 속 보인다, 내속이다 시원하다",
+          "likes": 3
+        },
+        {
+          "text": "아주 잘했어요 쌤통이다 놀부 심보네 뻔뻔하다",
+          "likes": 33
+        },
+        {
+          "text": "속이 다 후련하네요~통쾌 상쾌 유쾌 ~",
+          "likes": 27
+        },
+        {
+          "text": "왕 무시를 하네\n시댁식구들 참 어이없다",
+          "likes": 41
+        }
+      ]
+    },
+    {
+      "genre": "직장·현실 사이다",
+      "video_id": "TUgNKaxpznc",
+      "url": "https://www.youtube.com/shorts/TUgNKaxpznc",
+      "title": "죽은 친정엄마 김치 비법 빼앗은 시어머니의 최후 #숏드라마 #사이다",
+      "channel": "감동온",
+      "channel_id": "UCAw1fiEjJIXsTM4dh8cndNQ",
+      "published_at": "2026-11-23T12:07:23Z",
+      "duration_sec": 169,
+      "views": 815629,
+      "likes": 42934,
+      "comments": 205,
+      "description_head": "죽은 친정엄마가 남긴 김치 양념 비법.\n시어머니는 그 비법으로 김장 명인 대회에 나가려 했습니다.\n며느리는 뒷마당에 숨기고, 엄마의 레시피 공책은 소금물에 던져버리고…\n\n하지만 심사위원장의 한마디.\n\"지금 이 자리에서 양념, 직접 배합해 주시죠.\"\n\n며느리 비법을 훔친 시어머니의 최후, 끝까지 확인하세요.\n\n다은이가 꼭 잘되길 바라신다면 구독으로 응원해주세",
+      "hashtags": [
+        "#숏드라마",
+        "#사이다",
+        "#시어머니",
+        "#며느리",
+        "#고부갈등",
+        "#김장",
+        "#김치",
+        "#막장드라마",
+        "#shorts"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/TUgNKaxpznc/hqdefault.jpg",
+      "subscribers": 12300,
+      "view_sub_ratio": 66.3,
+      "velocity": 234479,
+      "velocity_type": "평균",
+      "rank": 5,
+      "top_comments": [
+        {
+          "text": "여러분이 다은이었다면 어떻게 하셨을까요? 댓글로 들려주세요.\n구독해주시면 재미있는 AI드라마 무료 시청해보세요^^",
+          "likes": 60
+        },
+        {
+          "text": "며느님 행복하게 살아가세요. 저런 시어머니와 남편놈은 없는게  나아요.",
+          "likes": 101
+        },
+        {
+          "text": "꼴좋다.천벌받을 인간들아.",
+          "likes": 62
+        },
+        {
+          "text": "다은씨  힘내세요    하늘에서\n친정엄마 가    지켜보실꺼예요",
+          "likes": 41
+        },
+        {
+          "text": "아들놈도 나쁜놈 이혼하고 혼자 승승장구. 하세요 며느님 최고가돼세요",
+          "likes": 67
+        },
+        {
+          "text": "정말 아직도 저런인간이 있을까? 정말 쪽팔리겠네요\n엇지까잉 이놈의 노릇 슬 어쩔수가 없어요 월래그래요",
+          "likes": 32
+        },
+        {
+          "text": "천벌받아라싸가지😢",
+          "likes": 46
+        },
+        {
+          "text": "저런집에살지마세요'제일나쁜놈은'남편놈이다'이혼이답이다",
+          "likes": 32
+        },
+        {
+          "text": "천벌받겠다 ㆍ인간들아ㆍ며느님힘내시고화이팅하세요",
+          "likes": 10
+        },
+        {
+          "text": "돈에눈이멀어 사기극까지\n거짖은 진실을 이길수없다\n다은씨 다 버리고 홀로서기\n해서 승승징구해서 행복하게\n사세요",
+          "likes": 6
+        }
+      ]
+    },
+    {
+      "genre": "직장·현실 사이다",
+      "video_id": "sMDN-S2LI44",
+      "url": "https://www.youtube.com/shorts/sMDN-S2LI44",
+      "title": "경비 아저씨 의자를 내던진 입주자 대표의 최후 #숏드라마 #시니어드라마 #사이다반전 #갑질참교육 #5060",
+      "channel": "찐드라 | 안방극장",
+      "channel_id": "UCxK8fcivddEsDwoKKPo3tbg",
+      "published_at": "2026-11-21T08:56:17Z",
+      "duration_sec": 82,
+      "views": 607931,
+      "likes": 5712,
+      "comments": 47,
+      "description_head": "",
+      "hashtags": [
+        "#숏드라마",
+        "#시니어드라마",
+        "#사이다반전",
+        "#갑질참교육",
+        "#5060"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/sMDN-S2LI44/hqdefault.jpg",
+      "subscribers": 15200,
+      "view_sub_ratio": 40.0,
+      "velocity": 108343,
+      "velocity_type": "평균",
+      "rank": 6,
+      "top_comments": [
+        {
+          "text": "저런못된놈이대표라니\n당장내쫒아라",
+          "likes": 22
+        },
+        {
+          "text": "경비소장 얼굴은 사람인데 마음은 짐승처럼 흉악범인네",
+          "likes": 18
+        },
+        {
+          "text": "실제로이리못된종잔들이참많다느것",
+          "likes": 21
+        },
+        {
+          "text": "이런몬되놈이있나",
+          "likes": 20
+        },
+        {
+          "text": "경비실분이계시기에 세입자도 다같이경비실아저씨한테 잘챙겨야지요",
+          "likes": 4
+        },
+        {
+          "text": "잘하셧습니다 \n싸가지네요  \n우습게 보는  인간들\n아웃시켜야 합니다",
+          "likes": 3
+        },
+        {
+          "text": "세입자두 이  아파트 주민이요  입주자 회장두 권리 없는데",
+          "likes": 7
+        },
+        {
+          "text": "경비소장 을 당장잘라야합니다🎉😅😅😅",
+          "likes": 15
+        },
+        {
+          "text": "저런회장은..당장해고입니다.세입자도.주민입니다",
+          "likes": 1
+        },
+        {
+          "text": "동대표도 벼슬이라고 기고만장하네\n동대표도 주민억압으로 되었나보다",
+          "likes": 5
+        }
+      ]
+    },
+    {
+      "genre": "직장·현실 사이다",
+      "video_id": "GEYN8w-qVs0",
+      "url": "https://www.youtube.com/shorts/GEYN8w-qVs0",
+      "title": "무시하던 며느리 그의 정체는????? #사이다 #드라마 #ai드라마 #drama #막장드라마",
+      "channel": "참교육TV(숏드라마)",
+      "channel_id": "UCvj0Oi3Y8HK8bjMFPgELyEg",
+      "published_at": "2026-11-22T03:00:18Z",
+      "duration_sec": 81,
+      "views": 216598,
+      "likes": 7149,
+      "comments": 271,
+      "description_head": "답답한 현실, 1분 만에 뻥 뚫어 드립니다\n\n━━━━━━━━━━\n🔔 구독하고 다음 화를 가장 먼저 확인하세요!\n📌 매일 낮 12시 · 저녁 7시 업로드\n\n※ 본 영상은 AI로 제작된 가상의 이야기이며, 등장인물·단체는 실제와 관련이 없습니다.\n\n#ai드라마 #막장드라마 #사이다 #참교육 #숏드라마",
+      "hashtags": [
+        "#사이다",
+        "#드라마",
+        "#ai드라마",
+        "#drama",
+        "#막장드라마",
+        "#참교육",
+        "#숏드라마"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/GEYN8w-qVs0/hqdefault.jpg",
+      "subscribers": 30100,
+      "view_sub_ratio": 7.2,
+      "velocity": 44582,
+      "velocity_type": "평균",
+      "rank": 7,
+      "top_comments": [
+        {
+          "text": "용서는\n그런사람에게 하는거 아닙니다",
+          "likes": 38
+        },
+        {
+          "text": "용서하지마세요 며느님 잘하셨어요",
+          "likes": 33
+        },
+        {
+          "text": "용서못요 며느리  잘했어요 힘내세요 사랑함니다",
+          "likes": 21
+        },
+        {
+          "text": "시어머니 얼굴에 욕심이  덕지덕지 붙었고 심술이 넘쳐 흐르는 마귀할멈이다😢😢",
+          "likes": 3
+        },
+        {
+          "text": "용서하지말고 시어니버려요",
+          "likes": 18
+        },
+        {
+          "text": "저런인간들은  뭘먹고 사는걸까😊",
+          "likes": 3
+        },
+        {
+          "text": "용서가않됩다",
+          "likes": 3
+        },
+        {
+          "text": "용서하지마세요  이혼하세요",
+          "likes": 14
+        },
+        {
+          "text": "시어머니가 심술이 더덕더덕 붙어있네 빨리 이혼해야지 용돈,카드 모두 중단시키고.",
+          "likes": 2
+        },
+        {
+          "text": "절대로 안본다 저런 시모는",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "직장·현실 사이다",
+      "video_id": "PkavtdxK3QE",
+      "url": "https://www.youtube.com/shorts/PkavtdxK3QE",
+      "title": "내쫓은 과장에게 돌아오라고 하면 벌어지는 일 #김과장 #참교육 #사이다",
+      "channel": "참교육 극장",
+      "channel_id": "UCmTZk5SZB4IOTw1XxeHjIMQ",
+      "published_at": "2026-11-21T10:30:31Z",
+      "duration_sec": 45,
+      "views": 148991,
+      "likes": 0,
+      "comments": 4,
+      "description_head": "김과장, 2017 (KBS)\n대기실로 내보냈던 과장에게 이제 와서 돌아오라는 회사. 과장은 조건을 하나씩 부르더니, 미리 써 온 합의서까지 꺼냅니다.\n'김과장'은 KBS 공식 채널·웨이브 등에서 감상하실 수 있습니다.\n\n#김과장 #참교육 #사이다 #직장인 #드라마 #갑질 #쇼츠",
+      "hashtags": [
+        "#김과장",
+        "#참교육",
+        "#사이다",
+        "#직장인",
+        "#드라마",
+        "#갑질",
+        "#쇼츠"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/PkavtdxK3QE/hqdefault.jpg",
+      "subscribers": 4380,
+      "view_sub_ratio": 34.0,
+      "velocity": 26866,
+      "velocity_type": "평균",
+      "rank": 8,
+      "top_comments": [
+        {
+          "text": "대재명",
+          "likes": 1
+        },
+        {
+          "text": "ㆍ김과장 천재 👍👍👍👍👍👍👍",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "직장·현실 사이다",
+      "video_id": "RH8V56QygTw",
+      "url": "https://www.youtube.com/shorts/RH8V56QygTw",
+      "title": "\"어머님 짐 다 버려\" 손녀 키워 준 시어머니를 요양원에 보낸 며느리의 최후 #쇼츠드라마 #사이다사연 #참교육",
+      "channel": "이웃집드라마",
+      "channel_id": "UCDPC8vnkz0y-6DvaGze3LIg",
+      "published_at": "2026-11-22T05:45:41Z",
+      "duration_sec": 70,
+      "views": 119472,
+      "likes": 2065,
+      "comments": 26,
+      "description_head": "#사이다 #감동스토리 #숏드라마 #shorts\n\n\n\n-This is a fictional drama series exploring family conflict and social etiquette.\n-Script and direction by a human creator.\n-This video complies with YouTube's transparenc",
+      "hashtags": [
+        "#쇼츠드라마",
+        "#사이다사연",
+        "#참교육",
+        "#사이다",
+        "#감동스토리",
+        "#숏드라마",
+        "#shorts"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/RH8V56QygTw/hqdefault.jpg",
+      "subscribers": 67300,
+      "view_sub_ratio": 1.8,
+      "velocity": 25186,
+      "velocity_type": "평균",
+      "rank": 9,
+      "top_comments": [
+        {
+          "text": "손녀가 천사네",
+          "likes": 11
+        },
+        {
+          "text": "엄마   아빠도  늙으면 딸에게   쫒겨나서  요양원에  가시죠   뿌린대로  거두는법",
+          "likes": 17
+        },
+        {
+          "text": "어휴! 며느리 인상 무섭네...😂",
+          "likes": 9
+        },
+        {
+          "text": "손녀딸이 최고내",
+          "likes": 15
+        },
+        {
+          "text": "요  양  원...... 휴~.......",
+          "likes": 9
+        },
+        {
+          "text": "보고 배운다.\n그대로 따라 한다.",
+          "likes": 18
+        },
+        {
+          "text": "나쁜인간",
+          "likes": 8
+        },
+        {
+          "text": "딸도 커다고 생각하면 바로 엄마 버려라",
+          "likes": 2
+        },
+        {
+          "text": "카메라 보다 무서운게 자식이다 보고 배운다고  딸 말에  양심이 아들은 있내",
+          "likes": 1
+        },
+        {
+          "text": "마누라 버려",
+          "likes": 5
+        }
+      ]
+    },
+    {
+      "genre": "직장·현실 사이다",
+      "video_id": "gloqoLcgp5U",
+      "url": "https://www.youtube.com/shorts/gloqoLcgp5U",
+      "title": "아빠 칠순에 축의금 1만 원 낸 아들 부부, 화면에 뜬 영수증 8장의 정체 #shorts #드라마 #사이다 #ai드라마 #drama #막장드라마",
+      "channel": "참교육TV(숏드라마)",
+      "channel_id": "UCvj0Oi3Y8HK8bjMFPgELyEg",
+      "published_at": "2026-11-21T23:00:23Z",
+      "duration_sec": 81,
+      "views": 111084,
+      "likes": 1523,
+      "comments": 41,
+      "description_head": "\"아버님, 요즘 저희가 너무 빠듯해서요.\"\n칠순 잔치에 1만 원짜리 봉투만 내고 먼저 일어나려던 아들 부부.\n그 순간, 연회장 화면에 영수증 8장이 떠오릅니다.\n아빠 카드로 결제한 800만 원짜리 몰디브 여행… 출발은 내일 새벽이었습니다.\n\n조용히 참교육한 아버지의 한마디, 끝까지 보세요 🥤\n구독하고 매일 새로운 사이다 사연 받아 보세요!\n\n#사이다 #참교",
+      "hashtags": [
+        "#shorts",
+        "#드라마",
+        "#사이다",
+        "#ai드라마",
+        "#drama",
+        "#막장드라마",
+        "#참교육",
+        "#숏드라마",
+        "#AI드라마",
+        "#패륜아들",
+        "#칠순잔치",
+        "#반전",
+        "#사이다썰",
+        "#가족드라마",
+        "#쇼츠드라마"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/gloqoLcgp5U/hqdefault.jpg",
+      "subscribers": 30100,
+      "view_sub_ratio": 3.7,
+      "velocity": 22106,
+      "velocity_type": "평균",
+      "rank": 10,
+      "top_comments": [
+        {
+          "text": "에라이  나쁜놈아\n벼락   맞는다",
+          "likes": 24
+        },
+        {
+          "text": "눈물이 왜나와 저걸자식이라고 없는게낫지",
+          "likes": 17
+        },
+        {
+          "text": "나쁜놈\n누나라고 불렀는데\n뭔 오빠여\n이자만 200만을 내면서\n왠 몰디브라~~~",
+          "likes": 7
+        },
+        {
+          "text": "아버님, 잘하셨어요.내치심이 옳습니다.",
+          "likes": 7
+        },
+        {
+          "text": "싸가기 없는 연놈.",
+          "likes": 10
+        },
+        {
+          "text": "그게.날벼락이다.맛어떠냐.저런것도.자식이라고.ㆍ",
+          "likes": 9
+        },
+        {
+          "text": "미친 아들 며눌 부모돈으로\n여행가면서 축의금 만원?\n놀리나?초딩생도 만원 안받는다.",
+          "likes": 5
+        },
+        {
+          "text": "벼락   맞는다",
+          "likes": 2
+        },
+        {
+          "text": "게소리하내요 동물 들도 지부모 생각 하는대 자식이 저런건 인연 끈어야지 절대 상종마라야지요",
+          "likes": 9
+        },
+        {
+          "text": "못된것들",
+          "likes": 2
+        }
+      ]
+    }
+  ]
+}

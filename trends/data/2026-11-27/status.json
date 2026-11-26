@@ -1,0 +1,10 @@
+{
+  "collect": {
+    "ok": true,
+    "message": "26개, 1023단위"
+  },
+  "analyze": {
+    "ok": true,
+    "message": "요청 8회"
+  }
+}
