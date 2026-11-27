@@ -25,14 +25,19 @@ RULES = """규칙:
 - 제목·설명·댓글·대사를 그대로 옮겨 적지 않는다. 반드시 내 말로 요약한다 (따옴표 인용 금지).
 - 영상 본편을 직접 본 것이 아니므로, 제목·설명·댓글·길이·썸네일로 추정한 내용은 끝에 "(추정)"을 붙인다.
 - 모든 답은 쉬운 한국어로, 항목마다 1~2문장으로 짧게.
+- cast(등장인물 2~4명), flow(결말 직전까지 3~5단계), ending(결말)은 다른 사람이 인물·사건·결말만 바꿔 같은 흐름의 새 대본을 쓸 수 있게 구체적으로 나눠 적는다. 실명·대사 인용은 쓰지 않는다.
 - 반드시 지정한 JSON 형식으로만 답한다."""
 
 GENRE_SCHEMA = """{
   "videos": [
     {
       "video_id": "영상 ID 그대로",
+      "title_ko": "해외 영상만: 제목을 자연스러운 한국어로 번역 (한국 영상은 빈 문자열)",
       "hook": "제목 훅 방식 (예: 반전 예고, 대사 인용형, 질문형, 숫자형)",
       "structure": "추정 이야기 구조 (예: 무시 → 반전 → 사이다)",
+      "cast": [{"role": "역할 (주인공/악역/조력자/구경꾼 등)", "who": "이 영상 속 인물 설정 한 줄 (나이대·직업·처지·숨은 정체)"}],
+      "flow": ["이야기 흐름 1단계 한 줄", "2단계", "3단계 (결말 직전까지 3~5단계)"],
+      "ending": "결말 한 줄 (누가 어떻게 응징·역전되며 끝나는지)",
       "thumbnail": "썸네일 특징 (표정, 글자, 색). 이미지를 못 받은 영상은 제목 기준 추정",
       "reaction": "댓글에서 사람들이 반응한 지점 (요약)",
       "series": "시리즈 여부 (회차 번호, 재생목록·다음편 유도)",
@@ -57,7 +62,8 @@ SUMMARY_SCHEMA = """{
   "rising": ["지난 7일 대비 새로 뜨는 형식 (근거 포함, 1~3개)"],
   "cooling": ["식는 형식 (근거 포함, 0~3개). 비교할 과거 자료가 없으면 빈 목록"],
   "ideas": [
-    {"title": "회차 제목 예시", "background": "배경", "hook": "첫 3초 훅", "structure": "구조 (예: 무시 → 반전 → 사이다)", "length": "추천 길이"}
+    {"title": "회차 제목 예시", "background": "배경", "hook": "첫 3초 훅", "structure": "구조 (예: 무시 → 반전 → 사이다)", "length": "추천 길이",
+     "cast": [{"role": "역할", "who": "인물 설정 한 줄"}], "flow": ["흐름 1단계", "2단계", "3단계"], "ending": "결말 한 줄"}
   ]
 }"""
 
@@ -212,7 +218,11 @@ def mock_genre(genre, vids):
     return {
         "videos": [{
             "video_id": v["video_id"], "hook": f"{hooks[i % 4]} (샘플)",
+            "title_ko": "(샘플) 한국어로 옮긴 제목" if v.get("market") == "global" else "",
             "structure": "무시당함 → 정체 공개 → 사이다 응징 (추정·샘플)",
+            "cast": [{"role": "주인공", "who": "무시당하는 30대 배달원, 사실 건물주 (샘플)"}, {"role": "악역", "who": "갑질하는 고급 아파트 입주민 (샘플)"}],
+            "flow": ["입주민이 배달원을 공개적으로 모욕 (샘플)", "주민들이 구경하며 비웃음 (샘플)", "관리인이 배달원을 '회장님'이라 부름 (샘플)"],
+            "ending": "입주민이 관리 규정 위반으로 쫓겨남 (샘플)",
             "thumbnail": "놀란 표정 클로즈업 + 노란 큰 글자 (샘플)",
             "reaction": "반전 순간과 다음편 요청에 반응 (샘플)",
             "series": "회차 번호 있음, 다음편 유도 (샘플)" if "화" in v["title"] or "EP" in v["title"] else "단편 (샘플)",
@@ -230,7 +240,9 @@ def mock_summary(bg):
                    {"name": "이야기 구조", "detail": "무시 → 정체 공개 → 응징 (샘플)"}],
         "rising": ["회차 번호를 제목 앞에 붙이는 형식 (샘플)"], "cooling": [],
         "ideas": [{"title": f"{b}인 줄 알았던 남자의 정체 (샘플)", "background": b, "hook": "무시하는 한마디로 시작",
-                   "structure": "무시 → 반전 → 사이다", "length": "60초"} for b in bg[:3]],
+                   "structure": "무시 → 반전 → 사이다", "length": "60초",
+                   "cast": [{"role": "주인공", "who": f"무시당하는 {b} (샘플)"}, {"role": "악역", "who": "겉모습으로 사람을 판단하는 갑 (샘플)"}],
+                   "flow": ["공개적인 무시 (샘플)", "숨은 정체를 암시하는 단서 (샘플)", "정체 공개 (샘플)"], "ending": "악역이 사과하고 대가를 치름 (샘플)"} for b in bg[:3]],
     }
 
 
@@ -250,7 +262,8 @@ def render_md(today, raw, genres, summary, failures, model, requests_count):
     for g in dict.fromkeys(v["genre"] for v in vids):
         L.append(f"### {g}")
         for v in [x for x in vids if x["genre"] == g][:3]:
-            L.append(f"{v['rank']}. [{v['title']}]({v['url']}) — 조회 {fmt_num(v['views'])}, {fmt_dur(v['duration_sec'])}")
+            ko = next((x.get("title_ko") for x in (genres.get(g) or {}).get("videos", []) if x.get("video_id") == v["video_id"] and x.get("title_ko")), "")
+            L.append(f"{v['rank']}. [{v['title']}]({v['url']}) — 조회 {fmt_num(v['views'])}, {fmt_dur(v['duration_sec'])}" + (f"\n   - 한국어 제목: {ko}" if ko else ""))
         L.append("")
 
     if summary:
@@ -265,6 +278,10 @@ def render_md(today, raw, genres, summary, failures, model, requests_count):
         for i, x in enumerate(summary.get("ideas", []), 1):
             L.append(f"{i}. **{x.get('title')}** ({x.get('background')}, {x.get('length')})")
             L.append(f"   - 훅: {x.get('hook')} / 구조: {x.get('structure')}")
+            if x.get("cast"):
+                L.append("   - 인물: " + " / ".join(f"{c.get('role')}: {c.get('who')}" for c in x["cast"]))
+            if x.get("flow"):
+                L.append("   - 흐름: " + " → ".join(x["flow"]) + (f" → 결말: {x.get('ending')}" if x.get("ending") else ""))
         L.append("")
 
     L += ["## 장르별 형식 해부", ""]
@@ -286,6 +303,9 @@ def render_md(today, raw, genres, summary, failures, model, requests_count):
                   f"하루 상승: +{fmt_num(v.get('velocity', 0))} ({v.get('velocity_type', '-')})",
                   f"제목 훅 방식: {a.get('hook', '-')}",
                   f"추정 이야기 구조: {a.get('structure', '-')}",
+                  "등장인물: " + (" / ".join(f"{c.get('role')}: {c.get('who')}" for c in a.get("cast", [])) or "-"),
+                  "흐름: " + (" → ".join(a.get("flow", [])) or "-"),
+                  f"결말: {a.get('ending', '-')}",
                   f"썸네일 특징: {a.get('thumbnail', '-')}",
                   f"댓글에서 사람들이 반응한 지점: {a.get('reaction', '-')}",
                   f"시리즈 여부: {a.get('series', '-')}",
@@ -324,7 +344,10 @@ def main():
                     if img:
                         parts.append(types.Part.from_bytes(data=img, mime_type="image/jpeg"))
                         from_img.append(v["video_id"])
-            prompt = (f"너는 숏드라마 형식 분석가다. 장르: {g}\n"
+            overseas = any(v.get("market") == "global" for v in gv)
+            local = ("이 장르는 해외(영어권) 인기 영상이다. 모든 답은 한국어로 쓰고, title_ko에 제목을 자연스러운 한국어로 번역한다. "
+                     "cast·flow·ending은 한국 시청자가 바로 찍을 수 있게 한국식 배경·직업·인물로 바꿔 적되 흐름(단계·반전 위치)은 그대로 둔다.\n") if overseas else ""
+            prompt = (f"너는 숏드라마 형식 분석가다. 장르: {g}\n{local}"
                       f"아래는 최근 7일 한국 유튜브 쇼츠 인기 영상 {len(gv)}개의 공개 정보다.\n"
                       f"함께 붙인 썸네일 이미지 {len(from_img)}장은 순서대로 이 영상들의 것이다: {from_img}\n"
                       f"모든 영상에 대해 템플릿을 채워라.\n{RULES}\n\n"

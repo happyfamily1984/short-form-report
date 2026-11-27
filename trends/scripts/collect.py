@@ -127,13 +127,16 @@ def collect(cfg, key, today):
 
     # 1) 장르별 검색 (중복 제거: 먼저 찾은 장르에 둔다)
     found = {}          # video_id -> genre
-    for genre, queries in cfg["genres"].items():
+    gc = cfg.get("global", {})
+    markets = [(g, q, yc["region"], yc["language"]) for g, q in cfg["genres"].items()] + \
+              [(g, q, gc.get("region", "US"), gc.get("language", "en")) for g, q in (cfg.get("global_genres") or {}).items()]
+    for genre, queries, region, lang in markets:
         for q in queries:
             if not yt.can_spend(COST["search"] + 60):   # 상세조회·댓글용 여유분 남김
                 log.append(f"할당량 예산 초과 우려로 검색 중단: '{q}'")
                 break
             res = yt.get("search", part="id", q=q, type="video", videoDuration="short",
-                         regionCode=yc["region"], relevanceLanguage=yc["language"],
+                         regionCode=region, relevanceLanguage=lang,
                          publishedAfter=after, order="viewCount",
                          maxResults=min(int(yc["results_per_search"]), 50))
             for it in res.get("items", []):
@@ -177,7 +180,7 @@ def collect(cfg, key, today):
         thumb = (thumbs.get("high") or thumbs.get("medium") or thumbs.get("default") or {}).get("url", "")
         tags = re.findall(r"#[\w가-힣]+", sn.get("title", "") + " " + desc)
         videos.append({
-            "genre": genre, "video_id": vid, "url": f"https://www.youtube.com/shorts/{vid}",
+            "genre": genre, "market": "global" if genre in (cfg.get("global_genres") or {}) else "kr", "video_id": vid, "url": f"https://www.youtube.com/shorts/{vid}",
             "title": sn.get("title", ""), "channel": sn.get("channelTitle", ""),
             "channel_id": sn.get("channelId", ""), "published_at": sn.get("publishedAt", ""),
             "duration_sec": sec, "views": views, "likes": int(st.get("likeCount", 0)),
@@ -203,7 +206,7 @@ def collect(cfg, key, today):
     key_fn = {"views": lambda v: v["views"], "ratio": lambda v: v["view_sub_ratio"] or 0,
               "velocity": lambda v: v["velocity"]}[yc.get("rank_by", "views")]
     top = []
-    for genre in cfg["genres"]:
+    for genre in list(cfg["genres"]) + list(cfg.get("global_genres") or {}):
         g = sorted([v for v in videos if v["genre"] == genre], key=key_fn, reverse=True)
         for rank, v in enumerate(g[:yc["top_per_genre"]], 1):
             v["rank"] = rank

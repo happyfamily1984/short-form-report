@@ -19,6 +19,24 @@ genres:
     - 사이다 숏드라마
     - 직장 사이다 쇼츠
 
+# 해외 유행 장르 (미국 지역·영어 검색). 이름 앞 "해외 "로 한국 장르와 구분합니다.
+# 5장르 x 1개 = 5회 = 500단위. 분석 때 한국어로 번역하고 한국식 설정으로 바꿔 적습니다.
+global_genres:
+  해외 복수극:
+    - revenge short drama
+  해외 회귀·환생:
+    - reborn revenge drama shorts
+  해외 신분 반전:
+    - hidden billionaire short drama
+  해외 계약 로맨스:
+    - contract marriage short drama
+  해외 직장·현실 사이다:
+    - instant karma short drama
+
+global:
+  region: US
+  language: en
+
 youtube:
   region: KR            # 지역
   language: ko          # 언어
