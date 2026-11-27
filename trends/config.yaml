@@ -1,69 +1,41 @@
 # 숏폼 유행 수집 설정 — 여기만 고치면 검색어·모델을 바꿀 수 있습니다.
 
-# 장르별 검색어. 검색어 1개 = 유튜브 할당량 100단위.
-# 지금 5장르 x 2개 = 10회 = 1,000단위 (하루 한도 10,000단위의 10%)
-genres:
-  복수극:
-    - 복수 숏드라마
-    - 복수극 쇼츠
-  회귀·환생:
-    - 회귀 숏드라마
-    - 환생 숏드라마
-  신분 반전:
-    - 신분 반전 숏드라마
-    - 재벌 숏드라마
-  계약 로맨스:
-    - 계약결혼 숏드라마
-    - 계약 연애 쇼츠 드라마
-  직장·현실 사이다:
-    - 사이다 숏드라마
-    - 직장 사이다 쇼츠
+# 수집 분야: 교육 · 과학 · 다큐멘터리 (얼굴 없이 내레이션으로 만드는 정보형 숏폼)
+# 분야마다 한국(kr)·해외(global) 검색어를 따로 둡니다. 검색어 1개 = 유튜브 할당량 100단위.
+# 지금 3분야 x (한국 2 + 해외 2) = 12회 = 1,200단위. category 가 있으면 그 유튜브 카테고리만 검색하고,
+# 인기 급상승 차트(지역당 1~2단위)에서도 그 카테고리의 짧은 영상을 함께 가져옵니다.
+# 장르 이름은 한국은 "교육", 해외는 "해외 교육"처럼 붙습니다.
+fields:
+  - id: edu
+    name: 교육
+    category: 27          # 유튜브 카테고리: Education
+    kr:
+      - 상식 쇼츠
+      - 원리 설명 쇼츠
+    global:
+      - explained shorts
+      - did you know facts shorts
+  - id: sci
+    name: 과학
+    category: 28          # 유튜브 카테고리: Science & Technology
+    kr:
+      - 과학 쇼츠
+      - 우주 쇼츠
+    global:
+      - science facts shorts
+      - space shorts
+  - id: doc
+    name: 다큐
+    category:             # 다큐는 따로 된 카테고리가 없어 검색어로만 모읍니다
+    kr:
+      - 다큐 쇼츠
+      - 역사 이야기 쇼츠
+    global:
+      - documentary shorts
+      - history explained shorts
 
-# 해외 유행 장르 (미국 지역·영어 검색). 이름 앞 "해외 "로 한국 장르와 구분합니다.
-# 5장르 x 1개 = 5회 = 500단위. 분석 때 한국어로 번역하고 한국식 설정으로 바꿔 적습니다.
-global_genres:
-  해외 복수극:
-    - revenge short drama
-  해외 회귀·환생:
-    - reborn revenge drama shorts
-  해외 신분 반전:
-    - hidden billionaire short drama
-  해외 계약 로맨스:
-    - contract marriage short drama
-  해외 직장·현실 사이다:
-    - instant karma short drama
-
-# 인기 숏폼 (숏드라마가 아닌 일반 인기 쇼츠). 한국·해외를 따로 모읍니다.
-# 검색어 1개 = 100단위. 지금 한국 5개 + 해외 5개 = 1,000단위. 인기 급상승 차트는 지역당 1~2단위.
-# 장르 이름은 "인기"로 시작(해외는 "해외 인기")하고, 마지막 장르(종합)에 인기 급상승 차트 결과가 들어갑니다.
-popular:
-  chart: true            # 유튜브 인기 급상승 차트에서 짧은 영상만 골라 종합에 추가
-  chart_pages: 2         # 지역당 50개씩 몇 쪽까지 (쪽당 1단위)
-  top_per_genre: 8       # 장르별로 남길 영상 수
-  max_duration_sec: 90   # 인기 숏폼은 90초 이하만
-  min_views: 50000       # 최소 조회수
-  kr:
-    인기 · 상황극·코미디:
-      - 상황극 쇼츠
-    인기 · 동물:
-      - 강아지 고양이 쇼츠
-    인기 · 애니·캐릭터:
-      - 애니메이션 쇼츠
-    인기 · 썰·사연:
-      - 썰 쇼츠
-    인기 · 종합:
-      - "#shorts"
-  global:
-    해외 인기 · 상황극·코미디:
-      - comedy skit shorts
-    해외 인기 · 동물:
-      - funny animals shorts
-    해외 인기 · 애니·캐릭터:
-      - animation shorts
-    해외 인기 · 썰·사연:
-      - storytime shorts
-    해외 인기 · 종합:
-      - "#shorts"
+chart: true              # 인기 급상승 차트에서 위 카테고리의 짧은 영상도 가져오기
+chart_pages: 1           # 지역·카테고리마다 50개씩 몇 쪽까지 (쪽당 1단위)
 
 global:
   region: US
@@ -73,8 +45,8 @@ youtube:
   region: KR            # 지역
   language: ko          # 언어
   days: 7               # 최근 며칠 안에 올라온 영상만
-  min_views: 10000      # 최소 조회수
-  max_duration_sec: 180 # 3분 이하만 (쇼츠 기준)
+  min_views: 20000      # 최소 조회수
+  max_duration_sec: 90  # 90초 이하만 (쇼츠)
   results_per_search: 25  # 검색 1회에 받을 영상 수 (최대 50, 할당량은 같음)
   top_per_genre: 10     # 장르별로 남길 영상 수
   comments_per_video: 10  # 인기 댓글 수 (영상당 1단위)
@@ -96,17 +68,10 @@ gemini:
 # 영상 직접 보기: 제미나이가 유튜브 영상을 실제로 보고 장면별 대본·등장인물 외형을 적습니다.
 # 영상 1개 = 요청 1회. 무료 한도가 빠듯하면 max_total 을 줄이거나 0으로 끄세요 (끄면 제목·댓글·썸네일로 추정).
 watch:
-  max_total: 8          # 하루에 직접 볼 영상 수 (0 = 끔)
-  per_genre: 1          # 장르마다 상위 몇 개
-  kinds: [popular]      # popular(인기 숏폼) / drama(숏드라마). 앞에 적은 것부터 봅니다
+  max_total: 10         # 하루에 직접 볼 영상 수 (0 = 끔)
+  per_genre: 2          # 장르마다 상위 몇 개
+  kinds: [edu, sci, doc] # 분야 id. 앞에 적은 것부터 봅니다
   max_duration_sec: 90  # 이보다 긴 영상은 보지 않음 (길수록 토큰을 많이 씀)
-
-# 내 배경 (회차 아이디어를 이 배경으로 바꿔서 제안)
-my_background:
-  - 배달 라이더
-  - 부동산
-  - 40대 가장
 
 telegram:
   top_links_per_genre: 3
-  popular_links: 5       # 인기 숏폼은 한국·해외 각각 조회수 상위 몇 개
