@@ -75,7 +75,7 @@ python trends/scripts/notify.py --dry-run   # 보내지 않고 화면에 출력
 
 | 파일 | 내용 |
 |---|---|
-| `data/YYYY-MM-DD/raw.json` | 수집 원본 (숏드라마 장르별 상위 10개 + 인기 숏폼 장르별 상위 8개, 인기 댓글 10개). 영상마다 `market`(kr/global)·`kind`(drama/popular) |
+| `data/YYYY-MM-DD/raw.json` | 수집 원본 (분야·시장별 상위 10개, 인기 댓글 10개). 영상마다 `market`(kr/global)·`kind`(edu/sci/doc) |
 | `data/YYYY-MM-DD/analysis.md` | 영상별 "유행 형식 분석" 템플릿 + 전체 요약 |
 | `data/YYYY-MM-DD/analysis.json` | 위 내용의 기계용 버전 (다음 날 "뜨는/식는 형식" 비교에 사용). `genre_info` 에 장르별 시장·종류, 영상마다 `format`·`audio`·`cast[{role,kind,who,look}]`·`script[{t,scene,line}]`·`watched` |
 | `data/YYYY-MM-DD/status.json` | 단계별 성공/실패 |
