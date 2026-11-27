@@ -2,12 +2,12 @@
   "date": "2026-11-27",
   "sample": false,
   "quota": {
-    "used_units": 1023,
+    "used_units": 1564,
     "calls": {
-      "search": 10,
-      "videos": 4,
-      "channels": 1,
-      "commentThreads": 18
+      "search": 15,
+      "videos": 6,
+      "channels": 2,
+      "commentThreads": 56
     },
     "log": [
       "검색 '복수 숏드라마' → 누적 25개",
@@ -19,12 +19,18 @@
       "검색 '계약결혼 숏드라마' → 누적 125개",
       "검색 '계약 연애 쇼츠 드라마' → 누적 126개",
       "검색 '사이다 숏드라마' → 누적 149개",
-      "검색 '직장 사이다 쇼츠' → 누적 165개"
+      "검색 '직장 사이다 쇼츠' → 누적 165개",
+      "검색 'revenge short drama' → 누적 190개",
+      "검색 'reborn revenge drama shorts' → 누적 215개",
+      "검색 'hidden billionaire short drama' → 누적 240개",
+      "검색 'contract marriage short drama' → 누적 265개",
+      "검색 'instant karma short drama' → 누적 290개"
     ]
   },
   "videos": [
     {
       "genre": "복수극",
+      "market": "kr",
       "video_id": "X89o5SBIGeI",
       "url": "https://www.youtube.com/shorts/X89o5SBIGeI",
       "title": "오늘 이거 축의금으로 치자 결혼 잘해 #한국드라마 #숏드라마 #남주 #신분반전 #사이다 #복수 #AI드라마 #현대드라마 #재벌 #전여친",
@@ -32,8 +38,8 @@
       "channel_id": "UCS44U67XQ1Bwl6Xacn85dvQ",
       "published_at": "2026-11-24T06:19:34Z",
       "duration_sec": 106,
-      "views": 743743,
-      "likes": 12826,
+      "views": 744874,
+      "likes": 12886,
       "comments": 59,
       "description_head": "",
       "hashtags": [
@@ -51,7 +57,7 @@
       "thumbnail": "https://i.ytimg.com/vi/X89o5SBIGeI/hqdefault.jpg",
       "subscribers": 19700,
       "view_sub_ratio": 37.8,
-      "velocity": 271562,
+      "velocity": 270568,
       "velocity_type": "평균",
       "rank": 1,
       "top_comments": [
@@ -99,6 +105,7 @@
     },
     {
       "genre": "복수극",
+      "market": "kr",
       "video_id": "At9MRX-T_VQ",
       "url": "https://www.youtube.com/shorts/At9MRX-T_VQ",
       "title": "거지 취급받던 남자가 용상에 앉자… 조선 최고의 실세가 대가리 박은 사연 💥#숏드라마 #여성 중심 드라마 #인생역전 #사이다복수 #drama",
@@ -106,7 +113,7 @@
       "channel_id": "UCkNgP1S6D3owO3boMOiNIcg",
       "published_at": "2026-11-22T13:17:30Z",
       "duration_sec": 176,
-      "views": 175354,
+      "views": 175518,
       "likes": 1543,
       "comments": 15,
       "description_head": "🎬✨ 몰입극장-YGGTHEATER에 오신 것을 환영합니다! 💫\n앱에서 시청하기➡️\n\n짧지만 강렬한 몰입감! 한 번 보기 시작하면 끝까지 눈을 뗄 수 없는 흥미진진한 이야기! 🎞️\n\n🎥 작품명:  왕의 귀향\n\n📖 줄거리:  \n가난한 청년으로 살다 내란을 평정하고 조선의 왕이 된 이훤. 그는 자신을 구해 줬다고 믿었던 정혼녀와의 약속을 지키려 신분을 숨기고 고",
@@ -130,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/At9MRX-T_VQ/hqdefault.jpg",
       "subscribers": 23700,
       "view_sub_ratio": 7.4,
-      "velocity": 39418,
+      "velocity": 39329,
       "velocity_type": "평균",
       "rank": 2,
       "top_comments": [
@@ -170,6 +177,7 @@
     },
     {
       "genre": "복수극",
+      "market": "kr",
       "video_id": "lozWRC-PpUE",
       "url": "https://www.youtube.com/shorts/lozWRC-PpUE",
       "title": "오늘 내 생일인데  #한국드라마 #숏드라마 #회식 #생일 #사이다 #복수 #AI드라마 #현대드라마 #연구소 #후계자",
@@ -177,7 +185,7 @@
       "channel_id": "UCyPc7ExNRygCrzCTm9GqYnw",
       "published_at": "2026-11-24T06:27:13Z",
       "duration_sec": 134,
-      "views": 143178,
+      "views": 143234,
       "likes": 1958,
       "comments": 16,
       "description_head": "",
@@ -196,7 +204,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lozWRC-PpUE/hqdefault.jpg",
       "subscribers": 7530,
       "view_sub_ratio": 19.0,
-      "velocity": 52380,
+      "velocity": 52129,
       "velocity_type": "평균",
       "rank": 3,
       "top_comments": [
@@ -244,6 +252,7 @@
     },
     {
       "genre": "복수극",
+      "market": "kr",
       "video_id": "3WQG45_3ApM",
       "url": "https://www.youtube.com/shorts/3WQG45_3ApM",
       "title": "그 배 타지 마 타면 네가 죽어 #톱자국 #잉어 #그배타지마#한국드라마 #숏드라마 #사극 #조선시대 #전라도 #민담 #복수 #AI드라마 #동양풍 #반전",
@@ -251,7 +260,7 @@
       "channel_id": "UCZcFMAT0rYL6JmAWonTQ1UQ",
       "published_at": "2026-11-21T10:26:13Z",
       "duration_sec": 154,
-      "views": 45420,
+      "views": 45423,
       "likes": 1173,
       "comments": 1,
       "description_head": "잉어가 사람 말을 해",
@@ -273,7 +282,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3WQG45_3ApM/hqdefault.jpg",
       "subscribers": 39500,
       "view_sub_ratio": 1.1,
-      "velocity": 8158,
+      "velocity": 8138,
       "velocity_type": "평균",
       "rank": 4,
       "top_comments": [
@@ -285,6 +294,7 @@
     },
     {
       "genre": "복수극",
+      "market": "kr",
       "video_id": "iciyeBjpll8",
       "url": "https://www.youtube.com/shorts/iciyeBjpll8",
       "title": "시한부 첫사랑을 위해 이혼하자는 남편 2편 #숏드라마 #첫사랑 #이혼 #복수 #외도 #불륜 #시한부",
@@ -308,13 +318,14 @@
       "thumbnail": "https://i.ytimg.com/vi/iciyeBjpll8/hqdefault.jpg",
       "subscribers": 2120,
       "view_sub_ratio": 8.5,
-      "velocity": 4597,
+      "velocity": 4580,
       "velocity_type": "평균",
       "rank": 5,
       "top_comments": []
     },
     {
       "genre": "복수극",
+      "market": "kr",
       "video_id": "0NT6jgIhpcQ",
       "url": "https://www.youtube.com/shorts/0NT6jgIhpcQ",
       "title": "형들한테 공원 뺏긴 짱구의 복수극 ㅋㅋ",
@@ -338,13 +349,14 @@
       "thumbnail": "https://i.ytimg.com/vi/0NT6jgIhpcQ/hqdefault.jpg",
       "subscribers": 5380,
       "view_sub_ratio": 2.9,
-      "velocity": 6453,
+      "velocity": 6416,
       "velocity_type": "평균",
       "rank": 6,
       "top_comments": []
     },
     {
       "genre": "복수극",
+      "market": "kr",
       "video_id": "PIFHaOzcmSI",
       "url": "https://www.youtube.com/shorts/PIFHaOzcmSI",
       "title": "눈에는 눈, 이에는 이로 응수하는 백경정의 사이다 복수극 💥✨ #전희미 #백경정 #중드추천 #쇼츠 #shorts",
@@ -352,7 +364,7 @@
       "channel_id": "UC1OeRozux20H3PmWzbqtVaA",
       "published_at": "2026-11-22T03:00:11Z",
       "duration_sec": 41,
-      "views": 10451,
+      "views": 10454,
       "likes": 54,
       "comments": 1,
       "description_head": "음식을 두고 도망친 범인을 쫓아 거침없이 발걸음을 옮기는 윤쟁(백경정)!\n비열한 꼼수를 부리는 자들을 놓치지 않고 시원하게 참교육하는 \n윤쟁의 든든하고 멋진 매력♥️✨\n\n📌 채널차이나 구독 & 알림 설정으로 매일 업데이트되는 중드 쇼츠를 가장 먼저 만나보세요!\n👍 좋아요와 댓글은 영상 제작에 큰 힘이 됩니다!\n\n-------------------------",
@@ -372,7 +384,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PIFHaOzcmSI/hqdefault.jpg",
       "subscribers": 27500,
       "view_sub_ratio": 0.4,
-      "velocity": 2143,
+      "velocity": 2137,
       "velocity_type": "평균",
       "rank": 7,
       "top_comments": [
@@ -384,6 +396,7 @@
     },
     {
       "genre": "회귀·환생",
+      "market": "kr",
       "video_id": "ApflqATWRnI",
       "url": "https://www.youtube.com/shorts/ApflqATWRnI",
       "title": "조선과학자 30화 | 밟아도 안 터지는 고철 덩이, 조선의 지뢰 파진포 #shorts",
@@ -406,13 +419,14 @@
       "thumbnail": "https://i.ytimg.com/vi/ApflqATWRnI/hqdefault.jpg",
       "subscribers": 556,
       "view_sub_ratio": 24.8,
-      "velocity": 3011,
+      "velocity": 3002,
       "velocity_type": "평균",
       "rank": 1,
       "top_comments": []
     },
     {
       "genre": "신분 반전",
+      "market": "kr",
       "video_id": "qAS36cIHbTA",
       "url": "https://www.youtube.com/shorts/qAS36cIHbTA",
       "title": "아들에게 재벌 맞선녀 붙인 시어머니, 하필 그 식당에서 마주친 사람 | 상견례 봉투 3화 #숏드라마 #반전드라마 #사이다",
@@ -442,7 +456,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qAS36cIHbTA/hqdefault.jpg",
       "subscribers": 1000,
       "view_sub_ratio": 52.0,
-      "velocity": 7568,
+      "velocity": 7552,
       "velocity_type": "평균",
       "rank": 1,
       "top_comments": [
@@ -454,6 +468,7 @@
     },
     {
       "genre": "신분 반전",
+      "market": "kr",
       "video_id": "Imiqwiz0mbo",
       "url": "https://www.youtube.com/shorts/Imiqwiz0mbo",
       "title": "거지인 줄 알고 도와줬더니 재벌 회장이었다! 가짜 애인 제안의 충격적인 반전 #중국드라마",
@@ -461,8 +476,8 @@
       "channel_id": "UCEbiKcXDFHwZ6BaHP5usj0Q",
       "published_at": "2026-11-24T11:38:09Z",
       "duration_sec": 174,
-      "views": 48482,
-      "likes": 872,
+      "views": 48597,
+      "likes": 873,
       "comments": 0,
       "description_head": "그녀가 도와준 남자는 사실 엄청난 비밀을 감추고 있었습니다.\n\n한때 자신을 사랑했던 전 여자친구는 초라해진 그의 모습을 보고 모른 척하며 비웃고, 심지어 사진까지 찍어 조롱합니다.\n\n하지만 그 남자의 손에는 심씨 그룹에 단 한 장뿐이라는 특별한 블랙카드가 있었습니다.\n\n자신을 도와준 여주인공에게 천만 원이 든 카드를 건네는 남자!\n\n그런데 여주인공은 그가 ",
       "hashtags": [
@@ -480,13 +495,14 @@
       "thumbnail": "https://i.ytimg.com/vi/Imiqwiz0mbo/hqdefault.jpg",
       "subscribers": 3910,
       "view_sub_ratio": 12.4,
-      "velocity": 19258,
+      "velocity": 19195,
       "velocity_type": "평균",
       "rank": 2,
       "top_comments": []
     },
     {
       "genre": "신분 반전",
+      "market": "kr",
       "video_id": "C4NDX7hvaY0",
       "url": "https://www.youtube.com/shorts/C4NDX7hvaY0",
       "title": "친딸 아니라며 딸을 버린 재벌 회장, 6년 전 친딸의 인생까지 망친 진짜 범인은 따로 있었다!",
@@ -494,7 +510,7 @@
       "channel_id": "UCxSfjOM4fIyx2E2tm2GLPIA",
       "published_at": "2026-11-21T09:45:36Z",
       "duration_sec": 31,
-      "views": 38453,
+      "views": 38466,
       "likes": 377,
       "comments": 0,
       "description_head": "🔎 Tapon 앱에서  620083 을 검색하고, 이 라이트 노벨을 바로 만나보세요!\n\n가짜 딸의 거짓말에 속아 6년 동안 송정아의 인생을 짓밟았던 가족들. 하지만 숨겨졌던 진실이 밝혀지자, 모든 걸 잃을 차례는 따로 있었다. 이제 남천우가 그들에게 대가를 치르게 한다!\n\n#웹소설 #로맨스 #숏드라마 #재벌드라마 #복수극 #출생의비밀 #가족배신 #신분반전",
@@ -511,13 +527,14 @@
       "thumbnail": "https://i.ytimg.com/vi/C4NDX7hvaY0/hqdefault.jpg",
       "subscribers": 7620,
       "view_sub_ratio": 5.0,
-      "velocity": 6872,
+      "velocity": 6857,
       "velocity_type": "평균",
       "rank": 3,
       "top_comments": []
     },
     {
       "genre": "신분 반전",
+      "market": "kr",
       "video_id": "kEwKjWEiTGM",
       "url": "https://www.youtube.com/shorts/kEwKjWEiTGM",
       "title": "파혼하러 서울 가다가 약혼녀 목숨 구한 썰#숏드라마 #웹드라마 #사이다액션 #재벌물 #먼치킨 #복수극 #파혼 #드라마추천 #쇼츠드라마",
@@ -525,8 +542,8 @@
       "channel_id": "UCvEUdPluufUmpQtinHBELKA",
       "published_at": "2026-11-22T21:30:39Z",
       "duration_sec": 160,
-      "views": 25304,
-      "likes": 1059,
+      "views": 25415,
+      "likes": 1064,
       "comments": 4,
       "description_head": "어미 소 뺑소니치고 도망간 재벌녀, 소값 받으러 쫓아갔더니…\n목숨을 구해준 대가로 월 5억 경호원 제안?!\n\n하지만 시골 청년 강진우가 원하는 건 단 하나, 소값 1,500만 원과 '파혼'뿐이었다.\n알고 보니 10년 전 아버지가 정해둔 약혼녀가 바로 눈앞의 대진그룹 서지수 대표!\n\n킬러의 목에서 발견된 실종된 아버지의 군번줄,\n그리고 할아버지 서 회장을 노",
       "hashtags": [
@@ -543,7 +560,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kEwKjWEiTGM/hqdefault.jpg",
       "subscribers": 9350,
       "view_sub_ratio": 2.7,
-      "velocity": 6163,
+      "velocity": 6168,
       "velocity_type": "평균",
       "rank": 4,
       "top_comments": [
@@ -567,6 +584,7 @@
     },
     {
       "genre": "신분 반전",
+      "market": "kr",
       "video_id": "wsjCpK_FPJU",
       "url": "https://www.youtube.com/shorts/wsjCpK_FPJU",
       "title": "고백 대신 해고 통보한 상사의 결말",
@@ -574,7 +592,7 @@
       "channel_id": "UChnzyil6JzpmpbEVo_yJvmA",
       "published_at": "2026-11-25T05:00:16Z",
       "duration_sec": 36,
-      "views": 21543,
+      "views": 21552,
       "likes": 175,
       "comments": 0,
       "description_head": "월간남친 속 재벌 상사가 직원에게 사귀자며 해고를 통보했다가 오히려 빨리 꼬시란 역공을 당하는 반전 로맨스 장면입니다.\n\n재벌 상사는 여자 직원에게 내일부터 출근하지 말라며 갑작스러운 해고 통보를 건넵니다. 당황한 여자가 지금 해고하는 거냐고 묻자, 남자는 회사 직원과는 연애를 안 하니 그쪽과 사귀려면 자르는 수밖에 없다며 예상치 못한 고백을 던집니다.\n\n",
@@ -588,13 +606,14 @@
       "thumbnail": "https://i.ytimg.com/vi/wsjCpK_FPJU/hqdefault.jpg",
       "subscribers": 1040,
       "view_sub_ratio": 20.7,
-      "velocity": 12009,
+      "velocity": 11920,
       "velocity_type": "평균",
       "rank": 5,
       "top_comments": []
     },
     {
       "genre": "신분 반전",
+      "market": "kr",
       "video_id": "K3CAl4lMowc",
       "url": "https://www.youtube.com/shorts/K3CAl4lMowc",
       "title": "【한국어 더빙】결혼식에 들이닥친 가짜 신부… 재벌 회장이 바로 신부 동생이었다! #숏드라마 #여성 중심 드라마 #인생역전 #Drama",
@@ -602,7 +621,7 @@
       "channel_id": "UC2bxIYv6ECcWGCP-Fg5WWGQ",
       "published_at": "2026-11-23T08:30:36Z",
       "duration_sec": 122,
-      "views": 21500,
+      "views": 21512,
       "likes": 290,
       "comments": 0,
       "description_head": "🎬✨ 드라마픽RU  오신 것을 환영합니다! 💫\n앱에서 시청하기➡️\n\n짧지만 강렬한 몰입감! 한 번 보기 시작하면 끝까지 눈을 뗄 수 없는 흥미진진한 이야기! 🎞️\n\n🎥 작품명:  그날 밤은 실수였나요?\n\n📖 줄거리:  \n폭우가 쏟아진 밤, 그림을 배달하던 화가 윤주연은 어린 시절의 상처로 숨을 쉬지 못하던 이현그룹 대표 이재현을 구한다. 하지만 돌아온 건 ",
@@ -626,13 +645,14 @@
       "thumbnail": "https://i.ytimg.com/vi/K3CAl4lMowc/hqdefault.jpg",
       "subscribers": 1540,
       "view_sub_ratio": 14.0,
-      "velocity": 5894,
+      "velocity": 5874,
       "velocity_type": "평균",
       "rank": 6,
       "top_comments": []
     },
     {
       "genre": "신분 반전",
+      "market": "kr",
       "video_id": "STAa0o8KYcY",
       "url": "https://www.youtube.com/shorts/STAa0o8KYcY",
       "title": "재벌 상속녀이자 천재 디자이너인 아내를 몰라본 가짜 사모님과 시어머니의 처참한 최후 [숏드라마 전편]",
@@ -640,7 +660,7 @@
       "channel_id": "UCnt3qdIw2mKTmMOc61me1Jw",
       "published_at": "2026-11-20T10:30:16Z",
       "duration_sec": 176,
-      "views": 17390,
+      "views": 17412,
       "likes": 129,
       "comments": 0,
       "description_head": "신분을 숨긴 재벌 상속녀이자 세계적 천재 디자이너 '서머' 강지원!\n진짜 사장 부인을 몰라보고 갑질과 사칭을 일삼은 가짜 사모님 이윤주와 편견에 빠진 시어머니 최은주의 처참한 최후를 전편 몰아보기로 확인하세요!🔥\n\n📌 줄거리 요약\n민성그룹 대표 민우빈과 전격 결혼한 강지원은 '사장 부인'이자 천재 디자이너 '서머'라는 정체를 숨긴 채 디자인팀에 입사합니다.",
@@ -660,13 +680,14 @@
       "thumbnail": "https://i.ytimg.com/vi/STAa0o8KYcY/hqdefault.jpg",
       "subscribers": 20300,
       "view_sub_ratio": 0.9,
-      "velocity": 2649,
+      "velocity": 2647,
       "velocity_type": "평균",
       "rank": 7,
       "top_comments": []
     },
     {
       "genre": "신분 반전",
+      "market": "kr",
       "video_id": "_lU6o66wqeY",
       "url": "https://www.youtube.com/shorts/_lU6o66wqeY",
       "title": "부잣집 혼처 뺏긴 언니, 욕심부린 동생의 최후 1편 #숏드라마 #결혼 #시어머니 #재벌 #성묘 #반전",
@@ -674,7 +695,7 @@
       "channel_id": "UCLRYxFSkrxUkUvxms1KPoUQ",
       "published_at": "2026-11-22T22:00:35Z",
       "duration_sec": 161,
-      "views": 10966,
+      "views": 10971,
       "likes": 289,
       "comments": 2,
       "description_head": "동생에게 부잣집 혼처를 빼앗긴 언니가 시골로 시집가요.\n그런데 남편 통장에는 200억이?\n\n#숏드라마 #결혼 #시어머니 #재벌 #반전 #부잣집 #귀농",
@@ -691,7 +712,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_lU6o66wqeY/hqdefault.jpg",
       "subscribers": 2120,
       "view_sub_ratio": 5.2,
-      "velocity": 2684,
+      "velocity": 2676,
       "velocity_type": "평균",
       "rank": 8,
       "top_comments": [
@@ -703,6 +724,7 @@
     },
     {
       "genre": "직장·현실 사이다",
+      "market": "kr",
       "video_id": "GJ2uEJarvUM",
       "url": "https://www.youtube.com/shorts/GJ2uEJarvUM",
       "title": "결혼식장에서 새하얀 하객룩에, 신랑 옆에 딱 붙어서 팔짱 낀 하객의 최후  #시니어드라마 #쇼츠드라마 #사이다사연 #참교육",
@@ -710,8 +732,8 @@
       "channel_id": "UCDPC8vnkz0y-6DvaGze3LIg",
       "published_at": "2026-11-20T01:00:24Z",
       "duration_sec": 61,
-      "views": 2287294,
-      "likes": 25834,
+      "views": 2287751,
+      "likes": 25837,
       "comments": 185,
       "description_head": "#사이다 #감동스토리 #숏드라마 #shorts\n\n\n\n-This is a fictional drama series exploring family conflict and social etiquette.\n-Script and direction by a human creator.\n-This video complies with YouTube's transparenc",
       "hashtags": [
@@ -727,7 +749,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GJ2uEJarvUM/hqdefault.jpg",
       "subscribers": 67300,
       "view_sub_ratio": 34.0,
-      "velocity": 328615,
+      "velocity": 328010,
       "velocity_type": "평균",
       "rank": 1,
       "top_comments": [
@@ -775,6 +797,7 @@
     },
     {
       "genre": "직장·현실 사이다",
+      "market": "kr",
       "video_id": "L2We05xPRTk",
       "url": "https://www.youtube.com/shorts/L2We05xPRTk",
       "title": "아버지 칠순 날 여동생 선물을 내던진 큰아들 #숏드라마 #시니어드라마 #사이다반전 #가족갈등 #5060",
@@ -782,8 +805,8 @@
       "channel_id": "UCxK8fcivddEsDwoKKPo3tbg",
       "published_at": "2026-11-20T13:23:19Z",
       "duration_sec": 102,
-      "views": 1805373,
-      "likes": 28427,
+      "views": 1806096,
+      "likes": 28439,
       "comments": 330,
       "description_head": "",
       "hashtags": [
@@ -796,7 +819,7 @@
       "thumbnail": "https://i.ytimg.com/vi/L2We05xPRTk/hqdefault.jpg",
       "subscribers": 15300,
       "view_sub_ratio": 118.0,
-      "velocity": 280142,
+      "velocity": 279636,
       "velocity_type": "평균",
       "rank": 2,
       "top_comments": [
@@ -844,6 +867,7 @@
     },
     {
       "genre": "직장·현실 사이다",
+      "market": "kr",
       "video_id": "PqBvhjGvGqg",
       "url": "https://www.youtube.com/shorts/PqBvhjGvGqg",
       "title": "그런 허름한 차림으로 서지 마요! #한국숏드라마 #반전드라마 #사이다드라마 #시니어드라마 #시니어쇼츠 #시니어",
@@ -851,9 +875,9 @@
       "channel_id": "UCEXM9jOnGHQjL2s6K6Yx7Sg",
       "published_at": "2026-11-25T09:23:23Z",
       "duration_sec": 155,
-      "views": 993143,
-      "likes": 39928,
-      "comments": 542,
+      "views": 993501,
+      "likes": 39947,
+      "comments": 543,
       "description_head": "",
       "hashtags": [
         "#한국숏드라마",
@@ -866,7 +890,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PqBvhjGvGqg/hqdefault.jpg",
       "subscribers": 595000,
       "view_sub_ratio": 1.7,
-      "velocity": 616433,
+      "velocity": 611252,
       "velocity_type": "평균",
       "rank": 3,
       "top_comments": [
@@ -914,6 +938,7 @@
     },
     {
       "genre": "직장·현실 사이다",
+      "market": "kr",
       "video_id": "m5ibu8iLjx8",
       "url": "https://www.youtube.com/shorts/m5ibu8iLjx8",
       "title": "전 접시 엎은 큰동서…투자 미팅 날 비서는 둘째 며느리를 '대표님'이라 불렀다 #shorts",
@@ -921,8 +946,8 @@
       "channel_id": "UCKLiw3XuA0OZTitTyddTojA",
       "published_at": "2026-11-21T07:57:16Z",
       "duration_sec": 160,
-      "views": 977217,
-      "likes": 33712,
+      "views": 978069,
+      "likes": 33743,
       "comments": 292,
       "description_head": "\"어머, 손이 미끄러졌네. 빈손으로 와서 이것도 제대로 못 해?\"\n\n명절 큰집. 큰동서가 일부러 전 접시를 엎고,\n시어머니와 아가씨, 아주버님까지 둘째 며느리 지수를 식모 취급합니다.\n오늘은 망해 가는 큰아들 회사를 살려 줄 투자자가 오는 날.\n\n그런데 초인종이 울리고,\n들어온 비서가 고개를 숙인 사람은… 😱\n\n10년 동안 혼자 차례상을 차린 며느리의 통쾌",
       "hashtags": [
@@ -939,8 +964,8 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/m5ibu8iLjx8/hqdefault.jpg",
       "subscribers": 5770,
-      "view_sub_ratio": 169.4,
-      "velocity": 172321,
+      "view_sub_ratio": 169.5,
+      "velocity": 172039,
       "velocity_type": "평균",
       "rank": 4,
       "top_comments": [
@@ -988,6 +1013,7 @@
     },
     {
       "genre": "직장·현실 사이다",
+      "market": "kr",
       "video_id": "TUgNKaxpznc",
       "url": "https://www.youtube.com/shorts/TUgNKaxpznc",
       "title": "죽은 친정엄마 김치 비법 빼앗은 시어머니의 최후 #숏드라마 #사이다",
@@ -995,8 +1021,8 @@
       "channel_id": "UCAw1fiEjJIXsTM4dh8cndNQ",
       "published_at": "2026-11-23T12:07:23Z",
       "duration_sec": 169,
-      "views": 817799,
-      "likes": 42986,
+      "views": 818679,
+      "likes": 43012,
       "comments": 205,
       "description_head": "죽은 친정엄마가 남긴 김치 양념 비법.\n시어머니는 그 비법으로 김장 명인 대회에 나가려 했습니다.\n며느리는 뒷마당에 숨기고, 엄마의 레시피 공책은 소금물에 던져버리고…\n\n하지만 심사위원장의 한마디.\n\"지금 이 자리에서 양념, 직접 배합해 주시죠.\"\n\n며느리 비법을 훔친 시어머니의 최후, 끝까지 확인하세요.\n\n다은이가 꼭 잘되길 바라신다면 구독으로 응원해주세",
       "hashtags": [
@@ -1012,8 +1038,8 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/TUgNKaxpznc/hqdefault.jpg",
       "subscribers": 12300,
-      "view_sub_ratio": 66.5,
-      "velocity": 233842,
+      "view_sub_ratio": 66.6,
+      "velocity": 233145,
       "velocity_type": "평균",
       "rank": 5,
       "top_comments": [
@@ -1061,6 +1087,7 @@
     },
     {
       "genre": "직장·현실 사이다",
+      "market": "kr",
       "video_id": "sMDN-S2LI44",
       "url": "https://www.youtube.com/shorts/sMDN-S2LI44",
       "title": "경비 아저씨 의자를 내던진 입주자 대표의 최후 #숏드라마 #시니어드라마 #사이다반전 #갑질참교육 #5060",
@@ -1068,8 +1095,8 @@
       "channel_id": "UCxK8fcivddEsDwoKKPo3tbg",
       "published_at": "2026-11-21T08:56:17Z",
       "duration_sec": 82,
-      "views": 608071,
-      "likes": 5714,
+      "views": 608191,
+      "likes": 5715,
       "comments": 47,
       "description_head": "",
       "hashtags": [
@@ -1081,8 +1108,8 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/sMDN-S2LI44/hqdefault.jpg",
       "subscribers": 15300,
-      "view_sub_ratio": 39.7,
-      "velocity": 108007,
+      "view_sub_ratio": 39.8,
+      "velocity": 107756,
       "velocity_type": "평균",
       "rank": 6,
       "top_comments": [
@@ -1130,6 +1157,7 @@
     },
     {
       "genre": "직장·현실 사이다",
+      "market": "kr",
       "video_id": "GEYN8w-qVs0",
       "url": "https://www.youtube.com/shorts/GEYN8w-qVs0",
       "title": "무시하던 며느리 그의 정체는????? #사이다 #드라마 #ai드라마 #drama #막장드라마",
@@ -1137,7 +1165,7 @@
       "channel_id": "UCvj0Oi3Y8HK8bjMFPgELyEg",
       "published_at": "2026-11-22T03:00:18Z",
       "duration_sec": 81,
-      "views": 216647,
+      "views": 216676,
       "likes": 7149,
       "comments": 271,
       "description_head": "답답한 현실, 1분 만에 뻥 뚫어 드립니다\n\n━━━━━━━━━━\n🔔 구독하고 다음 화를 가장 먼저 확인하세요!\n📌 매일 낮 12시 · 저녁 7시 업로드\n\n※ 본 영상은 AI로 제작된 가상의 이야기이며, 등장인물·단체는 실제와 관련이 없습니다.\n\n#ai드라마 #막장드라마 #사이다 #참교육 #숏드라마",
@@ -1153,7 +1181,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GEYN8w-qVs0/hqdefault.jpg",
       "subscribers": 30100,
       "view_sub_ratio": 7.2,
-      "velocity": 44421,
+      "velocity": 44297,
       "velocity_type": "평균",
       "rank": 7,
       "top_comments": [
@@ -1201,6 +1229,7 @@
     },
     {
       "genre": "직장·현실 사이다",
+      "market": "kr",
       "video_id": "PkavtdxK3QE",
       "url": "https://www.youtube.com/shorts/PkavtdxK3QE",
       "title": "내쫓은 과장에게 돌아오라고 하면 벌어지는 일 #김과장 #참교육 #사이다",
@@ -1208,7 +1237,7 @@
       "channel_id": "UCmTZk5SZB4IOTw1XxeHjIMQ",
       "published_at": "2026-11-21T10:30:31Z",
       "duration_sec": 45,
-      "views": 148991,
+      "views": 148987,
       "likes": 0,
       "comments": 4,
       "description_head": "김과장, 2017 (KBS)\n대기실로 내보냈던 과장에게 이제 와서 돌아오라는 회사. 과장은 조건을 하나씩 부르더니, 미리 써 온 합의서까지 꺼냅니다.\n'김과장'은 KBS 공식 채널·웨이브 등에서 감상하실 수 있습니다.\n\n#김과장 #참교육 #사이다 #직장인 #드라마 #갑질 #쇼츠",
@@ -1224,7 +1253,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PkavtdxK3QE/hqdefault.jpg",
       "subscribers": 4380,
       "view_sub_ratio": 34.0,
-      "velocity": 26775,
+      "velocity": 26706,
       "velocity_type": "평균",
       "rank": 8,
       "top_comments": [
@@ -1240,6 +1269,7 @@
     },
     {
       "genre": "직장·현실 사이다",
+      "market": "kr",
       "video_id": "RH8V56QygTw",
       "url": "https://www.youtube.com/shorts/RH8V56QygTw",
       "title": "\"어머님 짐 다 버려\" 손녀 키워 준 시어머니를 요양원에 보낸 며느리의 최후 #쇼츠드라마 #사이다사연 #참교육",
@@ -1263,7 +1293,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RH8V56QygTw/hqdefault.jpg",
       "subscribers": 67300,
       "view_sub_ratio": 1.8,
-      "velocity": 25087,
+      "velocity": 25012,
       "velocity_type": "평균",
       "rank": 9,
       "top_comments": [
@@ -1311,6 +1341,7 @@
     },
     {
       "genre": "직장·현실 사이다",
+      "market": "kr",
       "video_id": "gloqoLcgp5U",
       "url": "https://www.youtube.com/shorts/gloqoLcgp5U",
       "title": "아빠 칠순에 축의금 1만 원 낸 아들 부부, 화면에 뜬 영수증 8장의 정체 #shorts #드라마 #사이다 #ai드라마 #drama #막장드라마",
@@ -1318,7 +1349,7 @@
       "channel_id": "UCvj0Oi3Y8HK8bjMFPgELyEg",
       "published_at": "2026-11-21T23:00:23Z",
       "duration_sec": 81,
-      "views": 111084,
+      "views": 111062,
       "likes": 1523,
       "comments": 41,
       "description_head": "\"아버님, 요즘 저희가 너무 빠듯해서요.\"\n칠순 잔치에 1만 원짜리 봉투만 내고 먼저 일어나려던 아들 부부.\n그 순간, 연회장 화면에 영수증 8장이 떠오릅니다.\n아빠 카드로 결제한 800만 원짜리 몰디브 여행… 출발은 내일 새벽이었습니다.\n\n조용히 참교육한 아버지의 한마디, 끝까지 보세요 🥤\n구독하고 매일 새로운 사이다 사연 받아 보세요!\n\n#사이다 #참교",
@@ -1342,7 +1373,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gloqoLcgp5U/hqdefault.jpg",
       "subscribers": 30100,
       "view_sub_ratio": 3.7,
-      "velocity": 22024,
+      "velocity": 21958,
       "velocity_type": "평균",
       "rank": 10,
       "top_comments": [
@@ -1387,6 +1418,2464 @@
           "likes": 2
         }
       ]
+    },
+    {
+      "genre": "해외 복수극",
+      "market": "global",
+      "video_id": "lHcXNjYiM4A",
+      "url": "https://www.youtube.com/shorts/lHcXNjYiM4A",
+      "title": "Wait For Powerful Revenge💀💸🔥|| Power Of Rixu💸🔥|| #viral #revenge #money #train #shorts #fypシ゚",
+      "channel": "Rixu Vlogs",
+      "channel_id": "UCGQ3zuABMnxiZXS2E6_V-yA",
+      "published_at": "2026-11-21T13:40:33Z",
+      "duration_sec": 165,
+      "views": 10927570,
+      "likes": 155310,
+      "comments": 473,
+      "description_head": "Wait For Powerful Revenge💀💸🔥|| Power Of Rixu💸🔥|| #viral #revenge #money #train #shorts #fypシ゚ #shortvideo #shortsfeed #shortsviral #powerful #drama #trendingshorts #viralshorts \n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\ns",
+      "hashtags": [
+        "#viral",
+        "#revenge",
+        "#money",
+        "#train",
+        "#shorts",
+        "#fypシ",
+        "#shortvideo",
+        "#shortsfeed",
+        "#shortsviral",
+        "#powerful",
+        "#drama",
+        "#trendingshorts",
+        "#viralshorts",
+        "#short"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/lHcXNjYiM4A/hqdefault.jpg",
+      "subscribers": 915000,
+      "view_sub_ratio": 11.9,
+      "velocity": 2006249,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "Rixu bhai pin kardo ap bohot acch video date ho❤❤",
+          "likes": 188
+        },
+        {
+          "text": "🥰 দা দা মেয়েদের সাথে এরকমই করা উচিত 🤗🤗👌👌🫵🌈🌄 শুভ সকাল'''😮😮😮😊😊",
+          "likes": 8
+        },
+        {
+          "text": "Scripting vedio but op",
+          "likes": 4
+        },
+        {
+          "text": "Invisible camera man \nBy the way crazy video",
+          "likes": 5
+        },
+        {
+          "text": "Bohot accha kiya, I am your fan sir",
+          "likes": 3
+        },
+        {
+          "text": "Jail X ai jail😂😂",
+          "likes": 1
+        },
+        {
+          "text": "Agar itna dimag padhaai mein Laga Liya tha to aaj hi nahin karte",
+          "likes": 42
+        },
+        {
+          "text": "Paisa nhi diya special service wala ko hahha😂😂😂😂😂",
+          "likes": 6
+        },
+        {
+          "text": "Aapki video😊bahut acchi hai Wow🤩😲😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊",
+          "likes": 11
+        },
+        {
+          "text": "Real Rich ❌️\nReel Rich✅️",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "해외 복수극",
+      "market": "global",
+      "video_id": "1iuMjV2ghs8",
+      "url": "https://www.youtube.com/shorts/1iuMjV2ghs8",
+      "title": "#Drama The CEO expects interest for playing along with her! 😂❤️#shorts",
+      "channel": "暖溪劇場",
+      "channel_id": "UCq-WBvCWFrk13Qh7rFRIA1Q",
+      "published_at": "2026-11-23T21:27:08Z",
+      "duration_sec": 52,
+      "views": 710589,
+      "likes": 21083,
+      "comments": 45,
+      "description_head": "▶️ Watch Full Episode Here\n\n▶️ Don't miss the viral ending!\n\n⚠ Disclaimer:​ All content is for entertainment. Copyright belongs to respective owners. Please contact us for any removal requests.\n\n💬 Fol",
+      "hashtags": [
+        "#Drama",
+        "#shorts",
+        "#shortdrama",
+        "#fulldrama",
+        "#dramarecap",
+        "#movierecap",
+        "#chinesedrama",
+        "#romancedrama",
+        "#MiaWylie",
+        "#WaylonDorsey",
+        "#JennaSadler",
+        "#DorseyCorp",
+        "#sponsoredStudent",
+        "#threeYearsCaring",
+        "#carAccident"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/1iuMjV2ghs8/hqdefault.jpg",
+      "subscribers": 88100,
+      "view_sub_ratio": 8.1,
+      "velocity": 227552,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "Ook 1o1❤😂Ok 1 look",
+          "likes": 9
+        },
+        {
+          "text": "Sarebbe bellissimo guardare tutto il film ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
+          "likes": 4
+        },
+        {
+          "text": "Naxt part❤❤❤",
+          "likes": 10
+        },
+        {
+          "text": "Beautiful",
+          "likes": 2
+        },
+        {
+          "text": "Part 4 ❤❤",
+          "likes": 4
+        },
+        {
+          "text": "Drama name? Plz",
+          "likes": 9
+        },
+        {
+          "text": "Qual o nome??",
+          "likes": 4
+        },
+        {
+          "text": "အဲလိုလုပ်ဆန်းပါနောက်နေ့လဲထက်တင်ပေးအုံး😍😍😍😍😍",
+          "likes": 2
+        },
+        {
+          "text": "چی شد دلت خواست بدبخت تو سینگلی😅🥲💔🫡",
+          "likes": 3
+        },
+        {
+          "text": "Nome por favor?",
+          "likes": 3
+        }
+      ]
+    },
+    {
+      "genre": "해외 복수극",
+      "market": "global",
+      "video_id": "PmlnIatAMyE",
+      "url": "https://www.youtube.com/shorts/PmlnIatAMyE",
+      "title": "They Shaved His Head as a Prank… Then He Got His Revenge 😳 #shorts #cdrama #dramarecap",
+      "channel": "Narrating K-Dramas",
+      "channel_id": "UC4w0Ilq1V6yknOILdtceyKw",
+      "published_at": "2026-11-22T16:00:24Z",
+      "duration_sec": 176,
+      "views": 577324,
+      "likes": 9835,
+      "comments": 71,
+      "description_head": "His classmates shaved his head to steal his spot for another guy… but they didn't know who they were messing with. #cdrama #dramarecap #shortdrama",
+      "hashtags": [
+        "#shorts",
+        "#cdrama",
+        "#dramarecap",
+        "#shortdrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/PmlnIatAMyE/hqdefault.jpg",
+      "subscribers": 3470,
+      "view_sub_ratio": 166.4,
+      "velocity": 132729,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "with so called friends like this,\nwho needs enemies 🤬",
+          "likes": 28
+        },
+        {
+          "text": "Friends like that who needs enemies",
+          "likes": 2
+        },
+        {
+          "text": "It doesn't matter where you come from or which colour you have it's all about respect",
+          "likes": 10
+        },
+        {
+          "text": "they got what they deserved, and he will never see them again. they may think he is throwing a tantrum but if he was this is the kind that they don't get to see him again for five years, this is what ",
+          "likes": 4
+        },
+        {
+          "text": "Show the dam. Title so people can watch the full video",
+          "likes": 51
+        },
+        {
+          "text": "he did right by dumping her for cheating, she choices another men consequences She got ghosted with the friends.",
+          "likes": 4
+        },
+        {
+          "text": "corni Boys, always remember: if a woman or anyone else loses interest in you, never force yourself into their lives. Know your worth and never beg for someone's attention. Value yourself.",
+          "likes": 4
+        },
+        {
+          "text": "I can't find this exact version but there're other alt versions out there: https://www.youtube.com/watch?v=K2QmbJamqWM",
+          "likes": 38
+        },
+        {
+          "text": "Why do why do they never put the names of these dramas? What’s the reason behind the advertisement? Is it just to tell us a story and not ever research it or something? Cause it’s kind of ridiculous.",
+          "likes": 1
+        },
+        {
+          "text": "Get rid of her.  There not friend .",
+          "likes": 7
+        }
+      ]
+    },
+    {
+      "genre": "해외 복수극",
+      "market": "global",
+      "video_id": "12i6JotRTXA",
+      "url": "https://www.youtube.com/shorts/12i6JotRTXA",
+      "title": "The Mafia Don's XXXL Wife 7 #shorts #drama #dramaclips #fyp #reelshorts",
+      "channel": "Love Reels",
+      "channel_id": "UCI5zJbp0hvtNPH7vfKHtmPQ",
+      "published_at": "2026-11-24T04:00:31Z",
+      "duration_sec": 58,
+      "views": 250773,
+      "likes": 5217,
+      "comments": 22,
+      "description_head": "Continue here: 👇💗\n👉Copy link to visit: https://www.flickreels.net/landing_page/2291506\n👉Or search vpct96 on Flickreels App\n\n1.This content is legally authorized by the copyright owner.  All rights res",
+      "hashtags": [
+        "#shorts",
+        "#drama",
+        "#dramaclips",
+        "#fyp",
+        "#reelshorts",
+        "#movie",
+        "#shortdrama",
+        "#kdrama",
+        "#koreandrama",
+        "#newdrama",
+        "#romantic",
+        "#revenge",
+        "#lovestory",
+        "#mafia",
+        "#CEO"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/12i6JotRTXA/hqdefault.jpg",
+      "subscribers": 345000,
+      "view_sub_ratio": 0.7,
+      "velocity": 88004,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "Good job you are beautiful",
+          "likes": 17
+        },
+        {
+          "text": "Nice like the mini drama🥰🥰👍🏻👍🏻",
+          "likes": 13
+        },
+        {
+          "text": "Really good 👏👏👏💛💛",
+          "likes": 8
+        },
+        {
+          "text": "You were always beautiful, but now you're healthy.Good job❤❤😊",
+          "likes": 2
+        },
+        {
+          "text": "That's not possible in a month's time. 😉",
+          "likes": 2
+        },
+        {
+          "text": "Continue here: 👇💗\n👉Copy link to visit: https://www.flickreels.net/landing_page/2291506\n👉Or search vpct96 on Flickreels App",
+          "likes": 5
+        },
+        {
+          "text": "I liked her better when she was larger, this started out with a large lady it should have stayed that way. there is nothing wrong with larger women.",
+          "likes": 2
+        },
+        {
+          "text": "ENCOR LA SUITE SVP MERCI ❤❤❤❤❤❤😊😊😊😊😊😊😊",
+          "likes": 9
+        },
+        {
+          "text": "Full 🌕🌝 story please 🥺",
+          "likes": 2
+        },
+        {
+          "text": "Próximo episodio",
+          "likes": 7
+        }
+      ]
+    },
+    {
+      "genre": "해외 복수극",
+      "market": "global",
+      "video_id": "0bHl3lM6ZJs",
+      "url": "https://www.youtube.com/shorts/0bHl3lM6ZJs",
+      "title": "#drama Her Uncle Sold Her to a Lab. Ten Years Later, She Escapes and Comes Back for Revenge! 😡🔥",
+      "channel": "映波劇場",
+      "channel_id": "UCvrIgoQyjvrd1S32DZEeQAA",
+      "published_at": "2026-11-22T18:05:19Z",
+      "duration_sec": 60,
+      "views": 248587,
+      "likes": 7503,
+      "comments": 19,
+      "description_head": "❕Check out the full uncut short drama right here! 🎬\n👉 Don’t miss the ending everyone is raving about!\n\n⚠ Disclaimer:\nAll content is purely for entertainment. Copyright belongs to the respective origin",
+      "hashtags": [
+        "#drama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/0bHl3lM6ZJs/hqdefault.jpg",
+      "subscribers": 19700,
+      "view_sub_ratio": 12.6,
+      "velocity": 58314,
+      "velocity_type": "평균",
+      "rank": 5,
+      "top_comments": [
+        {
+          "text": "Drama name please 😊😊😊😊",
+          "likes": 7
+        },
+        {
+          "text": "Drama name please ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
+          "likes": 5
+        },
+        {
+          "text": "Ficou desaparecido um bocado de vez e quando uma vez encontrou seus pais😢 já é forte pega criança ficaram um negócio no pescoço dela fiquei mexer com ela morre todas",
+          "likes": 5
+        },
+        {
+          "text": "Name plis in espanish",
+          "likes": 6
+        },
+        {
+          "text": "Please drama name please please",
+          "likes": 0
+        },
+        {
+          "text": "Phim này tên gì vậy",
+          "likes": 1
+        },
+        {
+          "text": "ကြိုက်တယ်❤❤❤❤❤️",
+          "likes": 0
+        },
+        {
+          "text": "Как называется драма😊😊",
+          "likes": 0
+        },
+        {
+          "text": "Drama name?",
+          "likes": 0
+        },
+        {
+          "text": "Drama name please please please",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 복수극",
+      "market": "global",
+      "video_id": "gDdj0v5tK1Q",
+      "url": "https://www.youtube.com/shorts/gDdj0v5tK1Q",
+      "title": "They Thought I Needed My Rich Family—Until I Showed Them My Own Fortune!",
+      "channel": "CrownedHer",
+      "channel_id": "UCgXyC9sdj-zw8M22lveSljA",
+      "published_at": "2026-11-21T04:00:03Z",
+      "duration_sec": 126,
+      "views": 193157,
+      "likes": 4897,
+      "comments": 53,
+      "description_head": "Real Heiress Refuses To Be A Doormat| EP09\n🎞️Open the ShortMax app to unlock all content.\n\n#ShortMax #ShortDrama #MiniDrama  #Drama #RevengeDrama #FemaleRevenge #BetrayalDrama #FemaleEmpowerment",
+      "hashtags": [
+        "#ShortMax",
+        "#ShortDrama",
+        "#MiniDrama",
+        "#Drama",
+        "#RevengeDrama",
+        "#FemaleRevenge",
+        "#BetrayalDrama",
+        "#FemaleEmpowerment"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/gDdj0v5tK1Q/hqdefault.jpg",
+      "subscribers": 1420,
+      "view_sub_ratio": 136.0,
+      "velocity": 33019,
+      "velocity_type": "평균",
+      "rank": 6,
+      "top_comments": [
+        {
+          "text": "She was kidnapped & searched for real parents & found her mother is wealthier than the family she grew up in. Her mother & her developed a very good relationship. She moved out & up! She also became t",
+          "likes": 9
+        },
+        {
+          "text": "Just when they taught she had no body behind her.  Everything is about minupliting Vivian",
+          "likes": 17
+        },
+        {
+          "text": "Mama Bear is on the hunt!",
+          "likes": 26
+        },
+        {
+          "text": "I would love to see the next part to this please this is really getting good and interesting for adoptive parents have more money then you do and more love and compassion for her",
+          "likes": 21
+        },
+        {
+          "text": "Ending, story where is return daughter no orphan but with family which can shield her.",
+          "likes": 9
+        },
+        {
+          "text": "It's sounds like the Ashfords is in a whole heap of trouble, close to broke😂😂",
+          "likes": 1
+        },
+        {
+          "text": "From American, to British, to American . . &c. \nClearly you don't listen, nor are you in control.",
+          "likes": 4
+        },
+        {
+          "text": "Next part please",
+          "likes": 11
+        },
+        {
+          "text": "Pay back is coming",
+          "likes": 2
+        },
+        {
+          "text": "Good job you don't do people like that good by",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "해외 복수극",
+      "market": "global",
+      "video_id": "VQslL4JkZOg",
+      "url": "https://www.youtube.com/shorts/VQslL4JkZOg",
+      "title": "The Caregiver who Stole the Mafia Don's Heart 2#shorts #drama #dramaclips #fyp #flickreels",
+      "channel": "Love Reels",
+      "channel_id": "UCI5zJbp0hvtNPH7vfKHtmPQ",
+      "published_at": "2026-11-21T11:27:14Z",
+      "duration_sec": 58,
+      "views": 144629,
+      "likes": 3507,
+      "comments": 33,
+      "description_head": "Continue here: 👇💗\n👉Copy link to visit: https://www.flickreels.net/landing_page/2306209\n👉Or search ebfz12 on Flickreels App\n\n1.This content is legally authorized by the copyright owner.  All rights res",
+      "hashtags": [
+        "#shorts",
+        "#drama",
+        "#dramaclips",
+        "#fyp",
+        "#flickreels",
+        "#movie",
+        "#shortdrama",
+        "#kdrama",
+        "#koreandrama",
+        "#newdrama",
+        "#romantic",
+        "#revenge",
+        "#lovestory",
+        "#mafia",
+        "#CEO"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/VQslL4JkZOg/hqdefault.jpg",
+      "subscribers": 345000,
+      "view_sub_ratio": 0.4,
+      "velocity": 26109,
+      "velocity_type": "평균",
+      "rank": 7,
+      "top_comments": [
+        {
+          "text": "Funny she starving she swallowed spaghetti so fast n older women accepted her",
+          "likes": 31
+        },
+        {
+          "text": "The two ladies had to prove something to each other!! Guess both were ok!",
+          "likes": 9
+        },
+        {
+          "text": "Marriage Agreement!!  No way!!",
+          "likes": 9
+        },
+        {
+          "text": "I loved this series it was good. Male Lead mom is hilarious 😂 😃 😁 😂",
+          "likes": 15
+        },
+        {
+          "text": "Wow. That girl must be starving.",
+          "likes": 10
+        },
+        {
+          "text": "I watch this 3 times. Made me chuckle 3 times",
+          "likes": 17
+        },
+        {
+          "text": "The noise....",
+          "likes": 8
+        },
+        {
+          "text": "Visa din beslut om detta händelsen! Vi väntar på svar från nästa video !",
+          "likes": 5
+        },
+        {
+          "text": "Next part please ❤",
+          "likes": 13
+        },
+        {
+          "text": "Please  next  episode   my first time  a  mother  I think is  satisfied  with a young lady",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "해외 복수극",
+      "market": "global",
+      "video_id": "q2M_qYHREDs",
+      "url": "https://www.youtube.com/shorts/q2M_qYHREDs",
+      "title": "#Drama The CEO docked her pay, so she spread rumors about him! 😂#shorts",
+      "channel": "暖溪劇場",
+      "channel_id": "UCq-WBvCWFrk13Qh7rFRIA1Q",
+      "published_at": "2026-11-26T06:47:26Z",
+      "duration_sec": 57,
+      "views": 144459,
+      "likes": 4542,
+      "comments": 7,
+      "description_head": "▶️ Watch Full Episode Here\n\n▶️ Don't miss the viral ending!\n\n⚠ Disclaimer:​ All content is for entertainment. Copyright belongs to respective owners. Please contact us for any removal requests.\n\n💬 Fol",
+      "hashtags": [
+        "#Drama",
+        "#shorts",
+        "#shortdrama",
+        "#fulldrama",
+        "#dramarecap",
+        "#movierecap",
+        "#chinesedrama",
+        "#romancedrama",
+        "#MiaWylie",
+        "#WaylonDorsey",
+        "#JennaSadler",
+        "#DorseyCorp",
+        "#sponsoredStudent",
+        "#threeYearsCaring",
+        "#carAccident"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/q2M_qYHREDs/hqdefault.jpg",
+      "subscribers": 88100,
+      "view_sub_ratio": 1.6,
+      "velocity": 196904,
+      "velocity_type": "평균",
+      "rank": 8,
+      "top_comments": [
+        {
+          "text": "Title pls",
+          "likes": 3
+        },
+        {
+          "text": "Drama name😊",
+          "likes": 3
+        },
+        {
+          "text": "❤️",
+          "likes": 0
+        },
+        {
+          "text": "❤❤❤❤😂😂😂",
+          "likes": 0
+        },
+        {
+          "text": "😂😂😂😂🎉🎉🎉🎉😮😮😊😊",
+          "likes": 0
+        },
+        {
+          "text": "❤",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 복수극",
+      "market": "global",
+      "video_id": "2idQBs9T2Pc",
+      "url": "https://www.youtube.com/shorts/2idQBs9T2Pc",
+      "title": "I Called the Mafia Don to Find My Son 8 #shorts #drama #dramaclips #fyp #flickreels",
+      "channel": "Love Reels",
+      "channel_id": "UCI5zJbp0hvtNPH7vfKHtmPQ",
+      "published_at": "2026-11-21T11:07:19Z",
+      "duration_sec": 47,
+      "views": 143742,
+      "likes": 2568,
+      "comments": 11,
+      "description_head": "Continue here: 👇💗\n👉Copy link to visit: https://www.flickreels.net/landing_page/2244849\n👉Or search kpql85 on Flickreels App\n\n1.This content is legally authorized by the copyright owner.  All rights res",
+      "hashtags": [
+        "#shorts",
+        "#drama",
+        "#dramaclips",
+        "#fyp",
+        "#flickreels",
+        "#movie",
+        "#shortdrama",
+        "#kdrama",
+        "#koreandrama",
+        "#newdrama",
+        "#romantic",
+        "#revenge",
+        "#lovestory",
+        "#mafia",
+        "#CEO"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/2idQBs9T2Pc/hqdefault.jpg",
+      "subscribers": 345000,
+      "view_sub_ratio": 0.4,
+      "velocity": 25885,
+      "velocity_type": "평균",
+      "rank": 9,
+      "top_comments": [
+        {
+          "text": "Danta is a true solid very protective and caring. Really good guy",
+          "likes": 6
+        },
+        {
+          "text": "A man of few words but powerful 👏",
+          "likes": 2
+        },
+        {
+          "text": "Show full story or tell us were to find it please.",
+          "likes": 6
+        },
+        {
+          "text": "Continue here: 👇💗\n👉Copy link to visit: https://www.flickreels.net/landing_page/2244849\n👉Or search kpql85 on Flickreels App",
+          "likes": 6
+        },
+        {
+          "text": "this drama one is so entertaining",
+          "likes": 0
+        },
+        {
+          "text": "Next pleade",
+          "likes": 1
+        },
+        {
+          "text": "❤❤❤",
+          "likes": 3
+        },
+        {
+          "text": "Dante❤🔥🔥",
+          "likes": 0
+        },
+        {
+          "text": "❤🎉😂",
+          "likes": 0
+        },
+        {
+          "text": "❤❤",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "해외 복수극",
+      "market": "global",
+      "video_id": "tDLckyRFBUQ",
+      "url": "https://www.youtube.com/shorts/tDLckyRFBUQ",
+      "title": "#Drama My ex is sabotaging my new relationship! 😈💔#shorts",
+      "channel": "暖溪劇場",
+      "channel_id": "UCq-WBvCWFrk13Qh7rFRIA1Q",
+      "published_at": "2026-11-20T23:18:06Z",
+      "duration_sec": 58,
+      "views": 142327,
+      "likes": 4107,
+      "comments": 7,
+      "description_head": "▶️ Watch Full Episode Here\n\n▶️ Don't miss the viral ending!\n\n⚠ Disclaimer:​ All content is for entertainment. Copyright belongs to respective owners. Please contact us for any removal requests.\n\n💬 Fol",
+      "hashtags": [
+        "#Drama",
+        "#shorts",
+        "#shortdrama",
+        "#fulldrama",
+        "#dramarecap",
+        "#movierecap",
+        "#chinesedrama",
+        "#romancedrama",
+        "#MiaWylie",
+        "#WaylonDorsey",
+        "#JennaSadler",
+        "#DorseyCorp",
+        "#sponsoredStudent",
+        "#threeYearsCaring",
+        "#carAccident"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/tDLckyRFBUQ/hqdefault.jpg",
+      "subscribers": 88100,
+      "view_sub_ratio": 1.6,
+      "velocity": 23542,
+      "velocity_type": "평균",
+      "rank": 10,
+      "top_comments": [
+        {
+          "text": "Drama name please please please please please please please please please please please please please please please 🥺",
+          "likes": 3
+        },
+        {
+          "text": "Drama name pleaseeeee😢❤😢❤😢❤❤😢❤😢",
+          "likes": 2
+        },
+        {
+          "text": "❤❤❤❤❤❤❤❤❤❤❤",
+          "likes": 1
+        },
+        {
+          "text": "Como se llama porfavor",
+          "likes": 1
+        },
+        {
+          "text": "❤❤❤😮😮",
+          "likes": 0
+        },
+        {
+          "text": "Drama name please please please please please please please please please please please please please please please 🥺",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "해외 회귀·환생",
+      "market": "global",
+      "video_id": "wahiz_aR7lo",
+      "url": "https://www.youtube.com/shorts/wahiz_aR7lo",
+      "title": "Her revenge era is coming | The remarried empress #kdrama #revengestory #leejongsuk #shorts",
+      "channel": "Dramaditzz",
+      "channel_id": "UC1jyPOC44Y1zNynzhXXmalA",
+      "published_at": "2026-11-20T08:43:52Z",
+      "duration_sec": 23,
+      "views": 704471,
+      "likes": 21311,
+      "comments": 82,
+      "description_head": "The remarried empress \nkdrama \n\n#shinminah #kdramaactress #plot #aura #shortsviral #kdramascenes #trailer",
+      "hashtags": [
+        "#kdrama",
+        "#revengestory",
+        "#leejongsuk",
+        "#shorts",
+        "#shinminah",
+        "#kdramaactress",
+        "#plot",
+        "#aura",
+        "#shortsviral",
+        "#kdramascenes",
+        "#trailer"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/wahiz_aR7lo/hqdefault.jpg",
+      "subscribers": 83800,
+      "view_sub_ratio": 8.4,
+      "velocity": 105891,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "It needs 16 episodes so badly \nHeirney and navier should have some more romantic and cute moments together😊❤",
+          "likes": 608
+        },
+        {
+          "text": "Finally the revenge arc is here 😭❤️ but it’s also the end AHHHHH",
+          "likes": 286
+        },
+        {
+          "text": "I love seeing him begging.",
+          "likes": 184
+        },
+        {
+          "text": "Sovieshu was to disrespectfull and arrogant he derserved all this😂",
+          "likes": 12
+        },
+        {
+          "text": "The revenge gonna be so satisfying to see,  can't wait for it",
+          "likes": 46
+        },
+        {
+          "text": "This drama is so good. The cast, location and costumes are superb. I would say this is probably the most expensive drama ever",
+          "likes": 19
+        },
+        {
+          "text": "The way im struggling, but im waiting for it to all come out before i binge😅😅😅",
+          "likes": 29
+        },
+        {
+          "text": "It's sooo satisfying to seee their downfall 📉 🤩🤩🤩🤩",
+          "likes": 28
+        },
+        {
+          "text": "What revenge😂😂😂. She wont take any revenge in the webtoon. She just moves on with her new life, ITS HEINREY WHO WILL TAKE REVENGE AND DESTROYS RASHTA, SOVIESHU AND EASTERN EMPIRE",
+          "likes": 18
+        },
+        {
+          "text": "Can't wait for this arc of our dear Empress Navier after seeing that sickening Rashta and Sovieshu frolic fest",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "해외 회귀·환생",
+      "market": "global",
+      "video_id": "PboBhwZI8E8",
+      "url": "https://www.youtube.com/shorts/PboBhwZI8E8",
+      "title": "दोबारा जन्म लेकर उसने दोस्त के दिए दस्ताने फेंक दिए! 😱 #shorts",
+      "channel": "AZexplain",
+      "channel_id": "UCHgkdrtWbLnfnN-Djvyk9Vg",
+      "published_at": "2026-11-20T12:31:24Z",
+      "duration_sec": 171,
+      "views": 477577,
+      "likes": 0,
+      "comments": 13,
+      "description_head": "After being betrayed by his best friend, Chen Weiguo gets a second chance at life. In his previous life, a pair of leather gloves brought him nothing but misery, while his best friend Zhao Qiang secre",
+      "hashtags": [
+        "#shorts",
+        "#ChineseDrama",
+        "#DramaExplained",
+        "#HindiExplanation",
+        "#RebirthStory",
+        "#RevengeDrama",
+        "#ChineseDramaRecap",
+        "#AZExplain"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/PboBhwZI8E8/hqdefault.jpg",
+      "subscribers": 80100,
+      "view_sub_ratio": 6.0,
+      "velocity": 73532,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "Nice bahut acha video hae ❤❤❤❤❤❤❤❤sandar video hae next part please",
+          "likes": 10
+        },
+        {
+          "text": "Next part",
+          "likes": 5
+        },
+        {
+          "text": "Drama name",
+          "likes": 1
+        },
+        {
+          "text": "Next Part Please",
+          "likes": 1
+        },
+        {
+          "text": "Next part plz plz",
+          "likes": 0
+        },
+        {
+          "text": "❤",
+          "likes": 4
+        },
+        {
+          "text": "Please reply me",
+          "likes": 3
+        },
+        {
+          "text": "❤❤❤❤🎉",
+          "likes": 0
+        },
+        {
+          "text": "😮😮😮😮",
+          "likes": 0
+        },
+        {
+          "text": "😂❤😂😂❤❤❤❤",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 회귀·환생",
+      "market": "global",
+      "video_id": "_oqoToNKvVw",
+      "url": "https://www.youtube.com/shorts/_oqoToNKvVw",
+      "title": "#Drama   Reborn for revenge. #shorts",
+      "channel": "晨曦劇場",
+      "channel_id": "UCZuY_CELKNGZwavaE_z2n2A",
+      "published_at": "2026-11-21T09:37:18Z",
+      "duration_sec": 32,
+      "views": 40145,
+      "likes": 1324,
+      "comments": 1,
+      "description_head": "⚠ Disclaimer:​ All content is for entertainment. Copyright belongs to respective owners. Please contact us for any removal requests.\n\n📝 Story Synopsis:​ A love story worth bingeing — read the full sco",
+      "hashtags": [
+        "#Drama",
+        "#shorts",
+        "#ShortDrama",
+        "#MiniSeries",
+        "#ChineseDrama",
+        "#DramaShorts",
+        "#RomanceDrama",
+        "#EnglishDrama",
+        "#Shirley",
+        "#Sandra",
+        "#Sean",
+        "#QuillYale",
+        "#AdoptiveSister",
+        "#Betrayed",
+        "#LostParents"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/_oqoToNKvVw/hqdefault.jpg",
+      "subscribers": 16500,
+      "view_sub_ratio": 2.4,
+      "velocity": 7149,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "Whats the name of the drama? 🫶",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "해외 회귀·환생",
+      "market": "global",
+      "video_id": "_AWyQZvhd5I",
+      "url": "https://www.youtube.com/shorts/_AWyQZvhd5I",
+      "title": "#drama Betrayed By Her Husband And His Friend, She Reborn With A Revenge System #shorts",
+      "channel": "DramaFlow",
+      "channel_id": "UCdy-b9LRlqC683x5vCo6-ow",
+      "published_at": "2026-11-25T08:00:16Z",
+      "duration_sec": 38,
+      "views": 34808,
+      "likes": 1014,
+      "comments": 5,
+      "description_head": "👉 Watch the complete unfiltered short drama exclusively on our channel! 🎬\n👉 No clipped scenes — enjoy the whole story!\n\n📝 Story Synopsis:Ava Lane's husband, Trevor Gray, has a suspiciously close relat",
+      "hashtags": [
+        "#drama",
+        "#shorts",
+        "#ChineseShortDrama",
+        "#RebornDrama",
+        "#SystemRevenge",
+        "#FemaleLeadRevenge",
+        "#ToxicMarriage",
+        "#RevengeDrama",
+        "#WebShortDrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/_AWyQZvhd5I/hqdefault.jpg",
+      "subscribers": 13900,
+      "view_sub_ratio": 2.5,
+      "velocity": 20681,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "🔥 Can't get enough of great dramas? Follow the link in our channel description and see what's waiting!",
+          "likes": 2
+        },
+        {
+          "text": "เลวมีผู้หญิงอื่นละยังมาทำเป็นหมาหวงก้างอีกแล้ววยังทำร้ายนางเอกอีกยังมีความเป็นคนอยู่ไหมหรือเป็นหมาหมด",
+          "likes": 1
+        },
+        {
+          "text": "❤❤😢❤",
+          "likes": 2
+        },
+        {
+          "text": "❤❤❤❤❤❤❤❤❤",
+          "likes": 1
+        },
+        {
+          "text": "😂",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "해외 신분 반전",
+      "market": "global",
+      "video_id": "IalRY7glSc0",
+      "url": "https://www.youtube.com/shorts/IalRY7glSc0",
+      "title": "The Hidden Billionaire Reclaims All",
+      "channel": "DramaWave - Dramas & Reels",
+      "channel_id": "UC_hRrpo7A9MpCr9D28BIZRw",
+      "published_at": "2026-11-22T01:00:00Z",
+      "duration_sec": 75,
+      "views": 49640,
+      "likes": 1395,
+      "comments": 18,
+      "description_head": "📺 The Hidden Billionaire Reclaims All - Episode 40\n\n#dramawave #shortdrama #drama #newdrama #hotdrama",
+      "hashtags": [
+        "#dramawave",
+        "#shortdrama",
+        "#drama",
+        "#newdrama",
+        "#hotdrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/IalRY7glSc0/hqdefault.jpg",
+      "subscribers": 7210000,
+      "view_sub_ratio": 0.0,
+      "velocity": 9978,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "He just proved that money is not an excuse for treating people badly.",
+          "likes": 0
+        },
+        {
+          "text": "i assume this is the finale ?",
+          "likes": 3
+        },
+        {
+          "text": "WOW",
+          "likes": 4
+        },
+        {
+          "text": "Magnificent 👏👏👏💛💛",
+          "likes": 0
+        },
+        {
+          "text": "Next please I'm his fans follower my idol Jay Harrington s Family",
+          "likes": 1
+        },
+        {
+          "text": "Now they will get what they deserve.",
+          "likes": 1
+        },
+        {
+          "text": "Justice serve in my book",
+          "likes": 0
+        },
+        {
+          "text": "Next please",
+          "likes": 0
+        },
+        {
+          "text": "Siguiente capítulo por favor",
+          "likes": 0
+        },
+        {
+          "text": "Definitely deserved that punishment 😂😂😂😂😂😂😂😂😂😂😂arrogant lady",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "해외 신분 반전",
+      "market": "global",
+      "video_id": "sG3Zi3UZDUY",
+      "url": "https://www.youtube.com/shorts/sG3Zi3UZDUY",
+      "title": "The Hidden Billionaire Reclaims All",
+      "channel": "DramaWave - Dramas & Reels",
+      "channel_id": "UC_hRrpo7A9MpCr9D28BIZRw",
+      "published_at": "2026-11-20T02:00:25Z",
+      "duration_sec": 82,
+      "views": 44829,
+      "likes": 1114,
+      "comments": 14,
+      "description_head": "📺 The Hidden Billionaire Reclaims All - Episode 38\n\n#dramawave #shortdrama #drama #newdrama #hotdrama",
+      "hashtags": [
+        "#dramawave",
+        "#shortdrama",
+        "#drama",
+        "#newdrama",
+        "#hotdrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/sG3Zi3UZDUY/hqdefault.jpg",
+      "subscribers": 7210000,
+      "view_sub_ratio": 0.0,
+      "velocity": 6466,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "They both need to be held accountable all the way to prison .",
+          "likes": 3
+        },
+        {
+          "text": "She deserves what going to happen to her next 💛💛",
+          "likes": 2
+        },
+        {
+          "text": "She's the one going to get her pay back.",
+          "likes": 1
+        },
+        {
+          "text": "😮😮😮see you ooo humm thanks for the next part",
+          "likes": 0
+        },
+        {
+          "text": "Mi lub it🇯🇲",
+          "likes": 0
+        },
+        {
+          "text": "Lock them both up , 😮😮😮",
+          "likes": 1
+        },
+        {
+          "text": "THE SHAMELESS BLAME GAME CONTINUES BETWEEN THE BOTH OF THEM. TOTALLY ENTERTAINING.😂😂😂😂😂😂😂",
+          "likes": 0
+        },
+        {
+          "text": "Next part please",
+          "likes": 0
+        },
+        {
+          "text": "Next please the action time😮",
+          "likes": 0
+        },
+        {
+          "text": "Hahahaha!😂😂😂",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "해외 신분 반전",
+      "market": "global",
+      "video_id": "btnKJlsg0DI",
+      "url": "https://www.youtube.com/shorts/btnKJlsg0DI",
+      "title": "Plot twist the secret billionaire is him 🤯",
+      "channel": "BLReelEN",
+      "channel_id": "UCbBJ-k9ahCPwJxYyGL35nzw",
+      "published_at": "2026-11-24T14:00:32Z",
+      "duration_sec": 33,
+      "views": 33363,
+      "likes": 804,
+      "comments": 5,
+      "description_head": "#iQIYI #TheManBehindR #shorts #trending #shortdrama #hotdrama #ceo #sweetwife #cinderella #marriage #cutebaby #revenge #lovereversal #enemiestolovers #forbiddenlove #forcedlove #BLdrama #BLseries #boy",
+      "hashtags": [
+        "#iQIYI",
+        "#TheManBehindR",
+        "#shorts",
+        "#trending",
+        "#shortdrama",
+        "#hotdrama",
+        "#ceo",
+        "#sweetwife",
+        "#cinderella",
+        "#marriage",
+        "#cutebaby",
+        "#revenge",
+        "#lovereversal",
+        "#enemiestolovers",
+        "#forbiddenlove"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/btnKJlsg0DI/hqdefault.jpg",
+      "subscribers": 11300,
+      "view_sub_ratio": 3.0,
+      "velocity": 13713,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "I did not see that twist coming at all — the way he played it so calmly made the reveal even better.",
+          "likes": 3
+        },
+        {
+          "text": "It wont be fine 😂",
+          "likes": 2
+        },
+        {
+          "text": "Name please",
+          "likes": 3
+        },
+        {
+          "text": "😊😊😊😊😊😊😊😊😊😊😊😊😊😊",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 신분 반전",
+      "market": "global",
+      "video_id": "Is6huo_r_h8",
+      "url": "https://www.youtube.com/shorts/Is6huo_r_h8",
+      "title": "The Hidden Billionaire Reclaims All",
+      "channel": "DramaWave - Dramas & Reels",
+      "channel_id": "UC_hRrpo7A9MpCr9D28BIZRw",
+      "published_at": "2026-11-21T01:00:09Z",
+      "duration_sec": 66,
+      "views": 29443,
+      "likes": 828,
+      "comments": 7,
+      "description_head": "📺 The Hidden Billionaire Reclaims All - Episode 39\n\n#dramawave #shortdrama #drama #newdrama #hotdrama",
+      "hashtags": [
+        "#dramawave",
+        "#shortdrama",
+        "#drama",
+        "#newdrama",
+        "#hotdrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Is6huo_r_h8/hqdefault.jpg",
+      "subscribers": 7210000,
+      "view_sub_ratio": 0.0,
+      "velocity": 4928,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "Lock her up and throw away the key😂",
+          "likes": 3
+        },
+        {
+          "text": "Well that finished her freedom 😊",
+          "likes": 4
+        },
+        {
+          "text": "😮😮😮😮 thanks for the next part ❤",
+          "likes": 1
+        },
+        {
+          "text": "WOW 🤯 🤔💯💯💯😳🤑🤑🤑",
+          "likes": 2
+        },
+        {
+          "text": "Para Colombia en español",
+          "likes": 2
+        },
+        {
+          "text": "She is so evil.",
+          "likes": 1
+        },
+        {
+          "text": "👏👏👏👏👏👏👏👏👏👏👏💛💛",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 계약 로맨스",
+      "market": "global",
+      "video_id": "9WthMTsfat4",
+      "url": "https://www.youtube.com/shorts/9WthMTsfat4",
+      "title": "Period Pain Mein Office Aayi?! 😱 | Contract Pyaar Ka #shorts",
+      "channel": "Nesa Film",
+      "channel_id": "UCmH8YTE_PenCwMg2C4HiqWQ",
+      "published_at": "2026-11-23T11:25:26Z",
+      "duration_sec": 41,
+      "views": 137979,
+      "likes": 0,
+      "comments": 10,
+      "description_head": "Period pain mein tiffin lekar office aayi Navya aur Rishi ki teekhi nok-jhok, chhupi fikar aur attitude exit—Contract Pyaar Ka by Nesa Film.\n\nAgla part miss mat karna! Comment mein batao aapko Rishi a",
+      "hashtags": [
+        "#shorts",
+        "#ContractPyaarKa",
+        "#NesaFilm",
+        "#HindiAnime",
+        "#2DAnimation",
+        "#ContractMarriage",
+        "#RomanticNokJhok",
+        "#HindiDrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/9WthMTsfat4/hqdefault.jpg",
+      "subscribers": 8670,
+      "view_sub_ratio": 15.9,
+      "velocity": 38971,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "Itna carring husband ❤❤",
+          "likes": 3
+        },
+        {
+          "text": "❤❤❤nice couple ❤❤❤❤",
+          "likes": 1
+        },
+        {
+          "text": "Intresting ❤❤",
+          "likes": 2
+        },
+        {
+          "text": "❤❤❤",
+          "likes": 1
+        },
+        {
+          "text": "😂😂😂😂",
+          "likes": 1
+        },
+        {
+          "text": "❤❤❤ nice couple ❤",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "해외 계약 로맨스",
+      "market": "global",
+      "video_id": "WS7ziw8jszM",
+      "url": "https://www.youtube.com/shorts/WS7ziw8jszM",
+      "title": "Contract Marriage 💍{Episode -26} ✨ Dev ❤️ Avni  #hindilovestory #romanticdrama #contractmarriage",
+      "channel": "Liza Ai Studio ",
+      "channel_id": "UCQTxM9bpRzWk358Pbwa3Gxg",
+      "published_at": "2026-11-22T08:31:39Z",
+      "duration_sec": 43,
+      "views": 106589,
+      "likes": 2589,
+      "comments": 9,
+      "description_head": "",
+      "hashtags": [
+        "#hindilovestory",
+        "#romanticdrama",
+        "#contractmarriage"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/WS7ziw8jszM/hqdefault.jpg",
+      "subscribers": 10900,
+      "view_sub_ratio": 9.8,
+      "velocity": 22867,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "Please next post",
+          "likes": 2
+        },
+        {
+          "text": "Please please please please please please please please please please next part",
+          "likes": 1
+        },
+        {
+          "text": "Next part dan please 🙏",
+          "likes": 1
+        },
+        {
+          "text": "Next p",
+          "likes": 1
+        },
+        {
+          "text": "❤❤❤❤❤❤❤❤❤❤❤",
+          "likes": 1
+        },
+        {
+          "text": "😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊",
+          "likes": 1
+        },
+        {
+          "text": "😊😊😊😊😊😊😊❤❤❤❤👌👌👌👌👍👍👍👍👏👏👏👏👏🥹Next part please jaldi 🙏 🎉🎉🎉🎉❤❤❤❤",
+          "likes": 1
+        },
+        {
+          "text": "Next p",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "해외 계약 로맨스",
+      "market": "global",
+      "video_id": "ZUJqT-3On8Q",
+      "url": "https://www.youtube.com/shorts/ZUJqT-3On8Q",
+      "title": "Contract Marriage 💍{Episode -31} ✨ Dev ❤️ Avni  #hindilovestory #romanticdrama #contractmarriage",
+      "channel": "Liza Ai Studio ",
+      "channel_id": "UCQTxM9bpRzWk358Pbwa3Gxg",
+      "published_at": "2026-11-23T12:55:12Z",
+      "duration_sec": 39,
+      "views": 91548,
+      "likes": 2196,
+      "comments": 14,
+      "description_head": "",
+      "hashtags": [
+        "#hindilovestory",
+        "#romanticdrama",
+        "#contractmarriage"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ZUJqT-3On8Q/hqdefault.jpg",
+      "subscribers": 10900,
+      "view_sub_ratio": 8.4,
+      "velocity": 26320,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "Next part please jaldi 🙏 🎉🎉❤❤🎉🎉❤❤",
+          "likes": 2
+        },
+        {
+          "text": "Next part plzzz",
+          "likes": 3
+        },
+        {
+          "text": "Next part plzz❤❤❤❤❤❤",
+          "likes": 3
+        },
+        {
+          "text": "❤️❤❤❤❤❤❤❤🎉🎉🎉🎉🎉🎉",
+          "likes": 2
+        },
+        {
+          "text": "🥰🥰",
+          "likes": 1
+        },
+        {
+          "text": "Ap aise vedio kaise generate krte ho mtlb itna realistic face please reply",
+          "likes": 1
+        },
+        {
+          "text": "❤️",
+          "likes": 0
+        },
+        {
+          "text": "Shayad se inki mehandi bhi 6 mahine tak rahigi",
+          "likes": 0
+        },
+        {
+          "text": "Next part plzzz",
+          "likes": 3
+        },
+        {
+          "text": "Next part please",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "해외 계약 로맨스",
+      "market": "global",
+      "video_id": "vXG2oWNZj58",
+      "url": "https://www.youtube.com/shorts/vXG2oWNZj58",
+      "title": "Contract Marriage 💍{Episode -15} ✨ Dev ❤️ Avni  #hindilovestory #romanticdrama #contractmarriage",
+      "channel": "Liza Ai Studio ",
+      "channel_id": "UCQTxM9bpRzWk358Pbwa3Gxg",
+      "published_at": "2026-11-20T04:23:59Z",
+      "duration_sec": 42,
+      "views": 83510,
+      "likes": 1970,
+      "comments": 3,
+      "description_head": "",
+      "hashtags": [
+        "#hindilovestory",
+        "#romanticdrama",
+        "#contractmarriage"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/vXG2oWNZj58/hqdefault.jpg",
+      "subscribers": 10900,
+      "view_sub_ratio": 7.7,
+      "velocity": 12221,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "Please next episode",
+          "likes": 1
+        },
+        {
+          "text": "Please next part 2",
+          "likes": 1
+        },
+        {
+          "text": "❤❤❤❤️",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 계약 로맨스",
+      "market": "global",
+      "video_id": "519CSOMiOzU",
+      "url": "https://www.youtube.com/shorts/519CSOMiOzU",
+      "title": "Contract Marriage 💍{Episode -21} ✨ Dev ❤️ Avni  #hindilovestory #romanticdrama #contractmarriage",
+      "channel": "Liza Ai Studio ",
+      "channel_id": "UCQTxM9bpRzWk358Pbwa3Gxg",
+      "published_at": "2026-11-21T13:55:54Z",
+      "duration_sec": 42,
+      "views": 81384,
+      "likes": 2002,
+      "comments": 8,
+      "description_head": "",
+      "hashtags": [
+        "#hindilovestory",
+        "#romanticdrama",
+        "#contractmarriage"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/519CSOMiOzU/hqdefault.jpg",
+      "subscribers": 10900,
+      "view_sub_ratio": 7.5,
+      "velocity": 14971,
+      "velocity_type": "평균",
+      "rank": 5,
+      "top_comments": [
+        {
+          "text": "Next part please ❤❤❤",
+          "likes": 2
+        },
+        {
+          "text": "Next part please jaldi 🙏 🎉❤🎉❤",
+          "likes": 1
+        },
+        {
+          "text": "Next part plzzz",
+          "likes": 1
+        },
+        {
+          "text": "Very nice",
+          "likes": 1
+        },
+        {
+          "text": "❤️❤❤❤❤❤🎉🎉🎉🎉🎉",
+          "likes": 1
+        },
+        {
+          "text": "Please 🥺",
+          "likes": 1
+        },
+        {
+          "text": "Next part please ❤❤❤❤❤❤❤",
+          "likes": 1
+        },
+        {
+          "text": "Next part please ❤❤❤",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "해외 계약 로맨스",
+      "market": "global",
+      "video_id": "Vt18Vd4x_mg",
+      "url": "https://www.youtube.com/shorts/Vt18Vd4x_mg",
+      "title": "Part-04 अनजान लड़की से कॉन्ट्रैक्ट मैरिज तक का सफर💍❤️ #chinesedrama #lovestory #shortdrama",
+      "channel": "Short drama clip",
+      "channel_id": "UCfvGH3BZBQg-Oii1mLLqX_w",
+      "published_at": "2026-11-22T11:17:20Z",
+      "duration_sec": 175,
+      "views": 73808,
+      "likes": 3301,
+      "comments": 80,
+      "description_head": "पति का प्यार जीतने चली बचपन की प्रेमिका, लेकिन पत्नी को छोड़ने की बजाय सीईओ ने ऐसा फैसला लिया कि सब हैरान रह गए। ❤️💔\n#ShortDrama #HindiDrama #CEOStory #LoveStory #ChineseDrama",
+      "hashtags": [
+        "#chinesedrama",
+        "#lovestory",
+        "#shortdrama",
+        "#ShortDrama",
+        "#HindiDrama",
+        "#CEOStory",
+        "#LoveStory",
+        "#ChineseDrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Vt18Vd4x_mg/hqdefault.jpg",
+      "subscribers": 285000,
+      "view_sub_ratio": 0.3,
+      "velocity": 16235,
+      "velocity_type": "평균",
+      "rank": 6,
+      "top_comments": [
+        {
+          "text": "Part-05 upload ho chuka hai jakar dekh lo..😊",
+          "likes": 1
+        },
+        {
+          "text": "Next art please",
+          "likes": 3
+        },
+        {
+          "text": "next part please ❤❤❤❤❤❤❤❤❤❤❤❤❤",
+          "likes": 2
+        },
+        {
+          "text": "Part 5,🌹🌹🌹",
+          "likes": 2
+        },
+        {
+          "text": "Part 5 ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
+          "likes": 1
+        },
+        {
+          "text": "❤❤❤❤😢😢😊😊😊",
+          "likes": 1
+        },
+        {
+          "text": "❤❤",
+          "likes": 1
+        },
+        {
+          "text": "Next part 2 please❤️❤️❤️🥺",
+          "likes": 0
+        },
+        {
+          "text": "🌹🌹",
+          "likes": 1
+        },
+        {
+          "text": "Ful moovi❤❤❤❤❤❤❤❤",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "해외 계약 로맨스",
+      "market": "global",
+      "video_id": "pOXYWeWyo0A",
+      "url": "https://www.youtube.com/shorts/pOXYWeWyo0A",
+      "title": "Part-05 अनजान लड़की से कॉन्ट्रैक्ट मैरिज तक का सफर💍❤️ #chinesedrama #lovestory #shortdrama",
+      "channel": "Short drama clip",
+      "channel_id": "UCfvGH3BZBQg-Oii1mLLqX_w",
+      "published_at": "2026-11-24T13:29:26Z",
+      "duration_sec": 151,
+      "views": 73110,
+      "likes": 3440,
+      "comments": 75,
+      "description_head": "अपनी पत्नी को खोने के डर से सीईओ ने एयरपोर्ट पर किया प्यार का इज़हार, लेकिन अपने ही भाई की साजिश ने सब कुछ बदल दिया! ❤️💍😱\n\n#LoveStory #CEOStory #RomanticDrama #HindiDrama #ShortDrama",
+      "hashtags": [
+        "#chinesedrama",
+        "#lovestory",
+        "#shortdrama",
+        "#LoveStory",
+        "#CEOStory",
+        "#RomanticDrama",
+        "#HindiDrama",
+        "#ShortDrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/pOXYWeWyo0A/hqdefault.jpg",
+      "subscribers": 285000,
+      "view_sub_ratio": 0.3,
+      "velocity": 29786,
+      "velocity_type": "평균",
+      "rank": 7,
+      "top_comments": [
+        {
+          "text": "1st❤",
+          "likes": 1
+        },
+        {
+          "text": "Nex part 🖤",
+          "likes": 1
+        },
+        {
+          "text": "Next part plz",
+          "likes": 2
+        },
+        {
+          "text": "❤❤❤ please Next part",
+          "likes": 1
+        },
+        {
+          "text": "Black  heart 🖤  part 2",
+          "likes": 1
+        },
+        {
+          "text": "Next part please ❤❤",
+          "likes": 0
+        },
+        {
+          "text": "next part please ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤",
+          "likes": 2
+        },
+        {
+          "text": "Final part 🖤🖤❤️❤️",
+          "likes": 0
+        },
+        {
+          "text": "Please next part 2",
+          "likes": 0
+        },
+        {
+          "text": "Next part..",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 계약 로맨스",
+      "market": "global",
+      "video_id": "xnR101iGuNI",
+      "url": "https://www.youtube.com/shorts/xnR101iGuNI",
+      "title": "Contract Marriage 💍{Episode -29} ✨ Dev ❤️ Avni  #hindilovestory #romanticdrama #contractmarriage",
+      "channel": "Liza Ai Studio ",
+      "channel_id": "UCQTxM9bpRzWk358Pbwa3Gxg",
+      "published_at": "2026-11-22T19:07:09Z",
+      "duration_sec": 43,
+      "views": 71967,
+      "likes": 1907,
+      "comments": 11,
+      "description_head": "",
+      "hashtags": [
+        "#hindilovestory",
+        "#romanticdrama",
+        "#contractmarriage"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/xnR101iGuNI/hqdefault.jpg",
+      "subscribers": 10900,
+      "view_sub_ratio": 6.6,
+      "velocity": 17054,
+      "velocity_type": "평균",
+      "rank": 8,
+      "top_comments": [
+        {
+          "text": "Hi❤️",
+          "likes": 1
+        },
+        {
+          "text": "❤❤",
+          "likes": 1
+        },
+        {
+          "text": "Next part dan please",
+          "likes": 0
+        },
+        {
+          "text": "😂😂😂😂😂😂😂😂❤❤❤❤❤❤❤",
+          "likes": 1
+        },
+        {
+          "text": "❤",
+          "likes": 1
+        },
+        {
+          "text": "❤️❤❤",
+          "likes": 1
+        },
+        {
+          "text": "❤️",
+          "likes": 1
+        },
+        {
+          "text": "❤️❤❤❤❤😊😊😊😊😊😊",
+          "likes": 1
+        },
+        {
+          "text": "Aapane Jo Sadi aur blouse Wala Kya Main aapki Marji hogi to Main bhi pahnungi Aisa blouse piche se uska jawab bahut achcha hai",
+          "likes": 1
+        },
+        {
+          "text": "Mujhe comments karke batana",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "해외 계약 로맨스",
+      "market": "global",
+      "video_id": "Q-WMAr9_Pgc",
+      "url": "https://www.youtube.com/shorts/Q-WMAr9_Pgc",
+      "title": "Pernikahan Kontrak CEO dan Gadis Sederhana Episode 31 #shorts #drama #ceo #romantic",
+      "channel": "Dprynd",
+      "channel_id": "UC_dF0fVhBvHmwBG4J4QbR4Q",
+      "published_at": "2026-11-23T08:10:25Z",
+      "duration_sec": 179,
+      "views": 70087,
+      "likes": 764,
+      "comments": 9,
+      "description_head": "Sera, gadis sederhana yang berjuang menyelamatkan keluarganya dari utang, mendapat tawaran pernikahan kontrak selama satu tahun dari Adrian, CEO dingin dan kaya raya. Akankah pernikahan tanpa cinta it",
+      "hashtags": [
+        "#shorts",
+        "#drama",
+        "#ceo",
+        "#romantic",
+        "#DramaRomantis",
+        "#PernikahanKontrak",
+        "#DramaAI"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Q-WMAr9_Pgc/hqdefault.jpg",
+      "subscribers": 21300,
+      "view_sub_ratio": 3.3,
+      "velocity": 19066,
+      "velocity_type": "평균",
+      "rank": 9,
+      "top_comments": [
+        {
+          "text": "Lanjut kak seru lanjut",
+          "likes": 2
+        },
+        {
+          "text": "Lanjut kak",
+          "likes": 1
+        },
+        {
+          "text": "Nonton pertama ni😊",
+          "likes": 1
+        },
+        {
+          "text": "Lanjut",
+          "likes": 0
+        },
+        {
+          "text": "Lanjut sayag",
+          "likes": 0
+        },
+        {
+          "text": "❤❤❤❤❤❤❤❤",
+          "likes": 0
+        },
+        {
+          "text": "❤❤❤❤",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 계약 로맨스",
+      "market": "global",
+      "video_id": "MKSFH8L38rk",
+      "url": "https://www.youtube.com/shorts/MKSFH8L38rk",
+      "title": "Contract Marriage 💍{Episode -33} ✨ Dev ❤️ Avni  #hindilovestory #romanticdrama #contractmarriage",
+      "channel": "Liza Ai Studio ",
+      "channel_id": "UCQTxM9bpRzWk358Pbwa3Gxg",
+      "published_at": "2026-11-24T05:50:20Z",
+      "duration_sec": 37,
+      "views": 52076,
+      "likes": 2116,
+      "comments": 10,
+      "description_head": "",
+      "hashtags": [
+        "#hindilovestory",
+        "#romanticdrama",
+        "#contractmarriage"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/MKSFH8L38rk/hqdefault.jpg",
+      "subscribers": 10900,
+      "view_sub_ratio": 4.8,
+      "velocity": 18778,
+      "velocity_type": "평균",
+      "rank": 10,
+      "top_comments": [
+        {
+          "text": "Please next part",
+          "likes": 2
+        },
+        {
+          "text": "Please next post",
+          "likes": 1
+        },
+        {
+          "text": "❤❤️",
+          "likes": 2
+        },
+        {
+          "text": "Next part 2",
+          "likes": 0
+        },
+        {
+          "text": "🥰🥰",
+          "likes": 1
+        },
+        {
+          "text": "❤️",
+          "likes": 1
+        },
+        {
+          "text": "Chalo achha he colour barna black black aata he",
+          "likes": 0
+        },
+        {
+          "text": "😢",
+          "likes": 1
+        },
+        {
+          "text": "❤❤❤❤❤❤",
+          "likes": 0
+        },
+        {
+          "text": "💞💞💞💞",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 직장·현실 사이다",
+      "market": "global",
+      "video_id": "LDYVrq-Effo",
+      "url": "https://www.youtube.com/shorts/LDYVrq-Effo",
+      "title": "Instant karma! She fought right back! #plottwist #dramachannel",
+      "channel": "Tea Time Drama",
+      "channel_id": "UC1XXVxecTqVONlNFR2upieQ",
+      "published_at": "2026-11-24T00:00:07Z",
+      "duration_sec": 37,
+      "views": 884918,
+      "likes": 14706,
+      "comments": 20,
+      "description_head": "",
+      "hashtags": [
+        "#plottwist",
+        "#dramachannel"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/LDYVrq-Effo/hqdefault.jpg",
+      "subscribers": 601000,
+      "view_sub_ratio": 1.5,
+      "velocity": 293358,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "She let him of easy because she used the colors that did not show like the blue one on her 💙",
+          "likes": 12
+        },
+        {
+          "text": "I would have used the blue ones 😂",
+          "likes": 8
+        },
+        {
+          "text": "The rain stopped yesterday it's in the bottom. Right of the vid.",
+          "likes": 2
+        },
+        {
+          "text": "She should've used the blue ink",
+          "likes": 0
+        },
+        {
+          "text": "Name of movie or series where to watch it with free Italian subtitles",
+          "likes": 2
+        },
+        {
+          "text": "Drama name please 😊",
+          "likes": 2
+        },
+        {
+          "text": "❤❤❤😊😊😊",
+          "likes": 3
+        },
+        {
+          "text": "ผู้หญิงเริ่มก่อคนแรกเธอลืมตาขึ้นลุกขึ้นเขาต่อโดนไม่รอดฉันมือสะบัดจกระจกกับผู้ชายนั้นทำลายฉันโทรศัพท์📱ไปจัดการเรียกรุ่นน้องทำกับเราก่อนแป๊ะหน้าจัดการเอาคืนนักยืนด่านรอเธอลุกขึ้นยืนตบสังสอนแสงรู้ฉันรู้ท",
+          "likes": 1
+        },
+        {
+          "text": "nombre\npliss",
+          "likes": 3
+        },
+        {
+          "text": "❤❤❤❤❤",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 직장·현실 사이다",
+      "market": "global",
+      "video_id": "d8kQE1JT_p8",
+      "url": "https://www.youtube.com/shorts/d8kQE1JT_p8",
+      "title": "They Left Her Hanging From a Helicopter… Then She Came Back! #MilitaryDrama #Shorts",
+      "channel": "Evercrest Studio",
+      "channel_id": "UCLhn2D_dTeU0bt2kl76_OfQ",
+      "published_at": "2026-11-23T12:05:36Z",
+      "duration_sec": 14,
+      "views": 277269,
+      "likes": 1463,
+      "comments": 4,
+      "description_head": "Welcome to **Evercrest Studio** — where powerful stories meet unforgettable emotions. 🎬\n\nWe create captivating cinematic short films exploring family drama, shocking betrayals, toxic relationships, hi",
+      "hashtags": [
+        "#MilitaryDrama",
+        "#Shorts",
+        "#EvercrestStudio",
+        "#FamilyDrama",
+        "#EmotionalStories",
+        "#FamilyBetrayal",
+        "#DramaShorts"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/d8kQE1JT_p8/hqdefault.jpg",
+      "subscribers": 453,
+      "view_sub_ratio": 612.1,
+      "velocity": 78933,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "Revenge for the twin",
+          "likes": 4
+        },
+        {
+          "text": "Glad it's AI.",
+          "likes": 0
+        },
+        {
+          "text": "😮",
+          "likes": 3
+        }
+      ]
+    },
+    {
+      "genre": "해외 직장·현실 사이다",
+      "market": "global",
+      "video_id": "xbqLP-XjhSk",
+      "url": "https://www.youtube.com/shorts/xbqLP-XjhSk",
+      "title": "Her Career Ended in 10 Seconds! 😱 #InstantKarma #PlotTwist #ChiefJudge #CourtroomDrama #ShortDrama",
+      "channel": "Femily Drama Filix ",
+      "channel_id": "UCEETRTJrKE_X8ePlt146QAg",
+      "published_at": "2026-11-22T12:00:04Z",
+      "duration_sec": 26,
+      "views": 107770,
+      "likes": 1710,
+      "comments": 61,
+      "description_head": "",
+      "hashtags": [
+        "#InstantKarma",
+        "#PlotTwist",
+        "#ChiefJudge",
+        "#CourtroomDrama",
+        "#ShortDrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/xbqLP-XjhSk/hqdefault.jpg",
+      "subscribers": 8580,
+      "view_sub_ratio": 12.6,
+      "velocity": 23861,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "LADY YOUR CAREER JUST ENDED. YOU'RE  NOT ABOVE THE LAW .",
+          "likes": 23
+        },
+        {
+          "text": "YOUR CARRIER BECOMES USELESS WHEN YOUR POSITION ONLY HURTS OTHERS",
+          "likes": 12
+        },
+        {
+          "text": "You’re at the mercy of my court you idiot with a badge😂",
+          "likes": 9
+        },
+        {
+          "text": "Damn woman your career has just ended bye bye",
+          "likes": 13
+        },
+        {
+          "text": "I think this king shit cop is going to have a new job soon 😊",
+          "likes": 7
+        },
+        {
+          "text": "Lock her ass up now.",
+          "likes": 9
+        },
+        {
+          "text": "Say bye to your career!",
+          "likes": 6
+        },
+        {
+          "text": "She just got fired from her job and put in jail",
+          "likes": 3
+        },
+        {
+          "text": "It's clearly AI",
+          "likes": 11
+        },
+        {
+          "text": "FIRED HER.",
+          "likes": 3
+        }
+      ]
+    },
+    {
+      "genre": "해외 직장·현실 사이다",
+      "market": "global",
+      "video_id": "a3qKD2NMYmI",
+      "url": "https://www.youtube.com/shorts/a3qKD2NMYmI",
+      "title": "Never Test a Woman Who Knows Her Worth #WeddingDrama #InstantKarma #BossLady #PlotTwist #ShortDrama",
+      "channel": "Femily Drama Filix ",
+      "channel_id": "UCEETRTJrKE_X8ePlt146QAg",
+      "published_at": "2026-11-21T16:30:39Z",
+      "duration_sec": 26,
+      "views": 104371,
+      "likes": 956,
+      "comments": 28,
+      "description_head": "",
+      "hashtags": [
+        "#WeddingDrama",
+        "#InstantKarma",
+        "#BossLady",
+        "#PlotTwist",
+        "#ShortDrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/a3qKD2NMYmI/hqdefault.jpg",
+      "subscribers": 8580,
+      "view_sub_ratio": 12.2,
+      "velocity": 19587,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "Good for her telling him their no wedding",
+          "likes": 20
+        },
+        {
+          "text": "Good for her , he showed his true colors. He would’ve been a disaster of a husband.",
+          "likes": 19
+        },
+        {
+          "text": "Good for you...if your man ask you to chose don't listen to him just walk away....he going to do the same thing after married, making you to chose🤪",
+          "likes": 13
+        },
+        {
+          "text": "The way he grabbed her wrist that's an abuser",
+          "likes": 9
+        },
+        {
+          "text": "Good for her , don't marry him he's cheating on you,   with that woman,  don't look back , you can do better,",
+          "likes": 4
+        },
+        {
+          "text": "You failed her test. Both of",
+          "likes": 5
+        },
+        {
+          "text": "She did the right thing! Ha Ha Ha who is laughing now!",
+          "likes": 3
+        },
+        {
+          "text": "I would say that they failed",
+          "likes": 6
+        },
+        {
+          "text": "THAT IS THE BEST THING YOU DID.",
+          "likes": 1
+        },
+        {
+          "text": "Strong woman let them go they both are liars.",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "해외 직장·현실 사이다",
+      "market": "global",
+      "video_id": "OX0lGV4HFN0",
+      "url": "https://www.youtube.com/shorts/OX0lGV4HFN0",
+      "title": "Bride Fired a Poor Assistant… Then Discovered Who She Really Was! 😱",
+      "channel": "Heartline USA",
+      "channel_id": "UCxvXIbz1IseS74sXNuteZyA",
+      "published_at": "2026-11-20T20:36:40Z",
+      "duration_sec": 31,
+      "views": 83229,
+      "likes": 0,
+      "comments": 12,
+      "description_head": "She thought she could humiliate anyone because she was rich… but she picked the WRONG woman! 😱💔\n\nInside a luxury bridal boutique, an arrogant bride pushes a humble assistant and fires her over a desig",
+      "hashtags": [
+        "#Shorts",
+        "#Bridezilla",
+        "#InstantKarma",
+        "#FamilyDrama",
+        "#HeartlineUSA"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/OX0lGV4HFN0/hqdefault.jpg",
+      "subscribers": 5310,
+      "view_sub_ratio": 15.7,
+      "velocity": 13516,
+      "velocity_type": "평균",
+      "rank": 5,
+      "top_comments": [
+        {
+          "text": "Your an Arrogant,  Rude,  jerk who Insulted the designer  from Paris.  Your order has been  canceled.",
+          "likes": 4
+        },
+        {
+          "text": "Cancelled 😂😂😂",
+          "likes": 9
+        },
+        {
+          "text": "Lady she owns everything",
+          "likes": 2
+        },
+        {
+          "text": "Bridezilla",
+          "likes": 6
+        },
+        {
+          "text": "WELL DONE KICK HER OUT👍👍👍👍👍",
+          "likes": 5
+        },
+        {
+          "text": "Canceled",
+          "likes": 0
+        },
+        {
+          "text": "Please redo this video.\n\nWhy was she facing the Designer and not the Bridezilla",
+          "likes": 8
+        },
+        {
+          "text": "Troppa violenza",
+          "likes": 2
+        }
+      ]
+    },
+    {
+      "genre": "해외 직장·현실 사이다",
+      "market": "global",
+      "video_id": "e_ByCiAy00I",
+      "url": "https://www.youtube.com/shorts/e_ByCiAy00I",
+      "title": "He Lost $900 Million 10 Seconds #InstantKarma #PlotTwist #BossLady #ShortDrama #BillionaireMindset",
+      "channel": "Femily Drama Filix ",
+      "channel_id": "UCEETRTJrKE_X8ePlt146QAg",
+      "published_at": "2026-11-21T12:00:25Z",
+      "duration_sec": 25,
+      "views": 44112,
+      "likes": 677,
+      "comments": 6,
+      "description_head": "",
+      "hashtags": [
+        "#InstantKarma",
+        "#PlotTwist",
+        "#BossLady",
+        "#ShortDrama",
+        "#BillionaireMindset"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/e_ByCiAy00I/hqdefault.jpg",
+      "subscribers": 8580,
+      "view_sub_ratio": 5.1,
+      "velocity": 7997,
+      "velocity_type": "평균",
+      "rank": 6,
+      "top_comments": [
+        {
+          "text": "Now you go SERVE!!!!!!!",
+          "likes": 0
+        },
+        {
+          "text": "Good job girl put them in there place 😊",
+          "likes": 0
+        },
+        {
+          "text": "Karma is a wonderful thing",
+          "likes": 3
+        },
+        {
+          "text": "Ok you won't me to sever i sever you nothing how does that work for you is that ok with you 😢😮",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "해외 직장·현실 사이다",
+      "market": "global",
+      "video_id": "GoZm4tUtkD0",
+      "url": "https://www.youtube.com/shorts/GoZm4tUtkD0",
+      "title": "Grandma Cut Off His Allowance! 🔥 #InstantKarma #SpoiledKid #Grandma #FamilyDrama #ShortDrama",
+      "channel": "Femily Drama Filix ",
+      "channel_id": "UCEETRTJrKE_X8ePlt146QAg",
+      "published_at": "2026-11-20T12:00:33Z",
+      "duration_sec": 25,
+      "views": 43784,
+      "likes": 1260,
+      "comments": 80,
+      "description_head": "",
+      "hashtags": [
+        "#InstantKarma",
+        "#SpoiledKid",
+        "#Grandma",
+        "#FamilyDrama",
+        "#ShortDrama"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/GoZm4tUtkD0/hqdefault.jpg",
+      "subscribers": 8580,
+      "view_sub_ratio": 5.1,
+      "velocity": 6719,
+      "velocity_type": "평균",
+      "rank": 7,
+      "top_comments": [
+        {
+          "text": "He is not a kid dad  he is a pain in the neck so his money stops now",
+          "likes": 34
+        },
+        {
+          "text": "Why not he is 21 not a 10 year old. Dad stop making excuses for your brat. Why embarrass her in front of al the guests.",
+          "likes": 59
+        },
+        {
+          "text": "He's very disrespectful,  she should of cut him off years ago !",
+          "likes": 30
+        },
+        {
+          "text": "DO NOT RESTORE THE MONEY 😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
+          "likes": 13
+        },
+        {
+          "text": "She is absolutely right",
+          "likes": 22
+        },
+        {
+          "text": "Action Speak louder than words !!! Teach him the ways of his actions !!!",
+          "likes": 26
+        },
+        {
+          "text": "YOU TELL THEM GRANDMA. HIS 21.\nNEXT PART PLEASE",
+          "likes": 8
+        },
+        {
+          "text": "Did you see her laughing. Idiot and disrespectful and arrogant grandson. Good you did that mom.",
+          "likes": 5
+        },
+        {
+          "text": "21 and acting like a child.  Spoiled brat lose everything.  Tyler loses everything.  Now what.  Dad stop it. Disrespectful",
+          "likes": 7
+        },
+        {
+          "text": "Take it he needs his father to scelp his ass",
+          "likes": 3
+        }
+      ]
+    },
+    {
+      "genre": "해외 직장·현실 사이다",
+      "market": "global",
+      "video_id": "lTvJ73CKXzY",
+      "url": "https://www.youtube.com/shorts/lTvJ73CKXzY",
+      "title": "The CEO Humiliated This Janitor… Then THIS Happened! #darama #shorts #film",
+      "channel": "Tinyfolk",
+      "channel_id": "UCZLpPDfAVjdUYFeG11DtLnA",
+      "published_at": "2026-11-24T16:35:45Z",
+      "duration_sec": 31,
+      "views": 38203,
+      "likes": 431,
+      "comments": 12,
+      "description_head": "A powerful CEO humiliates an ordinary janitor in front of the entire office, kicking away his cleaning cart and ordering him out.\n\nBut he has no idea who this man really is.\n\nWhen the boardroom doors ",
+      "hashtags": [
+        "#darama",
+        "#shorts",
+        "#film",
+        "#InstantKarma",
+        "#CEO",
+        "#ShortDrama",
+        "#PlotTwist",
+        "#LifeLessons"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/lTvJ73CKXzY/hqdefault.jpg",
+      "subscribers": 83,
+      "view_sub_ratio": 460.3,
+      "velocity": 16431,
+      "velocity_type": "평균",
+      "rank": 8,
+      "top_comments": [
+        {
+          "text": "Life in prison for him for threatening innocent employees and prison time for him and bankrupt him and prison time for him for all involved and Ban him from the industry anymore in the world and and p",
+          "likes": 1
+        },
+        {
+          "text": "What did you think of the ending? Drop a comment if you want Part 2!👇",
+          "likes": 0
+        },
+        {
+          "text": "Love it. What he get.",
+          "likes": 0
+        },
+        {
+          "text": "2nd Part",
+          "likes": 0
+        },
+        {
+          "text": "Surprise",
+          "likes": 1
+        },
+        {
+          "text": "Bixo ruim",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "genre": "해외 직장·현실 사이다",
+      "market": "global",
+      "video_id": "ScggLSYp7aQ",
+      "url": "https://www.youtube.com/shorts/ScggLSYp7aQ",
+      "title": "Never Judge a Man by His Past! 🔥 #InstantKarma #golddigger #ShortDrama #RevengeStory #BillionaireEx",
+      "channel": "Mini Drama Flix",
+      "channel_id": "UChf5ACCjnO3PQIReBuUKnhw",
+      "published_at": "2026-11-20T12:00:38Z",
+      "duration_sec": 31,
+      "views": 37111,
+      "likes": 780,
+      "comments": 19,
+      "description_head": "This video is for entertainment and commentary purposes only. Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, tea",
+      "hashtags": [
+        "#InstantKarma",
+        "#golddigger",
+        "#ShortDrama",
+        "#RevengeStory",
+        "#BillionaireEx"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ScggLSYp7aQ/hqdefault.jpg",
+      "subscribers": 16900,
+      "view_sub_ratio": 2.2,
+      "velocity": 5695,
+      "velocity_type": "평균",
+      "rank": 9,
+      "top_comments": [
+        {
+          "text": "I'm sorry but he had no fucking right to slap that woman!  She did nothing to him, personally,  not his place!!",
+          "likes": 1
+        },
+        {
+          "text": "Karma get you everytime",
+          "likes": 7
+        },
+        {
+          "text": "The slap, I have never in 71 years supported a man hitting a woman, never, I have a daughter and if a man hits my daughter, I would do life in prison.",
+          "likes": 1
+        },
+        {
+          "text": "Leave that rude woman",
+          "likes": 2
+        },
+        {
+          "text": "You better divorce that woman because if she did that to her ex what is she going to do to you",
+          "likes": 1
+        },
+        {
+          "text": "Wicked woman",
+          "likes": 8
+        },
+        {
+          "text": "That reveal was so satisfying — never judge someone by their past.",
+          "likes": 0
+        },
+        {
+          "text": "She looked like a Damm fool",
+          "likes": 1
+        },
+        {
+          "text": "Heartless thing😢😢😢",
+          "likes": 3
+        },
+        {
+          "text": "Karma got her",
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "genre": "해외 직장·현실 사이다",
+      "market": "global",
+      "video_id": "-segwKxN9jE",
+      "url": "https://www.youtube.com/shorts/-segwKxN9jE",
+      "title": "Gold Digger Laughs as \"Blind\" Billionaire Slips—Then He Removes His Glasses! 😱#InstantKarma #Shorts",
+      "channel": "The Drama Show ",
+      "channel_id": "UCaIQJMl5QxwfcgjpGrYAtqA",
+      "published_at": "2026-11-22T13:00:05Z",
+      "duration_sec": 16,
+      "views": 29497,
+      "likes": 0,
+      "comments": 1,
+      "description_head": "Gold Digger Laughs as \"Blind\" Billionaire Slips—Then He Removes His Glasses! 😱 #InstantKarma #BillionaireDrama #Shorts\n\nShe laughed while watching him almost fall into the pool... until he slowly took",
+      "hashtags": [
+        "#InstantKarma",
+        "#Shorts",
+        "#BillionaireDrama",
+        "#GoldDigger",
+        "#PlotTwist",
+        "#MafiaDrama",
+        "#YouTubeShorts",
+        "#DramaShorts",
+        "#ToxicFiancee",
+        "#ShortFilm",
+        "#VerticalDrama",
+        "#SatisfyingKarma",
+        "#CaughtRedHanded",
+        "#RichFamilyDrama",
+        "#ViralShorts"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-segwKxN9jE/hqdefault.jpg",
+      "subscribers": 1290,
+      "view_sub_ratio": 22.9,
+      "velocity": 6592,
+      "velocity_type": "평균",
+      "rank": 10,
+      "top_comments": []
     }
   ]
 }
