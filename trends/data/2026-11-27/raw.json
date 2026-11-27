@@ -2,12 +2,12 @@
   "date": "2026-11-27",
   "sample": false,
   "quota": {
-    "used_units": 1023,
+    "used_units": 1022,
     "calls": {
       "search": 10,
       "videos": 4,
       "channels": 1,
-      "commentThreads": 18
+      "commentThreads": 17
     },
     "log": [
       "검색 '복수 숏드라마' → 누적 25개",
@@ -15,11 +15,11 @@
       "검색 '회귀 숏드라마' → 누적 74개",
       "검색 '환생 숏드라마' → 누적 77개",
       "검색 '신분 반전 숏드라마' → 누적 79개",
-      "검색 '재벌 숏드라마' → 누적 100개",
-      "검색 '계약결혼 숏드라마' → 누적 125개",
-      "검색 '계약 연애 쇼츠 드라마' → 누적 126개",
-      "검색 '사이다 숏드라마' → 누적 149개",
-      "검색 '직장 사이다 쇼츠' → 누적 165개"
+      "검색 '재벌 숏드라마' → 누적 99개",
+      "검색 '계약결혼 숏드라마' → 누적 124개",
+      "검색 '계약 연애 쇼츠 드라마' → 누적 125개",
+      "검색 '사이다 숏드라마' → 누적 148개",
+      "검색 '직장 사이다 쇼츠' → 누적 164개"
     ]
   },
   "videos": [
@@ -32,8 +32,8 @@
       "channel_id": "UCS44U67XQ1Bwl6Xacn85dvQ",
       "published_at": "2026-11-24T06:19:34Z",
       "duration_sec": 106,
-      "views": 742232,
-      "likes": 12770,
+      "views": 743398,
+      "likes": 12815,
       "comments": 59,
       "description_head": "",
       "hashtags": [
@@ -51,7 +51,7 @@
       "thumbnail": "https://i.ytimg.com/vi/X89o5SBIGeI/hqdefault.jpg",
       "subscribers": 19700,
       "view_sub_ratio": 37.7,
-      "velocity": 272879,
+      "velocity": 271790,
       "velocity_type": "평균",
       "rank": 1,
       "top_comments": [
@@ -76,12 +76,12 @@
           "likes": 22
         },
         {
-          "text": "참잘했어요👍👍👍",
-          "likes": 13
-        },
-        {
           "text": "여자 심성 잘 파악해야 할듯",
           "likes": 11
+        },
+        {
+          "text": "참잘했어요👍👍👍",
+          "likes": 13
         },
         {
           "text": "시원합니다",
@@ -106,8 +106,8 @@
       "channel_id": "UCkNgP1S6D3owO3boMOiNIcg",
       "published_at": "2026-11-22T13:17:30Z",
       "duration_sec": 176,
-      "views": 175099,
-      "likes": 1541,
+      "views": 175297,
+      "likes": 1542,
       "comments": 15,
       "description_head": "🎬✨ 몰입극장-YGGTHEATER에 오신 것을 환영합니다! 💫\n앱에서 시청하기➡️\n\n짧지만 강렬한 몰입감! 한 번 보기 시작하면 끝까지 눈을 뗄 수 없는 흥미진진한 이야기! 🎞️\n\n🎥 작품명:  왕의 귀향\n\n📖 줄거리:  \n가난한 청년으로 살다 내란을 평정하고 조선의 왕이 된 이훤. 그는 자신을 구해 줬다고 믿었던 정혼녀와의 약속을 지키려 신분을 숨기고 고",
       "hashtags": [
@@ -130,7 +130,7 @@
       "thumbnail": "https://i.ytimg.com/vi/At9MRX-T_VQ/hqdefault.jpg",
       "subscribers": 23700,
       "view_sub_ratio": 7.4,
-      "velocity": 39528,
+      "velocity": 39437,
       "velocity_type": "평균",
       "rank": 2,
       "top_comments": [
@@ -177,8 +177,8 @@
       "channel_id": "UCyPc7ExNRygCrzCTm9GqYnw",
       "published_at": "2026-11-24T06:27:13Z",
       "duration_sec": 134,
-      "views": 143059,
-      "likes": 1956,
+      "views": 143156,
+      "likes": 1958,
       "comments": 16,
       "description_head": "",
       "hashtags": [
@@ -196,7 +196,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lozWRC-PpUE/hqdefault.jpg",
       "subscribers": 7530,
       "view_sub_ratio": 19.0,
-      "velocity": 52698,
+      "velocity": 52440,
       "velocity_type": "평균",
       "rank": 3,
       "top_comments": [
@@ -251,7 +251,7 @@
       "channel_id": "UCZcFMAT0rYL6JmAWonTQ1UQ",
       "published_at": "2026-11-21T10:26:13Z",
       "duration_sec": 154,
-      "views": 45358,
+      "views": 45420,
       "likes": 1173,
       "comments": 1,
       "description_head": "잉어가 사람 말을 해",
@@ -273,7 +273,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3WQG45_3ApM/hqdefault.jpg",
       "subscribers": 39500,
       "view_sub_ratio": 1.1,
-      "velocity": 8174,
+      "velocity": 8163,
       "velocity_type": "평균",
       "rank": 4,
       "top_comments": [
@@ -308,7 +308,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iciyeBjpll8/hqdefault.jpg",
       "subscribers": 2110,
       "view_sub_ratio": 8.6,
-      "velocity": 4619,
+      "velocity": 4601,
       "velocity_type": "평균",
       "rank": 5,
       "top_comments": []
@@ -338,7 +338,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0NT6jgIhpcQ/hqdefault.jpg",
       "subscribers": 5380,
       "view_sub_ratio": 2.9,
-      "velocity": 6503,
+      "velocity": 6462,
       "velocity_type": "평균",
       "rank": 6,
       "top_comments": []
@@ -372,7 +372,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PIFHaOzcmSI/hqdefault.jpg",
       "subscribers": 27500,
       "view_sub_ratio": 0.4,
-      "velocity": 2151,
+      "velocity": 2144,
       "velocity_type": "평균",
       "rank": 7,
       "top_comments": [
@@ -406,51 +406,10 @@
       "thumbnail": "https://i.ytimg.com/vi/ApflqATWRnI/hqdefault.jpg",
       "subscribers": 556,
       "view_sub_ratio": 24.8,
-      "velocity": 3024,
+      "velocity": 3014,
       "velocity_type": "평균",
       "rank": 1,
       "top_comments": []
-    },
-    {
-      "genre": "신분 반전",
-      "video_id": "qAS36cIHbTA",
-      "url": "https://www.youtube.com/shorts/qAS36cIHbTA",
-      "title": "아들에게 재벌 맞선녀 붙인 시어머니, 하필 그 식당에서 마주친 사람 | 상견례 봉투 3화 #숏드라마 #반전드라마 #사이다",
-      "channel": "얼씨구 좋다",
-      "channel_id": "UCM9pojE1Kb3tQ5ROLIqhbHw",
-      "published_at": "2026-11-20T03:00:07Z",
-      "duration_sec": 62,
-      "views": 51996,
-      "likes": 635,
-      "comments": 1,
-      "description_head": "파혼 일주일 만에 아들에게 '재벌가 딸'과 맞선을 잡은 시어머니.\n맞선 장소는 장안에서 제일 비싼 레스토랑이었습니다.\n\n웃으며 들어서던 맞선녀의 얼굴이 순간 하얗게 질렸습니다.\n그녀가 본 사람은 누구였을까요?\n\n▶ 4화에서 이어집니다. 구독하고 다음 화를 가장 먼저 보세요.\n\n※ 이 영상은 AI로 제작된 창작 드라마이며, 실제 인물·단체와 관련이 없습니다.",
-      "hashtags": [
-        "#숏드라마",
-        "#반전드라마",
-        "#사이다",
-        "#시어머니",
-        "#맞선",
-        "#재벌",
-        "#며느리",
-        "#고부갈등",
-        "#참교육",
-        "#막장드라마",
-        "#AI드라마",
-        "#상견례봉투",
-        "#shorts"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/qAS36cIHbTA/hqdefault.jpg",
-      "subscribers": 999,
-      "view_sub_ratio": 52.0,
-      "velocity": 7581,
-      "velocity_type": "평균",
-      "rank": 1,
-      "top_comments": [
-        {
-          "text": "재벌 며느리 좋아하네 , \n아들 발목 잡는 엄마, 격 떨어지는 소리한다 ,",
-          "likes": 2
-        }
-      ]
     },
     {
       "genre": "신분 반전",
@@ -461,8 +420,8 @@
       "channel_id": "UCEbiKcXDFHwZ6BaHP5usj0Q",
       "published_at": "2026-11-24T11:38:09Z",
       "duration_sec": 174,
-      "views": 48253,
-      "likes": 865,
+      "views": 48412,
+      "likes": 870,
       "comments": 0,
       "description_head": "그녀가 도와준 남자는 사실 엄청난 비밀을 감추고 있었습니다.\n\n한때 자신을 사랑했던 전 여자친구는 초라해진 그의 모습을 보고 모른 척하며 비웃고, 심지어 사진까지 찍어 조롱합니다.\n\n하지만 그 남자의 손에는 심씨 그룹에 단 한 장뿐이라는 특별한 블랙카드가 있었습니다.\n\n자신을 도와준 여주인공에게 천만 원이 든 카드를 건네는 남자!\n\n그런데 여주인공은 그가 ",
       "hashtags": [
@@ -478,11 +437,11 @@
         "#반전드라마"
       ],
       "thumbnail": "https://i.ytimg.com/vi/Imiqwiz0mbo/hqdefault.jpg",
-      "subscribers": 3900,
+      "subscribers": 3910,
       "view_sub_ratio": 12.4,
-      "velocity": 19311,
+      "velocity": 19257,
       "velocity_type": "평균",
-      "rank": 2,
+      "rank": 1,
       "top_comments": []
     },
     {
@@ -511,9 +470,9 @@
       "thumbnail": "https://i.ytimg.com/vi/C4NDX7hvaY0/hqdefault.jpg",
       "subscribers": 7620,
       "view_sub_ratio": 5.0,
-      "velocity": 6888,
+      "velocity": 6869,
       "velocity_type": "평균",
-      "rank": 3,
+      "rank": 2,
       "top_comments": []
     },
     {
@@ -525,8 +484,8 @@
       "channel_id": "UCvEUdPluufUmpQtinHBELKA",
       "published_at": "2026-11-22T21:30:39Z",
       "duration_sec": 160,
-      "views": 25145,
-      "likes": 1055,
+      "views": 25282,
+      "likes": 1059,
       "comments": 4,
       "description_head": "어미 소 뺑소니치고 도망간 재벌녀, 소값 받으러 쫓아갔더니…\n목숨을 구해준 대가로 월 5억 경호원 제안?!\n\n하지만 시골 청년 강진우가 원하는 건 단 하나, 소값 1,500만 원과 '파혼'뿐이었다.\n알고 보니 10년 전 아버지가 정해둔 약혼녀가 바로 눈앞의 대진그룹 서지수 대표!\n\n킬러의 목에서 발견된 실종된 아버지의 군번줄,\n그리고 할아버지 서 회장을 노",
       "hashtags": [
@@ -543,9 +502,9 @@
       "thumbnail": "https://i.ytimg.com/vi/kEwKjWEiTGM/hqdefault.jpg",
       "subscribers": 9350,
       "view_sub_ratio": 2.7,
-      "velocity": 6152,
+      "velocity": 6163,
       "velocity_type": "평균",
-      "rank": 4,
+      "rank": 3,
       "top_comments": [
         {
           "text": "청년 잘해써요",
@@ -588,9 +547,9 @@
       "thumbnail": "https://i.ytimg.com/vi/wsjCpK_FPJU/hqdefault.jpg",
       "subscribers": 1040,
       "view_sub_ratio": 20.7,
-      "velocity": 12136,
+      "velocity": 12033,
       "velocity_type": "평균",
-      "rank": 5,
+      "rank": 4,
       "top_comments": []
     },
     {
@@ -602,7 +561,7 @@
       "channel_id": "UC2bxIYv6ECcWGCP-Fg5WWGQ",
       "published_at": "2026-11-23T08:30:36Z",
       "duration_sec": 122,
-      "views": 21474,
+      "views": 21498,
       "likes": 290,
       "comments": 0,
       "description_head": "🎬✨ 드라마픽RU  오신 것을 환영합니다! 💫\n앱에서 시청하기➡️\n\n짧지만 강렬한 몰입감! 한 번 보기 시작하면 끝까지 눈을 뗄 수 없는 흥미진진한 이야기! 🎞️\n\n🎥 작품명:  그날 밤은 실수였나요?\n\n📖 줄거리:  \n폭우가 쏟아진 밤, 그림을 배달하던 화가 윤주연은 어린 시절의 상처로 숨을 쉬지 못하던 이현그룹 대표 이재현을 구한다. 하지만 돌아온 건 ",
@@ -624,45 +583,11 @@
         "#애절한사랑"
       ],
       "thumbnail": "https://i.ytimg.com/vi/K3CAl4lMowc/hqdefault.jpg",
-      "subscribers": 1530,
+      "subscribers": 1540,
       "view_sub_ratio": 14.0,
-      "velocity": 5917,
+      "velocity": 5899,
       "velocity_type": "평균",
-      "rank": 6,
-      "top_comments": []
-    },
-    {
-      "genre": "신분 반전",
-      "video_id": "STAa0o8KYcY",
-      "url": "https://www.youtube.com/shorts/STAa0o8KYcY",
-      "title": "재벌 상속녀이자 천재 디자이너인 아내를 몰라본 가짜 사모님과 시어머니의 처참한 최후 [숏드라마 전편]",
-      "channel": "마음 한 편",
-      "channel_id": "UCnt3qdIw2mKTmMOc61me1Jw",
-      "published_at": "2026-11-20T10:30:16Z",
-      "duration_sec": 176,
-      "views": 17390,
-      "likes": 129,
-      "comments": 0,
-      "description_head": "신분을 숨긴 재벌 상속녀이자 세계적 천재 디자이너 '서머' 강지원!\n진짜 사장 부인을 몰라보고 갑질과 사칭을 일삼은 가짜 사모님 이윤주와 편견에 빠진 시어머니 최은주의 처참한 최후를 전편 몰아보기로 확인하세요!🔥\n\n📌 줄거리 요약\n민성그룹 대표 민우빈과 전격 결혼한 강지원은 '사장 부인'이자 천재 디자이너 '서머'라는 정체를 숨긴 채 디자인팀에 입사합니다.",
-      "hashtags": [
-        "#숏드라마",
-        "#사이다드라마",
-        "#참교육",
-        "#재벌상속녀",
-        "#가짜사모님",
-        "#고부갈등",
-        "#신분역전",
-        "#로맨스숏드라마",
-        "#전편몰아보기",
-        "#인기드라마",
-        "#DramaID_42000014449"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/STAa0o8KYcY/hqdefault.jpg",
-      "subscribers": 20300,
-      "view_sub_ratio": 0.9,
-      "velocity": 2657,
-      "velocity_type": "평균",
-      "rank": 7,
+      "rank": 5,
       "top_comments": []
     },
     {
@@ -674,8 +599,8 @@
       "channel_id": "UCLRYxFSkrxUkUvxms1KPoUQ",
       "published_at": "2026-11-22T22:00:35Z",
       "duration_sec": 161,
-      "views": 10910,
-      "likes": 288,
+      "views": 10966,
+      "likes": 289,
       "comments": 2,
       "description_head": "동생에게 부잣집 혼처를 빼앗긴 언니가 시골로 시집가요.\n그런데 남편 통장에는 200억이?\n\n#숏드라마 #결혼 #시어머니 #재벌 #반전 #부잣집 #귀농",
       "hashtags": [
@@ -691,9 +616,9 @@
       "thumbnail": "https://i.ytimg.com/vi/_lU6o66wqeY/hqdefault.jpg",
       "subscribers": 2110,
       "view_sub_ratio": 5.2,
-      "velocity": 2683,
+      "velocity": 2687,
       "velocity_type": "평균",
-      "rank": 8,
+      "rank": 6,
       "top_comments": [
         {
           "text": "❤",
@@ -710,8 +635,8 @@
       "channel_id": "UCDPC8vnkz0y-6DvaGze3LIg",
       "published_at": "2026-11-20T01:00:24Z",
       "duration_sec": 61,
-      "views": 2286586,
-      "likes": 25818,
+      "views": 2287132,
+      "likes": 25834,
       "comments": 185,
       "description_head": "#사이다 #감동스토리 #숏드라마 #shorts\n\n\n\n-This is a fictional drama series exploring family conflict and social etiquette.\n-Script and direction by a human creator.\n-This video complies with YouTube's transparenc",
       "hashtags": [
@@ -727,7 +652,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GJ2uEJarvUM/hqdefault.jpg",
       "subscribers": 67300,
       "view_sub_ratio": 34.0,
-      "velocity": 329401,
+      "velocity": 328760,
       "velocity_type": "평균",
       "rank": 1,
       "top_comments": [
@@ -782,8 +707,8 @@
       "channel_id": "UCxK8fcivddEsDwoKKPo3tbg",
       "published_at": "2026-11-20T13:23:19Z",
       "duration_sec": 102,
-      "views": 1804295,
-      "likes": 28406,
+      "views": 1805123,
+      "likes": 28425,
       "comments": 330,
       "description_head": "",
       "hashtags": [
@@ -795,30 +720,30 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/L2We05xPRTk/hqdefault.jpg",
       "subscribers": 15200,
-      "view_sub_ratio": 118.7,
-      "velocity": 280792,
+      "view_sub_ratio": 118.8,
+      "velocity": 280258,
       "velocity_type": "평균",
       "rank": 2,
       "top_comments": [
         {
           "text": "저런 놈자식이라고  아버님 쫓아버리고 연끝으세요",
-          "likes": 155
+          "likes": 156
         },
         {
           "text": "인간쓰레기같은 오빠입니다\n동생이 아버지 병원비 내는데...\n생생은 오빠니 참  뻔뻔한 합니다",
-          "likes": 53
+          "likes": 54
         },
         {
           "text": "아버지 딸잘키우셨네요",
-          "likes": 198
+          "likes": 199
         },
         {
           "text": "저런게 자식이냐 효도는 마음이밝고 맑아야된다 동생 복많이받으세요",
-          "likes": 46
+          "likes": 47
         },
         {
           "text": "미친 인간들이 왜케많아 오빠답게살아라",
-          "likes": 110
+          "likes": 111
         },
         {
           "text": "양심이 부도난 오빠네\n동생 을 매몰차게\n내쫓는 꼬락서니 하곤 아버님 최고에요 🎉",
@@ -826,7 +751,7 @@
         },
         {
           "text": "저런 자식이 진자 있을가요 동생이 낸 병원비를 자기라고 하는 인간이  아버지가  모른다고 헐  아버지 짱",
-          "likes": 214
+          "likes": 215
         },
         {
           "text": "저렇게 뻔뻔한 오빠가 있네요.\n저런 인간은 상종\n말아야 해요.\n여동생 전세집 줄여서 낸 딸\n자식노릇 잘 하\n네요.\n복 많이 받길 바랍니다,",
@@ -851,8 +776,8 @@
       "channel_id": "UCEXM9jOnGHQjL2s6K6Yx7Sg",
       "published_at": "2026-11-25T09:23:23Z",
       "duration_sec": 155,
-      "views": 992368,
-      "likes": 39896,
+      "views": 993009,
+      "likes": 39922,
       "comments": 542,
       "description_head": "",
       "hashtags": [
@@ -866,13 +791,13 @@
       "thumbnail": "https://i.ytimg.com/vi/PqBvhjGvGqg/hqdefault.jpg",
       "subscribers": 595000,
       "view_sub_ratio": 1.7,
-      "velocity": 623207,
+      "velocity": 617719,
       "velocity_type": "평균",
       "rank": 3,
       "top_comments": [
         {
           "text": "회장님 감사합니다",
-          "likes": 260
+          "likes": 261
         },
         {
           "text": "회장님 감사합니다 😂😂😂😂❤❤❤❤❤❤",
@@ -921,8 +846,8 @@
       "channel_id": "UCKLiw3XuA0OZTitTyddTojA",
       "published_at": "2026-11-21T07:57:16Z",
       "duration_sec": 160,
-      "views": 975899,
-      "likes": 33652,
+      "views": 976884,
+      "likes": 33698,
       "comments": 292,
       "description_head": "\"어머, 손이 미끄러졌네. 빈손으로 와서 이것도 제대로 못 해?\"\n\n명절 큰집. 큰동서가 일부러 전 접시를 엎고,\n시어머니와 아가씨, 아주버님까지 둘째 며느리 지수를 식모 취급합니다.\n오늘은 망해 가는 큰아들 회사를 살려 줄 투자자가 오는 날.\n\n그런데 초인종이 울리고,\n들어온 비서가 고개를 숙인 사람은… 😱\n\n10년 동안 혼자 차례상을 차린 며느리의 통쾌",
       "hashtags": [
@@ -938,43 +863,43 @@
         "#막장드라마"
       ],
       "thumbnail": "https://i.ytimg.com/vi/m5ibu8iLjx8/hqdefault.jpg",
-      "subscribers": 5760,
-      "view_sub_ratio": 169.4,
-      "velocity": 172659,
+      "subscribers": 5770,
+      "view_sub_ratio": 169.3,
+      "velocity": 172371,
       "velocity_type": "평균",
       "rank": 4,
       "top_comments": [
         {
           "text": "전 접시 일부러 엎고 \"손이 미끄러졌네~\" 😤\n여러분이 지수였으면 큰동서한테 뭐라고 하셨을 것 같아요? 👇\n\n구독해주시면 더 재미있는 이야기 보실수 있어요^^",
-          "likes": 53
+          "likes": 54
         },
         {
           "text": "속이 시원하네 인연 끊어요",
-          "likes": 95
+          "likes": 96
         },
         {
           "text": "상쾌 통쾌하다.ㅎㅎ\n꼴좋다 ~^^",
-          "likes": 46
+          "likes": 47
+        },
+        {
+          "text": "한마디로 \n통쾌 상쾌 유쾌",
+          "likes": 29
         },
         {
           "text": "참 잘하셨어요. 말투와 행동이 무개념\n상식밖 상종하지 마세요.\n멋진 남편 최고예요.",
           "likes": 8
         },
         {
-          "text": "한마디로 \n통쾌 상쾌 유쾌",
-          "likes": 28
-        },
-        {
           "text": "통쾌하다  엄마 올케 동서\n모두 거시기같네",
           "likes": 6
         },
         {
-          "text": "시어머니 속 보인다, 내속이다 시원하다",
-          "likes": 3
+          "text": "아주 잘했어요 쌤통이다 놀부 심보네 뻔뻔하다",
+          "likes": 34
         },
         {
-          "text": "아주 잘했어요 쌤통이다 놀부 심보네 뻔뻔하다",
-          "likes": 33
+          "text": "시어머니 속 보인다, 내속이다 시원하다",
+          "likes": 3
         },
         {
           "text": "속이 다 후련하네요~통쾌 상쾌 유쾌 ~",
@@ -982,7 +907,7 @@
         },
         {
           "text": "왕 무시를 하네\n시댁식구들 참 어이없다",
-          "likes": 41
+          "likes": 42
         }
       ]
     },
@@ -995,8 +920,8 @@
       "channel_id": "UCAw1fiEjJIXsTM4dh8cndNQ",
       "published_at": "2026-11-23T12:07:23Z",
       "duration_sec": 169,
-      "views": 815629,
-      "likes": 42934,
+      "views": 817482,
+      "likes": 42977,
       "comments": 205,
       "description_head": "죽은 친정엄마가 남긴 김치 양념 비법.\n시어머니는 그 비법으로 김장 명인 대회에 나가려 했습니다.\n며느리는 뒷마당에 숨기고, 엄마의 레시피 공책은 소금물에 던져버리고…\n\n하지만 심사위원장의 한마디.\n\"지금 이 자리에서 양념, 직접 배합해 주시죠.\"\n\n며느리 비법을 훔친 시어머니의 최후, 끝까지 확인하세요.\n\n다은이가 꼭 잘되길 바라신다면 구독으로 응원해주세",
       "hashtags": [
@@ -1012,8 +937,8 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/TUgNKaxpznc/hqdefault.jpg",
       "subscribers": 12300,
-      "view_sub_ratio": 66.3,
-      "velocity": 234479,
+      "view_sub_ratio": 66.5,
+      "velocity": 233991,
       "velocity_type": "평균",
       "rank": 5,
       "top_comments": [
@@ -1068,8 +993,8 @@
       "channel_id": "UCxK8fcivddEsDwoKKPo3tbg",
       "published_at": "2026-11-21T08:56:17Z",
       "duration_sec": 82,
-      "views": 607931,
-      "likes": 5712,
+      "views": 608033,
+      "likes": 5714,
       "comments": 47,
       "description_head": "",
       "hashtags": [
@@ -1082,7 +1007,7 @@
       "thumbnail": "https://i.ytimg.com/vi/sMDN-S2LI44/hqdefault.jpg",
       "subscribers": 15200,
       "view_sub_ratio": 40.0,
-      "velocity": 108343,
+      "velocity": 108069,
       "velocity_type": "평균",
       "rank": 6,
       "top_comments": [
@@ -1137,7 +1062,7 @@
       "channel_id": "UCvj0Oi3Y8HK8bjMFPgELyEg",
       "published_at": "2026-11-22T03:00:18Z",
       "duration_sec": 81,
-      "views": 216598,
+      "views": 216645,
       "likes": 7149,
       "comments": 271,
       "description_head": "답답한 현실, 1분 만에 뻥 뚫어 드립니다\n\n━━━━━━━━━━\n🔔 구독하고 다음 화를 가장 먼저 확인하세요!\n📌 매일 낮 12시 · 저녁 7시 업로드\n\n※ 본 영상은 AI로 제작된 가상의 이야기이며, 등장인물·단체는 실제와 관련이 없습니다.\n\n#ai드라마 #막장드라마 #사이다 #참교육 #숏드라마",
@@ -1153,7 +1078,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GEYN8w-qVs0/hqdefault.jpg",
       "subscribers": 30100,
       "view_sub_ratio": 7.2,
-      "velocity": 44582,
+      "velocity": 44453,
       "velocity_type": "평균",
       "rank": 7,
       "top_comments": [
@@ -1224,7 +1149,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PkavtdxK3QE/hqdefault.jpg",
       "subscribers": 4380,
       "view_sub_ratio": 34.0,
-      "velocity": 26866,
+      "velocity": 26792,
       "velocity_type": "평균",
       "rank": 8,
       "top_comments": [
@@ -1263,7 +1188,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RH8V56QygTw/hqdefault.jpg",
       "subscribers": 67300,
       "view_sub_ratio": 1.8,
-      "velocity": 25186,
+      "velocity": 25106,
       "velocity_type": "평균",
       "rank": 9,
       "top_comments": [
@@ -1342,7 +1267,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gloqoLcgp5U/hqdefault.jpg",
       "subscribers": 30100,
       "view_sub_ratio": 3.7,
-      "velocity": 22106,
+      "velocity": 22040,
       "velocity_type": "평균",
       "rank": 10,
       "top_comments": [
