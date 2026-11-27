@@ -44,6 +44,7 @@
 |---|---|
 | `YOUTUBE_API_KEY` | ①의 키 |
 | `GEMINI_API_KEY` | ②의 키 |
+| `GEMINI_API_KEY_2` ~ `GEMINI_API_KEY_5` | (선택) 추가 제미나이 키. 한 키의 하루 한도가 차면 다음 키로 넘어갑니다. **서로 다른 구글 클라우드 프로젝트**에서 만든 키여야 한도가 따로 계산됩니다 |
 | `TELEGRAM_BOT_TOKEN` | ③의 토큰 |
 | `TELEGRAM_CHAT_ID` | ③의 숫자 |
 

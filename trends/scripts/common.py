@@ -57,9 +57,8 @@ _SECRET_PATTERNS = [
 def scrub(text):
     """오류 메시지에서 비밀값처럼 보이는 부분을 가린다."""
     text = str(text)
-    for env in ("YOUTUBE_API_KEY", "GEMINI_API_KEY", "TELEGRAM_BOT_TOKEN"):
-        v = os.environ.get(env)
-        if v:
+    for env in ("YOUTUBE_API_KEY", "GEMINI_API_KEY", "TELEGRAM_BOT_TOKEN", *[f"GEMINI_API_KEY_{i}" for i in range(2, 10)]):
+        for v in (os.environ.get(env) or "").replace(",", " ").split():
             text = text.replace(v, "***")
     for p in _SECRET_PATTERNS:
         text = p.sub("***", text)

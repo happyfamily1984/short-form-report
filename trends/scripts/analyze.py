@@ -10,6 +10,7 @@ status.json에 실패 사실을 남긴다 → notify.py가 텔레그램으로 �
 """
 import argparse
 import json
+import re
 import os
 import sys
 import time
@@ -77,13 +78,16 @@ class Gemini:
         self.requests = 0
         self.last = 0.0
         self.model_used = self.cfg["model"]
-        self.dead = set()   # 한도 초과로 끝까지 실패한 모델은 그날 다시 쓰지 않음
+        self.dead = set()   # (키 번호, 모델): 오늘 한도가 찬 조합은 다시 쓰지 않음
+        self.clients = []
         if not mock:
             from google import genai
-            key = os.environ.get("GEMINI_API_KEY")
-            if not key:
+            keys = gemini_keys()
+            if not keys:
                 raise RuntimeError("GEMINI_API_KEY가 없습니다 (깃허브 Secrets 확인)")
-            self.client = genai.Client(api_key=key)
+            self.clients = [genai.Client(api_key=k) for k in keys]
+            print(f"[분석] 제미나이 키 {len(keys)}개 사용 (한도가 차면 다음 키로 넘어감)")
+        self.client = self.clients[0] if self.clients else None
 
     def _wait(self):
         gap = self.cfg["wait_between_requests_sec"] - (time.time() - self.last)
@@ -91,7 +95,7 @@ class Gemini:
             time.sleep(gap)
         self.last = time.time()
 
-    def _call(self, model, parts):
+    def _call(self, model, parts, can_switch=False):
         from google.genai import errors, types
         tries = 0
         while True:
@@ -106,6 +110,8 @@ class Gemini:
                 return res.text or ""
             except errors.APIError as e:
                 retryable = e.code == 429 or (e.code or 0) >= 500
+                if e.code == 429 and can_switch:
+                    raise   # 다른 키가 남아 있으면 기다리지 않고 바로 다음 키로
                 if retryable and tries < self.cfg["max_retries"]:
                     tries += 1
                     wait = self.cfg["retry_wait_sec"] * tries
@@ -120,24 +126,41 @@ class Gemini:
             self.requests += 1
             return mock_fn()
         models = [self.cfg["model"]] + ([self.cfg["fallback_model"]] if self.cfg.get("fallback_model") else [])
-        last_err = RuntimeError("모든 모델이 오늘 한도 초과")
-        for model in [m for m in models if m not in self.dead]:
-            try:
-                for attempt in range(2):
-                    text = self._call(model, parts if attempt == 0 else parts + [
-                        "직전 답이 올바른 JSON이 아니었습니다. 설명 없이 JSON만 다시 보내 주세요."])
-                    data = parse_json(text)
-                    if data is not None:
-                        self.model_used = model
-                        return data
-                    print("[분석] JSON 형식이 깨져서 한 번 더 요청합니다")
-                raise ValueError("JSON 형식 오류가 2번 연속 발생")
-            except Exception as e:
-                last_err = e
-                if getattr(e, "code", None) == 429:
-                    self.dead.add(model)
-                print(f"[분석] 모델 {model} 실패: {scrub(e)[:200]}")
+        last_err = RuntimeError("모든 키·모델이 오늘 한도 초과")
+        for model in models:
+            for ki, client in enumerate(self.clients):
+                if (ki, model) in self.dead:
+                    continue
+                self.client = client
+                left = [k for k in range(len(self.clients)) if k != ki and (k, model) not in self.dead]
+                try:
+                    for attempt in range(2):
+                        text = self._call(model, parts if attempt == 0 else parts + [
+                            "직전 답이 올바른 JSON 객체가 아니었습니다. 설명 없이 지정한 형식의 JSON 객체만 다시 보내 주세요."], can_switch=bool(left))
+                        data = parse_json(text)
+                        if isinstance(data, list):   # 객체 대신 목록으로 오면 안의 객체를 꺼낸다
+                            data = next((x for x in data if isinstance(x, dict)), None)
+                        if isinstance(data, dict):
+                            self.model_used = model if ki == 0 else f"{model} (키 {ki + 1})"
+                            return data
+                        print("[분석] JSON 형식이 깨져서 한 번 더 요청합니다")
+                    raise ValueError("JSON 형식 오류가 2번 연속 발생")
+                except Exception as e:
+                    last_err = e
+                    if getattr(e, "code", None) == 429:
+                        self.dead.add((ki, model))
+                        print(f"[분석] 키 {ki + 1} · {model} 한도 초과 → 다음 키로")
+                    else:
+                        print(f"[분석] 키 {ki + 1} · 모델 {model} 실패: {scrub(e)[:200]}")
+                        break   # 한도 문제가 아니면 같은 모델로 다른 키를 써도 같으므로 다음 모델로
         raise last_err
+
+
+def gemini_keys():
+    """GEMINI_API_KEY(쉼표로 여러 개 가능) + GEMINI_API_KEY_2 ~ GEMINI_API_KEY_9"""
+    raw = [os.environ.get("GEMINI_API_KEY", "")] + [os.environ.get(f"GEMINI_API_KEY_{i}", "") for i in range(2, 10)]
+    keys = [k.strip() for r in raw for k in re.split(r"[,\s]+", r or "") if k.strip()]
+    return list(dict.fromkeys(keys))
 
 
 def parse_json(text):
@@ -354,7 +377,11 @@ def main():
                       f"영상 정보(JSON):\n{json.dumps([video_brief(v) for v in gv], ensure_ascii=False)}\n\n"
                       f"답 형식(JSON):\n{GENRE_SCHEMA}")
             try:
-                genres[g] = gm.ask_json(parts + [prompt], lambda: mock_genre(g, gv))
+                res = gm.ask_json(parts + [prompt], lambda: mock_genre(g, gv))
+                if not isinstance(res.get("videos"), list):
+                    res["videos"] = [res] if res.get("video_id") else []
+                res.setdefault("patterns", {})
+                genres[g] = res
                 print(f"[분석] {g} 완료")
             except Exception as e:
                 failures.append(f"{g} 분석 실패({scrub(e)[:80]})")
