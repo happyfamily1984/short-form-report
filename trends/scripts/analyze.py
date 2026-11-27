@@ -4,7 +4,7 @@
   python trends/scripts/analyze.py          # 실제 분석 (GEMINI_API_KEY 필요)
   python trends/scripts/analyze.py --mock   # 키 없이 가짜 응답으로 흐름 시험
 
-요청 수: 장르 수(교육·과학·다큐 x 한국·해외 = 6) + 전체 요약(1) + 영상 직접 보기(watch.max_total) = 하루 약 17회
+요청 수: 장르 수(교육·과학·다큐 x 한국·해외 = 6) + 전체 요약(1) + 영상 직접 보기(watch.max_total, 초 단위 분석 포함) = 하루 약 17회
 실패해도 프로그램은 멈추지 않고, 수집 요약만 담은 analysis.md를 만든 뒤
 status.json에 실패 사실을 남긴다 → notify.py가 텔레그램으로 알려 줌.
 """
@@ -89,7 +89,10 @@ WATCH_SCHEMA = """{
   "script": [{"t": "0~3초", "scene": "화면에 보이는 것 한 줄", "line": "그 장면의 내레이션·자막 요지 (없으면 빈 문자열)"}],
   "facts": ["영상이 전하는 핵심 사실 요약"],
   "flow": ["흐름 1단계", "2단계", "3단계"],
-  "ending": "마무리 한 줄"
+  "ending": "마무리 한 줄",
+  "timeline": [{"s": 0, "visual": "이 1초에 화면에 보이는 것 (피사체·구도·카메라 움직임·색감)", "text": "화면에 뜬 글자 요지 (없으면 빈 문자열)",
+                "audio": "들리는 것 (내레이션 요지·효과음·음악 변화, 없으면 빈 문자열)", "cut": true,
+                "prompt": "이 장면을 새로 만들 때 쓸 영어 이미지·영상 프롬프트 한 줄 (구도·피사체·조명·카메라 움직임)"}]
 }"""
 
 
@@ -259,6 +262,33 @@ def clean_script(script):
     return out[:10]
 
 
+def clean_timeline(tl, step):
+    """초 단위 분석: 시간 순서로 정렬하고, 한 칸에 한 줄씩. cut 은 그 초에 장면이 바뀌었는지."""
+    out = []
+    for x in tl if isinstance(tl, list) else []:
+        if not isinstance(x, dict) or not (x.get("visual") or x.get("prompt")):
+            continue
+        try:
+            sec = max(0, int(round(float(x.get("s", 0)))))
+        except Exception:
+            continue
+        out.append({"s": sec, "visual": str(x.get("visual") or "")[:160], "text": str(x.get("text") or "")[:80],
+                    "audio": str(x.get("audio") or "")[:120], "cut": bool(x.get("cut")), "prompt": str(x.get("prompt") or "")[:300]})
+    out.sort(key=lambda x: x["s"])
+    if out:
+        out[0]["cut"] = True
+    return out[:int(120 / max(1, step))]
+
+
+def cut_stats(tl):
+    """장면 전환 횟수와 평균 컷 길이(초)."""
+    if not tl:
+        return None
+    cuts = [x["s"] for x in tl if x.get("cut")] or [0]
+    end = tl[-1]["s"] + 1
+    return {"cuts": len(cuts), "avg_shot_sec": round(end / max(1, len(cuts)), 1)}
+
+
 def tidy_video(a):
     """영상 한 편의 분석을 앱이 읽기 좋게 고른다."""
     if not isinstance(a, dict):
@@ -349,7 +379,10 @@ def mock_genre(genre, vids):
 
 def mock_watch(v):
     r = mock_genre(v["genre"], [v])["videos"][0]
-    return {k: r[k] for k in ("topic", "format", "visual", "audio", "hook", "structure", "loops", "cast", "script", "facts", "flow", "ending")}
+    out = {k: r[k] for k in ("topic", "format", "visual", "audio", "hook", "structure", "loops", "cast", "script", "facts", "flow", "ending")}
+    out["timeline"] = [{"s": s, "visual": f"{s}초 화면 (샘플)", "text": "큰 질문 글자 (샘플)" if s < 3 else "", "audio": "내레이션 (샘플)",
+                        "cut": s % 3 == 0, "prompt": f"vertical 9:16 shot {s} (sample)"} for s in range(min(int(v["duration_sec"]), 60))]
+    return out
 
 
 def mock_summary():
@@ -425,6 +458,7 @@ def render_md(today, raw, genres, summary, failures, model, requests_count):
                   "핵심 사실(영상의 주장): " + (" / ".join(a.get("facts", [])) or "-"),
                   "화면 주체: " + (" / ".join(f"{c.get('role')}({c.get('kind', '사람')}): {c.get('who')}" + (f" [외형: {c.get('look')}]" if c.get("look") else "")
                                          for c in a.get("cast", [])) or "없음"),
+                  *([f"초 단위 분석: {len(a['timeline'])}칸 · 장면 전환 {a.get('cuts', {}).get('cuts', '-')}번 · 평균 {a.get('cuts', {}).get('avg_shot_sec', '-')}초마다"] if a.get("timeline") else []),
                   *(["장면별 대본:"] + [f"  {x.get('t', '')} {x.get('scene', '')}" + (f" — {x.get('line')}" if x.get("line") else "") for x in a["script"]] if a.get("script") else []),
                   "흐름: " + (" → ".join(a.get("flow", [])) or "-"),
                   f"결말: {a.get('ending', '-')}",
@@ -521,6 +555,7 @@ def main():
                 from google.genai import types
                 parts = [types.Part(file_data=types.FileData(file_uri=yt_watch_url(v)))]
             overseas = v.get("market") == "global"
+            step = 1 if v["duration_sec"] <= 60 else 2
             prompt = ("너는 숏폼 영상 분석가다. 붙인 유튜브 영상을 처음부터 끝까지 직접 보고 답 형식을 채워라.\n"
                       "- 직접 본 내용만 적는다. 추정 표시는 붙이지 않는다.\n"
                       "- 대사·내레이션·자막은 그대로 받아쓰지 말고 요지를 내 말로 적는다. 실존 인물 이름, 기존 작품 캐릭터 이름·상표는 쓰지 않고 생김새로만 적는다.\n"
@@ -528,10 +563,13 @@ def main():
                       "- cast 는 화면에 계속 나오는 주체(진행자·동물·캐릭터·사물)만. kind 는 사람/동물/캐릭터/사물 중 하나. 자료화면·풍경뿐이면 빈 목록 [].\n"
                       "- look 은 그림으로 다시 그릴 수 있게 외형만 (사람: 나이대·성별·머리·옷·인상 / 동물: 종·털색·크기 / 캐릭터: 그림체·색·특징).\n"
                       "- script 는 장면 순서대로 4~8줄, t 는 그 장면의 시간 구간.\n"
+                      f"- timeline 은 영상 처음부터 끝까지 {step}초마다 한 칸씩 빠짐없이 적는다 (s 는 그 칸이 시작하는 초). "
+                      "cut 은 그 칸에서 장면이 바뀌면 true. prompt 는 그 장면을 새로 만들 때 쓸 영어 프롬프트로, 원본 영상의 글자·로고·실존 인물은 넣지 않는다.\n"
                       + ("- 해외 영상이다. 모든 답은 한국어로 쓴다.\n" if overseas else "- 모든 답은 쉬운 한국어로 쓴다.\n")
                       + f"영상 길이: {v['duration_sec']}초. 반드시 지정한 JSON 형식으로만 답한다.\n\n답 형식(JSON):\n{WATCH_SCHEMA}")
             try:
                 res = tidy_video(gm.ask_json(parts + [prompt], lambda: mock_watch(v)))
+                res["timeline"] = clean_timeline(res.get("timeline"), step)
                 if not res.get("script"):
                     raise ValueError("대본이 비어 있음")
                 g = genres.setdefault(v["genre"], {"videos": [], "patterns": {}})
@@ -541,6 +579,8 @@ def main():
                     g["videos"].append(cur)
                 cur.update({k: res[k] for k in ("topic", "format", "visual", "audio", "hook", "structure", "loops", "cast", "script", "facts", "flow", "ending") if res.get(k) not in (None, "", [])})
                 cur["cast"] = res["cast"]          # 직접 봤으면 "등장인물 없음"도 그대로 믿는다
+                if res["timeline"]:
+                    cur["timeline"], cur["timeline_step"], cur["cuts"] = res["timeline"], step, cut_stats(res["timeline"])
                 cur["watched"] = True
                 watched, misses = watched + 1, 0
                 print(f"[분석] 영상 직접 보기 완료: {v['video_id']} ({v['genre']})")
