@@ -33,6 +33,38 @@ global_genres:
   해외 직장·현실 사이다:
     - instant karma short drama
 
+# 인기 숏폼 (숏드라마가 아닌 일반 인기 쇼츠). 한국·해외를 따로 모읍니다.
+# 검색어 1개 = 100단위. 지금 한국 5개 + 해외 5개 = 1,000단위. 인기 급상승 차트는 지역당 1~2단위.
+# 장르 이름은 "인기"로 시작(해외는 "해외 인기")하고, 마지막 장르(종합)에 인기 급상승 차트 결과가 들어갑니다.
+popular:
+  chart: true            # 유튜브 인기 급상승 차트에서 짧은 영상만 골라 종합에 추가
+  chart_pages: 2         # 지역당 50개씩 몇 쪽까지 (쪽당 1단위)
+  top_per_genre: 8       # 장르별로 남길 영상 수
+  max_duration_sec: 90   # 인기 숏폼은 90초 이하만
+  min_views: 50000       # 최소 조회수
+  kr:
+    인기 · 상황극·코미디:
+      - 상황극 쇼츠
+    인기 · 동물:
+      - 강아지 고양이 쇼츠
+    인기 · 애니·캐릭터:
+      - 애니메이션 쇼츠
+    인기 · 썰·사연:
+      - 썰 쇼츠
+    인기 · 종합:
+      - "#shorts"
+  global:
+    해외 인기 · 상황극·코미디:
+      - comedy skit shorts
+    해외 인기 · 동물:
+      - funny animals shorts
+    해외 인기 · 애니·캐릭터:
+      - animation shorts
+    해외 인기 · 썰·사연:
+      - storytime shorts
+    해외 인기 · 종합:
+      - "#shorts"
+
 global:
   region: US
   language: en
@@ -61,6 +93,14 @@ gemini:
   thumbnails_per_genre: 3         # 썸네일 이미지 분석은 장르별 상위 3개만
   temperature: 0.7
 
+# 영상 직접 보기: 제미나이가 유튜브 영상을 실제로 보고 장면별 대본·등장인물 외형을 적습니다.
+# 영상 1개 = 요청 1회. 무료 한도가 빠듯하면 max_total 을 줄이거나 0으로 끄세요 (끄면 제목·댓글·썸네일로 추정).
+watch:
+  max_total: 8          # 하루에 직접 볼 영상 수 (0 = 끔)
+  per_genre: 1          # 장르마다 상위 몇 개
+  kinds: [popular]      # popular(인기 숏폼) / drama(숏드라마). 앞에 적은 것부터 봅니다
+  max_duration_sec: 90  # 이보다 긴 영상은 보지 않음 (길수록 토큰을 많이 씀)
+
 # 내 배경 (회차 아이디어를 이 배경으로 바꿔서 제안)
 my_background:
   - 배달 라이더
@@ -69,3 +109,4 @@ my_background:
 
 telegram:
   top_links_per_genre: 3
+  popular_links: 5       # 인기 숏폼은 한국·해외 각각 조회수 상위 몇 개

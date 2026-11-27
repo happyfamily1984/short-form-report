@@ -45,14 +45,26 @@ def build_message(date, cfg):
     if a and not a.get("ok"):
         L.append(f"⚠️ 분석 실패 → 수집 요약만 보냅니다\n사유: {esc(a.get('message'))}")
 
+    drama = [v for v in vids if (v.get("kind") or "drama") == "drama"]
     L.append("\n<b>🔥 장르별 상위 3</b>")
-    for g in dict.fromkeys(v["genre"] for v in vids):
+    for g in dict.fromkeys(v["genre"] for v in drama):
         L.append(f"\n<b>[{esc(g)}]</b>")
         for v in [x for x in vids if x["genre"] == g][:n]:
             title = v["title"][:40] + ("…" if len(v["title"]) > 40 else "")
             ratio = f" · 구독자대비 {v['view_sub_ratio']}배" if v.get("view_sub_ratio") else ""
             L.append(f'{v["rank"]}. <a href="{esc(v["url"])}">{esc(title)}</a>\n'
                      f'   {fmt_num(v["views"])}회 · {fmt_dur(v["duration_sec"])}{ratio}')
+    # 인기 숏폼은 장르가 많아 한국·해외로 묶어 조회수 상위만 보낸다
+    for market, name in (("kr", "🎬 인기 숏폼 · 한국"), ("global", "🌍 인기 숏폼 · 해외")):
+        pop = sorted([v for v in vids if v.get("kind") == "popular" and v.get("market", "kr") == market],
+                     key=lambda v: v["views"], reverse=True)[:cfg["telegram"].get("popular_links", 5)]
+        if not pop:
+            continue
+        L.append(f"\n<b>{name}</b>")
+        for i, v in enumerate(pop, 1):
+            title = v["title"][:40] + ("…" if len(v["title"]) > 40 else "")
+            L.append(f'{i}. <a href="{esc(v["url"])}">{esc(title)}</a>\n'
+                     f'   {fmt_num(v["views"])}회 · {fmt_dur(v["duration_sec"])} · {esc(v["genre"].split("·", 1)[-1].strip())}')
     if not vids:
         L.append("(조건에 맞는 영상이 없었습니다)")
 
@@ -63,13 +75,17 @@ def build_message(date, cfg):
     if summary.get("rising"):
         L.append("\n<b>📈 새로 뜨는 형식</b>")
         L += [f"• {esc(x)}" for x in summary["rising"][:3]]
+    if summary.get("popular"):
+        L.append("\n<b>🎯 인기 숏폼에서 잘 되는 형식</b>")
+        L += [f"• {esc(x)}" for x in summary["popular"][:3]]
     if summary.get("ideas"):
         L.append("\n<b>💡 내일 찍을 아이디어</b>")
         for i, x in enumerate(summary["ideas"][:3], 1):
             L.append(f"{i}. <b>{esc(x.get('title'))}</b>\n   훅: {esc(x.get('hook'))}\n   구조: {esc(x.get('structure'))}")
 
     q = raw.get("quota", {}).get("used_units")
-    L.append(f"\n유튜브 {q if q is not None else '-'}단위 · 제미나이 {an.get('requests', 0)}회")
+    L.append(f"\n유튜브 {q if q is not None else '-'}단위 · 제미나이 {an.get('requests', 0)}회"
+             + (f" · 직접 본 영상 {an['watched']}개" if an.get("watched") else ""))
     url = report_url(date)
     if url:
         L.append(f'📄 <a href="{url}">전체 분석 보기</a>')

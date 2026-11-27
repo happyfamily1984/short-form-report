@@ -1,756 +1,1132 @@
 {
- "date": "sample",
- "sample": true,
- "quota": {
-  "used_units": 1062,
-  "calls": {
-   "search": 10,
-   "videos": 2,
-   "channels": 1,
-   "commentThreads": 49
+  "date": "sample",
+  "sample": true,
+  "quota": {
+    "used_units": 1062,
+    "calls": {
+      "search": 10,
+      "videos": 2,
+      "channels": 1,
+      "commentThreads": 49
+    },
+    "log": []
   },
-  "log": []
- },
- "videos": [
-  {
-   "genre": "복수극",
-   "video_id": "SAMPLE00002",
-   "url": "https://www.youtube.com/shorts/SAMPLE00002",
-   "title": "결혼식날 배신당한 신부의 복수 #숏드라마",
-   "channel": "샘플채널2",
-   "channel_id": "UC_SAMPLE2",
-   "published_at": "2026-11-22T09:00:00Z",
-   "duration_sec": 75,
-   "views": 2158005,
-   "likes": 71933,
-   "comments": 5395,
-   "description_head": "샘플 설명입니다. #숏드라마 #복수극",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 890000,
-   "view_sub_ratio": 2.4,
-   "velocity": 204027,
-   "velocity_type": "평균",
-   "rank": 1,
-   "top_comments": [
+  "videos": [
     {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "복수극",
+      "video_id": "SAMPLE00002",
+      "url": "https://www.youtube.com/shorts/SAMPLE00002",
+      "title": "결혼식날 배신당한 신부의 복수 #숏드라마",
+      "channel": "샘플채널2",
+      "channel_id": "UC_SAMPLE2",
+      "published_at": "2026-11-22T09:00:00Z",
+      "duration_sec": 75,
+      "views": 2158005,
+      "likes": 71933,
+      "comments": 5395,
+      "description_head": "샘플 설명입니다. #숏드라마 #복수극",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 890000,
+      "view_sub_ratio": 2.4,
+      "velocity": 204027,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "복수극",
-   "video_id": "SAMPLE00004",
-   "url": "https://www.youtube.com/shorts/SAMPLE00004",
-   "title": "EP.5 전 남친 회사를 인수했습니다",
-   "channel": "샘플채널4",
-   "channel_id": "UC_SAMPLE4",
-   "published_at": "2026-11-24T09:00:00Z",
-   "duration_sec": 110,
-   "views": 1714976,
-   "likes": 57165,
-   "comments": 4287,
-   "description_head": "샘플 설명입니다. #숏드라마 #복수극",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 890000,
-   "view_sub_ratio": 1.9,
-   "velocity": 6104,
-   "velocity_type": "평균",
-   "rank": 2,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "복수극",
+      "video_id": "SAMPLE00004",
+      "url": "https://www.youtube.com/shorts/SAMPLE00004",
+      "title": "EP.5 전 남친 회사를 인수했습니다",
+      "channel": "샘플채널4",
+      "channel_id": "UC_SAMPLE4",
+      "published_at": "2026-11-24T09:00:00Z",
+      "duration_sec": 110,
+      "views": 1714976,
+      "likes": 57165,
+      "comments": 4287,
+      "description_head": "샘플 설명입니다. #숏드라마 #복수극",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 890000,
+      "view_sub_ratio": 1.9,
+      "velocity": 6104,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "복수극",
-   "video_id": "SAMPLE00003",
-   "url": "https://www.youtube.com/shorts/SAMPLE00003",
-   "title": "\"너 따위가?\" 무시하던 동창들의 최후",
-   "channel": "샘플채널3",
-   "channel_id": "UC_SAMPLE3",
-   "published_at": "2026-11-23T09:00:00Z",
-   "duration_sec": 75,
-   "views": 960614,
-   "likes": 32020,
-   "comments": 2401,
-   "description_head": "샘플 설명입니다. #숏드라마 #복수극",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 3200,
-   "view_sub_ratio": 300.2,
-   "velocity": 19862,
-   "velocity_type": "평균",
-   "rank": 3,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "복수극",
+      "video_id": "SAMPLE00003",
+      "url": "https://www.youtube.com/shorts/SAMPLE00003",
+      "title": "\"너 따위가?\" 무시하던 동창들의 최후",
+      "channel": "샘플채널3",
+      "channel_id": "UC_SAMPLE3",
+      "published_at": "2026-11-23T09:00:00Z",
+      "duration_sec": 75,
+      "views": 960614,
+      "likes": 32020,
+      "comments": 2401,
+      "description_head": "샘플 설명입니다. #숏드라마 #복수극",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 3200,
+      "view_sub_ratio": 300.2,
+      "velocity": 19862,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "복수극",
-   "video_id": "SAMPLE00001",
-   "url": "https://www.youtube.com/shorts/SAMPLE00001",
-   "title": "[1화] 나를 버린 시댁, 3년 뒤 회장이 되어 돌아왔다",
-   "channel": "샘플채널1",
-   "channel_id": "UC_SAMPLE1",
-   "published_at": "2026-11-21T09:00:00Z",
-   "duration_sec": 63,
-   "views": 643564,
-   "likes": 21452,
-   "comments": 1608,
-   "description_head": "샘플 설명입니다. #숏드라마 #복수극",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 3200,
-   "view_sub_ratio": 201.1,
-   "velocity": 66823,
-   "velocity_type": "평균",
-   "rank": 4,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "복수극",
+      "video_id": "SAMPLE00001",
+      "url": "https://www.youtube.com/shorts/SAMPLE00001",
+      "title": "[1화] 나를 버린 시댁, 3년 뒤 회장이 되어 돌아왔다",
+      "channel": "샘플채널1",
+      "channel_id": "UC_SAMPLE1",
+      "published_at": "2026-11-21T09:00:00Z",
+      "duration_sec": 63,
+      "views": 643564,
+      "likes": 21452,
+      "comments": 1608,
+      "description_head": "샘플 설명입니다. #숏드라마 #복수극",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 3200,
+      "view_sub_ratio": 201.1,
+      "velocity": 66823,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "회귀·환생",
-   "video_id": "SAMPLE00005",
-   "url": "https://www.youtube.com/shorts/SAMPLE00005",
-   "title": "죽기 전날로 돌아왔다 [회귀 1화]",
-   "channel": "샘플채널5",
-   "channel_id": "UC_SAMPLE5",
-   "published_at": "2026-11-21T09:00:00Z",
-   "duration_sec": 63,
-   "views": 2998534,
-   "likes": 99951,
-   "comments": 7496,
-   "description_head": "샘플 설명입니다. #숏드라마 #회귀환생",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 890000,
-   "view_sub_ratio": 3.4,
-   "velocity": 124937,
-   "velocity_type": "평균",
-   "rank": 1,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "회귀·환생",
+      "video_id": "SAMPLE00005",
+      "url": "https://www.youtube.com/shorts/SAMPLE00005",
+      "title": "죽기 전날로 돌아왔다 [회귀 1화]",
+      "channel": "샘플채널5",
+      "channel_id": "UC_SAMPLE5",
+      "published_at": "2026-11-21T09:00:00Z",
+      "duration_sec": 63,
+      "views": 2998534,
+      "likes": 99951,
+      "comments": 7496,
+      "description_head": "샘플 설명입니다. #숏드라마 #회귀환생",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 890000,
+      "view_sub_ratio": 3.4,
+      "velocity": 124937,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "회귀·환생",
-   "video_id": "SAMPLE00006",
-   "url": "https://www.youtube.com/shorts/SAMPLE00006",
-   "title": "환생했더니 재벌가 막내딸?! #숏드라마",
-   "channel": "샘플채널6",
-   "channel_id": "UC_SAMPLE6",
-   "published_at": "2026-11-22T09:00:00Z",
-   "duration_sec": 63,
-   "views": 2559477,
-   "likes": 85315,
-   "comments": 6398,
-   "description_head": "샘플 설명입니다. #숏드라마 #회귀환생",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 3200,
-   "view_sub_ratio": 799.8,
-   "velocity": 21037,
-   "velocity_type": "평균",
-   "rank": 2,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "회귀·환생",
+      "video_id": "SAMPLE00006",
+      "url": "https://www.youtube.com/shorts/SAMPLE00006",
+      "title": "환생했더니 재벌가 막내딸?! #숏드라마",
+      "channel": "샘플채널6",
+      "channel_id": "UC_SAMPLE6",
+      "published_at": "2026-11-22T09:00:00Z",
+      "duration_sec": 63,
+      "views": 2559477,
+      "likes": 85315,
+      "comments": 6398,
+      "description_head": "샘플 설명입니다. #숏드라마 #회귀환생",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 3200,
+      "view_sub_ratio": 799.8,
+      "velocity": 21037,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "회귀·환생",
-   "video_id": "SAMPLE00007",
-   "url": "https://www.youtube.com/shorts/SAMPLE00007",
-   "title": "10년 전으로 돌아가 주식을 샀다",
-   "channel": "샘플채널0",
-   "channel_id": "UC_SAMPLE0",
-   "published_at": "2026-11-23T09:00:00Z",
-   "duration_sec": 150,
-   "views": 173625,
-   "likes": 5787,
-   "comments": 434,
-   "description_head": "샘플 설명입니다. #숏드라마 #회귀환생",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 3200,
-   "view_sub_ratio": 54.3,
-   "velocity": 288856,
-   "velocity_type": "평균",
-   "rank": 3,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "회귀·환생",
+      "video_id": "SAMPLE00007",
+      "url": "https://www.youtube.com/shorts/SAMPLE00007",
+      "title": "10년 전으로 돌아가 주식을 샀다",
+      "channel": "샘플채널0",
+      "channel_id": "UC_SAMPLE0",
+      "published_at": "2026-11-23T09:00:00Z",
+      "duration_sec": 150,
+      "views": 173625,
+      "likes": 5787,
+      "comments": 434,
+      "description_head": "샘플 설명입니다. #숏드라마 #회귀환생",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 3200,
+      "view_sub_ratio": 54.3,
+      "velocity": 288856,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "회귀·환생",
-   "video_id": "SAMPLE00008",
-   "url": "https://www.youtube.com/shorts/SAMPLE00008",
-   "title": "다시 태어나도 너만은 안 만나",
-   "channel": "샘플채널1",
-   "channel_id": "UC_SAMPLE1",
-   "published_at": "2026-11-24T09:00:00Z",
-   "duration_sec": 150,
-   "views": 118608,
-   "likes": 3953,
-   "comments": 296,
-   "description_head": "샘플 설명입니다. #숏드라마 #회귀환생",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 890000,
-   "view_sub_ratio": 0.1,
-   "velocity": 118560,
-   "velocity_type": "평균",
-   "rank": 4,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "회귀·환생",
+      "video_id": "SAMPLE00008",
+      "url": "https://www.youtube.com/shorts/SAMPLE00008",
+      "title": "다시 태어나도 너만은 안 만나",
+      "channel": "샘플채널1",
+      "channel_id": "UC_SAMPLE1",
+      "published_at": "2026-11-24T09:00:00Z",
+      "duration_sec": 150,
+      "views": 118608,
+      "likes": 3953,
+      "comments": 296,
+      "description_head": "샘플 설명입니다. #숏드라마 #회귀환생",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 890000,
+      "view_sub_ratio": 0.1,
+      "velocity": 118560,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "신분 반전",
-   "video_id": "SAMPLE00012",
-   "url": "https://www.youtube.com/shorts/SAMPLE00012",
-   "title": "면접관이 무시한 지원자, 사실은 오너",
-   "channel": "샘플채널5",
-   "channel_id": "UC_SAMPLE5",
-   "published_at": "2026-11-24T09:00:00Z",
-   "duration_sec": 42,
-   "views": 2007716,
-   "likes": 66923,
-   "comments": 5019,
-   "description_head": "샘플 설명입니다. #숏드라마 #신분 반전",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 120000,
-   "view_sub_ratio": 16.7,
-   "velocity": 223198,
-   "velocity_type": "평균",
-   "rank": 1,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "신분 반전",
+      "video_id": "SAMPLE00012",
+      "url": "https://www.youtube.com/shorts/SAMPLE00012",
+      "title": "면접관이 무시한 지원자, 사실은 오너",
+      "channel": "샘플채널5",
+      "channel_id": "UC_SAMPLE5",
+      "published_at": "2026-11-24T09:00:00Z",
+      "duration_sec": 42,
+      "views": 2007716,
+      "likes": 66923,
+      "comments": 5019,
+      "description_head": "샘플 설명입니다. #숏드라마 #신분 반전",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 120000,
+      "view_sub_ratio": 16.7,
+      "velocity": 223198,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "신분 반전",
-   "video_id": "SAMPLE00010",
-   "url": "https://www.youtube.com/shorts/SAMPLE00010",
-   "title": "배달원의 정체가 밝혀지자 모두 얼어붙었다",
-   "channel": "샘플채널3",
-   "channel_id": "UC_SAMPLE3",
-   "published_at": "2026-11-22T09:00:00Z",
-   "duration_sec": 110,
-   "views": 1916633,
-   "likes": 63887,
-   "comments": 4791,
-   "description_head": "샘플 설명입니다. #숏드라마 #신분 반전",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 890000,
-   "view_sub_ratio": 2.2,
-   "velocity": 127203,
-   "velocity_type": "평균",
-   "rank": 2,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "신분 반전",
+      "video_id": "SAMPLE00010",
+      "url": "https://www.youtube.com/shorts/SAMPLE00010",
+      "title": "배달원의 정체가 밝혀지자 모두 얼어붙었다",
+      "channel": "샘플채널3",
+      "channel_id": "UC_SAMPLE3",
+      "published_at": "2026-11-22T09:00:00Z",
+      "duration_sec": 110,
+      "views": 1916633,
+      "likes": 63887,
+      "comments": 4791,
+      "description_head": "샘플 설명입니다. #숏드라마 #신분 반전",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 890000,
+      "view_sub_ratio": 2.2,
+      "velocity": 127203,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "신분 반전",
-   "video_id": "SAMPLE00009",
-   "url": "https://www.youtube.com/shorts/SAMPLE00009",
-   "title": "청소부라 무시했는데 알고보니 회장님",
-   "channel": "샘플채널2",
-   "channel_id": "UC_SAMPLE2",
-   "published_at": "2026-11-21T09:00:00Z",
-   "duration_sec": 110,
-   "views": 1850485,
-   "likes": 61682,
-   "comments": 4626,
-   "description_head": "샘플 설명입니다. #숏드라마 #신분 반전",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 3200,
-   "view_sub_ratio": 578.3,
-   "velocity": 121230,
-   "velocity_type": "평균",
-   "rank": 3,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "신분 반전",
+      "video_id": "SAMPLE00009",
+      "url": "https://www.youtube.com/shorts/SAMPLE00009",
+      "title": "청소부라 무시했는데 알고보니 회장님",
+      "channel": "샘플채널2",
+      "channel_id": "UC_SAMPLE2",
+      "published_at": "2026-11-21T09:00:00Z",
+      "duration_sec": 110,
+      "views": 1850485,
+      "likes": 61682,
+      "comments": 4626,
+      "description_head": "샘플 설명입니다. #숏드라마 #신분 반전",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 3200,
+      "view_sub_ratio": 578.3,
+      "velocity": 121230,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "신분 반전",
-   "video_id": "SAMPLE00011",
-   "url": "https://www.youtube.com/shorts/SAMPLE00011",
-   "title": "가난한 척했던 재벌 3세 [2화]",
-   "channel": "샘플채널4",
-   "channel_id": "UC_SAMPLE4",
-   "published_at": "2026-11-23T09:00:00Z",
-   "duration_sec": 150,
-   "views": 1529972,
-   "likes": 50999,
-   "comments": 3824,
-   "description_head": "샘플 설명입니다. #숏드라마 #신분 반전",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 15000,
-   "view_sub_ratio": 102.0,
-   "velocity": 119704,
-   "velocity_type": "평균",
-   "rank": 4,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "신분 반전",
+      "video_id": "SAMPLE00011",
+      "url": "https://www.youtube.com/shorts/SAMPLE00011",
+      "title": "가난한 척했던 재벌 3세 [2화]",
+      "channel": "샘플채널4",
+      "channel_id": "UC_SAMPLE4",
+      "published_at": "2026-11-23T09:00:00Z",
+      "duration_sec": 150,
+      "views": 1529972,
+      "likes": 50999,
+      "comments": 3824,
+      "description_head": "샘플 설명입니다. #숏드라마 #신분 반전",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 15000,
+      "view_sub_ratio": 102.0,
+      "velocity": 119704,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "계약 로맨스",
-   "video_id": "SAMPLE00016",
-   "url": "https://www.youtube.com/shorts/SAMPLE00016",
-   "title": "계약 끝나는 날 그가 한 말",
-   "channel": "샘플채널2",
-   "channel_id": "UC_SAMPLE2",
-   "published_at": "2026-11-24T09:00:00Z",
-   "duration_sec": 110,
-   "views": 2544491,
-   "likes": 84816,
-   "comments": 6361,
-   "description_head": "샘플 설명입니다. #숏드라마 #계약 로맨스",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 890000,
-   "view_sub_ratio": 2.9,
-   "velocity": 211230,
-   "velocity_type": "평균",
-   "rank": 1,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "계약 로맨스",
+      "video_id": "SAMPLE00016",
+      "url": "https://www.youtube.com/shorts/SAMPLE00016",
+      "title": "계약 끝나는 날 그가 한 말",
+      "channel": "샘플채널2",
+      "channel_id": "UC_SAMPLE2",
+      "published_at": "2026-11-24T09:00:00Z",
+      "duration_sec": 110,
+      "views": 2544491,
+      "likes": 84816,
+      "comments": 6361,
+      "description_head": "샘플 설명입니다. #숏드라마 #계약 로맨스",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 890000,
+      "view_sub_ratio": 2.9,
+      "velocity": 211230,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "계약 로맨스",
-   "video_id": "SAMPLE00013",
-   "url": "https://www.youtube.com/shorts/SAMPLE00013",
-   "title": "1년만 내 아내 해줘 [계약결혼 1화]",
-   "channel": "샘플채널6",
-   "channel_id": "UC_SAMPLE6",
-   "published_at": "2026-11-21T09:00:00Z",
-   "duration_sec": 58,
-   "views": 2413938,
-   "likes": 80464,
-   "comments": 6034,
-   "description_head": "샘플 설명입니다. #숏드라마 #계약 로맨스",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 3200,
-   "view_sub_ratio": 754.4,
-   "velocity": 160393,
-   "velocity_type": "평균",
-   "rank": 2,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "계약 로맨스",
+      "video_id": "SAMPLE00013",
+      "url": "https://www.youtube.com/shorts/SAMPLE00013",
+      "title": "1년만 내 아내 해줘 [계약결혼 1화]",
+      "channel": "샘플채널6",
+      "channel_id": "UC_SAMPLE6",
+      "published_at": "2026-11-21T09:00:00Z",
+      "duration_sec": 58,
+      "views": 2413938,
+      "likes": 80464,
+      "comments": 6034,
+      "description_head": "샘플 설명입니다. #숏드라마 #계약 로맨스",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 3200,
+      "view_sub_ratio": 754.4,
+      "velocity": 160393,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "계약 로맨스",
-   "video_id": "SAMPLE00015",
-   "url": "https://www.youtube.com/shorts/SAMPLE00015",
-   "title": "위장결혼 상대가 내 상사였다",
-   "channel": "샘플채널1",
-   "channel_id": "UC_SAMPLE1",
-   "published_at": "2026-11-23T09:00:00Z",
-   "duration_sec": 63,
-   "views": 1850445,
-   "likes": 61681,
-   "comments": 4626,
-   "description_head": "샘플 설명입니다. #숏드라마 #계약 로맨스",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 15000,
-   "view_sub_ratio": 123.4,
-   "velocity": 153981,
-   "velocity_type": "평균",
-   "rank": 3,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "계약 로맨스",
+      "video_id": "SAMPLE00015",
+      "url": "https://www.youtube.com/shorts/SAMPLE00015",
+      "title": "위장결혼 상대가 내 상사였다",
+      "channel": "샘플채널1",
+      "channel_id": "UC_SAMPLE1",
+      "published_at": "2026-11-23T09:00:00Z",
+      "duration_sec": 63,
+      "views": 1850445,
+      "likes": 61681,
+      "comments": 4626,
+      "description_head": "샘플 설명입니다. #숏드라마 #계약 로맨스",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 15000,
+      "view_sub_ratio": 123.4,
+      "velocity": 153981,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "계약 로맨스",
-   "video_id": "SAMPLE00014",
-   "url": "https://www.youtube.com/shorts/SAMPLE00014",
-   "title": "계약 연애인데 왜 설레지? #숏드라마",
-   "channel": "샘플채널0",
-   "channel_id": "UC_SAMPLE0",
-   "published_at": "2026-11-22T09:00:00Z",
-   "duration_sec": 150,
-   "views": 587049,
-   "likes": 19568,
-   "comments": 1467,
-   "description_head": "샘플 설명입니다. #숏드라마 #계약 로맨스",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 120000,
-   "view_sub_ratio": 4.9,
-   "velocity": 267563,
-   "velocity_type": "평균",
-   "rank": 4,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "계약 로맨스",
+      "video_id": "SAMPLE00014",
+      "url": "https://www.youtube.com/shorts/SAMPLE00014",
+      "title": "계약 연애인데 왜 설레지? #숏드라마",
+      "channel": "샘플채널0",
+      "channel_id": "UC_SAMPLE0",
+      "published_at": "2026-11-22T09:00:00Z",
+      "duration_sec": 150,
+      "views": 587049,
+      "likes": 19568,
+      "comments": 1467,
+      "description_head": "샘플 설명입니다. #숏드라마 #계약 로맨스",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 120000,
+      "view_sub_ratio": 4.9,
+      "velocity": 267563,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "직장·현실 사이다",
-   "video_id": "SAMPLE00020",
-   "url": "https://www.youtube.com/shorts/SAMPLE00020",
-   "title": "퇴사날 사장님 표정 실화",
-   "channel": "샘플채널6",
-   "channel_id": "UC_SAMPLE6",
-   "published_at": "2026-11-24T09:00:00Z",
-   "duration_sec": 58,
-   "views": 2864002,
-   "likes": 95466,
-   "comments": 7160,
-   "description_head": "샘플 설명입니다. #숏드라마 #직장현실 사이다",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 3200,
-   "view_sub_ratio": 895.0,
-   "velocity": 278121,
-   "velocity_type": "평균",
-   "rank": 1,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "직장·현실 사이다",
+      "video_id": "SAMPLE00020",
+      "url": "https://www.youtube.com/shorts/SAMPLE00020",
+      "title": "퇴사날 사장님 표정 실화",
+      "channel": "샘플채널6",
+      "channel_id": "UC_SAMPLE6",
+      "published_at": "2026-11-24T09:00:00Z",
+      "duration_sec": 58,
+      "views": 2864002,
+      "likes": 95466,
+      "comments": 7160,
+      "description_head": "샘플 설명입니다. #숏드라마 #직장현실 사이다",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 3200,
+      "view_sub_ratio": 895.0,
+      "velocity": 278121,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "직장·현실 사이다",
-   "video_id": "SAMPLE00017",
-   "url": "https://www.youtube.com/shorts/SAMPLE00017",
-   "title": "월급 루팡 팀장 참교육 #사이다",
-   "channel": "샘플채널3",
-   "channel_id": "UC_SAMPLE3",
-   "published_at": "2026-11-21T09:00:00Z",
-   "duration_sec": 75,
-   "views": 2550454,
-   "likes": 85015,
-   "comments": 6376,
-   "description_head": "샘플 설명입니다. #숏드라마 #직장현실 사이다",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 3200,
-   "view_sub_ratio": 797.0,
-   "velocity": 132265,
-   "velocity_type": "평균",
-   "rank": 2,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "직장·현실 사이다",
+      "video_id": "SAMPLE00017",
+      "url": "https://www.youtube.com/shorts/SAMPLE00017",
+      "title": "월급 루팡 팀장 참교육 #사이다",
+      "channel": "샘플채널3",
+      "channel_id": "UC_SAMPLE3",
+      "published_at": "2026-11-21T09:00:00Z",
+      "duration_sec": 75,
+      "views": 2550454,
+      "likes": 85015,
+      "comments": 6376,
+      "description_head": "샘플 설명입니다. #숏드라마 #직장현실 사이다",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 3200,
+      "view_sub_ratio": 797.0,
+      "velocity": 132265,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "직장·현실 사이다",
-   "video_id": "SAMPLE00018",
-   "url": "https://www.youtube.com/shorts/SAMPLE00018",
-   "title": "갑질 고객에게 날린 한마디",
-   "channel": "샘플채널4",
-   "channel_id": "UC_SAMPLE4",
-   "published_at": "2026-11-22T09:00:00Z",
-   "duration_sec": 150,
-   "views": 1775707,
-   "likes": 59190,
-   "comments": 4439,
-   "description_head": "샘플 설명입니다. #숏드라마 #직장현실 사이다",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 890000,
-   "view_sub_ratio": 2.0,
-   "velocity": 95705,
-   "velocity_type": "평균",
-   "rank": 3,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "직장·현실 사이다",
+      "video_id": "SAMPLE00018",
+      "url": "https://www.youtube.com/shorts/SAMPLE00018",
+      "title": "갑질 고객에게 날린 한마디",
+      "channel": "샘플채널4",
+      "channel_id": "UC_SAMPLE4",
+      "published_at": "2026-11-22T09:00:00Z",
+      "duration_sec": 150,
+      "views": 1775707,
+      "likes": 59190,
+      "comments": 4439,
+      "description_head": "샘플 설명입니다. #숏드라마 #직장현실 사이다",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 890000,
+      "view_sub_ratio": 2.0,
+      "velocity": 95705,
+      "velocity_type": "평균",
+      "rank": 3,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "직장·현실 사이다",
-   "video_id": "SAMPLE00019",
-   "url": "https://www.youtube.com/shorts/SAMPLE00019",
-   "title": "신입이 회의에서 팀장을 박살낸 이유",
-   "channel": "샘플채널5",
-   "channel_id": "UC_SAMPLE5",
-   "published_at": "2026-11-23T09:00:00Z",
-   "duration_sec": 42,
-   "views": 1619828,
-   "likes": 53994,
-   "comments": 4049,
-   "description_head": "샘플 설명입니다. #숏드라마 #직장현실 사이다",
-   "hashtags": [
-    "#숏드라마"
-   ],
-   "thumbnail": "",
-   "subscribers": 120000,
-   "view_sub_ratio": 13.5,
-   "velocity": 235142,
-   "velocity_type": "평균",
-   "rank": 4,
-   "top_comments": [
-    {
-     "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
-     "likes": 120
+      "genre": "직장·현실 사이다",
+      "video_id": "SAMPLE00019",
+      "url": "https://www.youtube.com/shorts/SAMPLE00019",
+      "title": "신입이 회의에서 팀장을 박살낸 이유",
+      "channel": "샘플채널5",
+      "channel_id": "UC_SAMPLE5",
+      "published_at": "2026-11-23T09:00:00Z",
+      "duration_sec": 42,
+      "views": 1619828,
+      "likes": 53994,
+      "comments": 4049,
+      "description_head": "샘플 설명입니다. #숏드라마 #직장현실 사이다",
+      "hashtags": [
+        "#숏드라마"
+      ],
+      "thumbnail": "",
+      "subscribers": 120000,
+      "view_sub_ratio": 13.5,
+      "velocity": 235142,
+      "velocity_type": "평균",
+      "rank": 4,
+      "top_comments": [
+        {
+          "text": "샘플 댓글: 반전 대박, 다음편 언제 나와요",
+          "likes": 120
+        },
+        {
+          "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
+          "likes": 80
+        }
+      ],
+      "market": "kr",
+      "kind": "drama"
     },
     {
-     "text": "샘플 댓글: 사이다 장면에서 소리 질렀다",
-     "likes": 80
-    }
-   ],
-   "market": "kr"
-  },
-  {
-   "genre": "해외 신분 반전",
-   "video_id": "SAMPLEGL001",
-   "url": "https://www.youtube.com/shorts/SAMPLEGL001",
-   "title": "She Was Mocked at the Gala — Then the Owner Arrived #shortdrama",
-   "channel": "Sample Global",
-   "channel_id": "UC_SAMPLE2",
-   "published_at": "2026-11-22T09:00:00Z",
-   "duration_sec": 75,
-   "views": 2158005,
-   "likes": 71933,
-   "comments": 5395,
-   "description_head": "샘플 설명입니다. #숏드라마 #복수극",
-   "hashtags": [
-    "#shortdrama"
-   ],
-   "thumbnail": "",
-   "subscribers": 890000,
-   "view_sub_ratio": 2.4,
-   "velocity": 204027,
-   "velocity_type": "평균",
-   "rank": 1,
-   "top_comments": [
+      "genre": "해외 신분 반전",
+      "video_id": "SAMPLEGL001",
+      "url": "https://www.youtube.com/shorts/SAMPLEGL001",
+      "title": "She Was Mocked at the Gala — Then the Owner Arrived #shortdrama",
+      "channel": "Sample Global",
+      "channel_id": "UC_SAMPLE2",
+      "published_at": "2026-11-22T09:00:00Z",
+      "duration_sec": 75,
+      "views": 2158005,
+      "likes": 71933,
+      "comments": 5395,
+      "description_head": "샘플 설명입니다. #숏드라마 #복수극",
+      "hashtags": [
+        "#shortdrama"
+      ],
+      "thumbnail": "",
+      "subscribers": 890000,
+      "view_sub_ratio": 2.4,
+      "velocity": 204027,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "So satisfying!",
+          "likes": 10
+        }
+      ],
+      "market": "global",
+      "kind": "drama"
+    },
     {
-     "text": "So satisfying!",
-     "likes": 10
-    }
-   ],
-   "market": "global"
-  },
-  {
-   "genre": "해외 복수극",
-   "video_id": "SAMPLEGL002",
-   "url": "https://www.youtube.com/shorts/SAMPLEGL002",
-   "title": "He Got Fired for Helping a Stranger... #revenge #drama",
-   "channel": "Sample Global",
-   "channel_id": "UC_SAMPLE2",
-   "published_at": "2026-11-22T09:00:00Z",
-   "duration_sec": 75,
-   "views": 2158005,
-   "likes": 71933,
-   "comments": 5395,
-   "description_head": "샘플 설명입니다. #숏드라마 #복수극",
-   "hashtags": [
-    "#shortdrama"
-   ],
-   "thumbnail": "",
-   "subscribers": 890000,
-   "view_sub_ratio": 2.4,
-   "velocity": 204027,
-   "velocity_type": "평균",
-   "rank": 1,
-   "top_comments": [
+      "genre": "해외 복수극",
+      "video_id": "SAMPLEGL002",
+      "url": "https://www.youtube.com/shorts/SAMPLEGL002",
+      "title": "He Got Fired for Helping a Stranger... #revenge #drama",
+      "channel": "Sample Global",
+      "channel_id": "UC_SAMPLE2",
+      "published_at": "2026-11-22T09:00:00Z",
+      "duration_sec": 75,
+      "views": 2158005,
+      "likes": 71933,
+      "comments": 5395,
+      "description_head": "샘플 설명입니다. #숏드라마 #복수극",
+      "hashtags": [
+        "#shortdrama"
+      ],
+      "thumbnail": "",
+      "subscribers": 890000,
+      "view_sub_ratio": 2.4,
+      "velocity": 204027,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "So satisfying!",
+          "likes": 10
+        }
+      ],
+      "market": "global",
+      "kind": "drama"
+    },
     {
-     "text": "So satisfying!",
-     "likes": 10
+      "genre": "인기 · 상황극·코미디",
+      "market": "kr",
+      "kind": "popular",
+      "video_id": "smplKRskit1",
+      "url": "https://www.youtube.com/shorts/smplKRskit1",
+      "title": "(샘플) 편의점 알바의 하루 #상황극",
+      "channel": "샘플코미디",
+      "channel_id": "UCsamplesmpl",
+      "published_at": "2026-11-24T03:00:00Z",
+      "duration_sec": 38,
+      "views": 2400000,
+      "likes": 60000,
+      "comments": 1200,
+      "description_head": "",
+      "hashtags": [
+        "#상황극",
+        "#shorts"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/smplKRskit1/hqdefault.jpg",
+      "subscribers": 120000,
+      "view_sub_ratio": 20.0,
+      "velocity": 800000,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "(샘플) 마지막 표정 뭐야 ㅋㅋㅋ",
+          "likes": 320
+        },
+        {
+          "text": "(샘플) 다음 편도 올려 주세요",
+          "likes": 150
+        }
+      ]
+    },
+    {
+      "genre": "인기 · 동물",
+      "market": "kr",
+      "kind": "popular",
+      "video_id": "smplKRpet01",
+      "url": "https://www.youtube.com/shorts/smplKRpet01",
+      "title": "(샘플) 간식 숨긴 강아지의 최후 #강아지",
+      "channel": "샘플멍냥",
+      "channel_id": "UCsamplesmpl",
+      "published_at": "2026-11-24T03:00:00Z",
+      "duration_sec": 24,
+      "views": 5100000,
+      "likes": 127500,
+      "comments": 2550,
+      "description_head": "",
+      "hashtags": [
+        "#강아지",
+        "#고양이"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/smplKRpet01/hqdefault.jpg",
+      "subscribers": 120000,
+      "view_sub_ratio": 42.5,
+      "velocity": 1700000,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "(샘플) 마지막 표정 뭐야 ㅋㅋㅋ",
+          "likes": 320
+        },
+        {
+          "text": "(샘플) 다음 편도 올려 주세요",
+          "likes": 150
+        }
+      ]
+    },
+    {
+      "genre": "인기 · 동물",
+      "market": "kr",
+      "kind": "popular",
+      "video_id": "smplKRpet02",
+      "url": "https://www.youtube.com/shorts/smplKRpet02",
+      "title": "(샘플) 고양이가 문 여는 법을 배웠다",
+      "channel": "샘플멍냥",
+      "channel_id": "UCsamplesmpl",
+      "published_at": "2026-11-24T03:00:00Z",
+      "duration_sec": 19,
+      "views": 1800000,
+      "likes": 45000,
+      "comments": 900,
+      "description_head": "",
+      "hashtags": [
+        "#고양이"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/smplKRpet02/hqdefault.jpg",
+      "subscribers": 120000,
+      "view_sub_ratio": 15.0,
+      "velocity": 600000,
+      "velocity_type": "평균",
+      "rank": 2,
+      "top_comments": [
+        {
+          "text": "(샘플) 마지막 표정 뭐야 ㅋㅋㅋ",
+          "likes": 320
+        },
+        {
+          "text": "(샘플) 다음 편도 올려 주세요",
+          "likes": 150
+        }
+      ]
+    },
+    {
+      "genre": "인기 · 애니·캐릭터",
+      "market": "kr",
+      "kind": "popular",
+      "video_id": "smplKRani01",
+      "url": "https://www.youtube.com/shorts/smplKRani01",
+      "title": "(샘플) 꼬마 로봇의 첫 출근 #애니메이션",
+      "channel": "샘플툰",
+      "channel_id": "UCsamplesmpl",
+      "published_at": "2026-11-24T03:00:00Z",
+      "duration_sec": 45,
+      "views": 3300000,
+      "likes": 82500,
+      "comments": 1650,
+      "description_head": "",
+      "hashtags": [
+        "#애니메이션"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/smplKRani01/hqdefault.jpg",
+      "subscribers": 120000,
+      "view_sub_ratio": 27.5,
+      "velocity": 1100000,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "(샘플) 마지막 표정 뭐야 ㅋㅋㅋ",
+          "likes": 320
+        },
+        {
+          "text": "(샘플) 다음 편도 올려 주세요",
+          "likes": 150
+        }
+      ]
+    },
+    {
+      "genre": "인기 · 썰·사연",
+      "market": "kr",
+      "kind": "popular",
+      "video_id": "smplKRstor1",
+      "url": "https://www.youtube.com/shorts/smplKRstor1",
+      "title": "(샘플) 소개팅에서 생긴 일 #썰",
+      "channel": "샘플썰",
+      "channel_id": "UCsamplesmpl",
+      "published_at": "2026-11-24T03:00:00Z",
+      "duration_sec": 58,
+      "views": 900000,
+      "likes": 22500,
+      "comments": 450,
+      "description_head": "",
+      "hashtags": [
+        "#썰"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/smplKRstor1/hqdefault.jpg",
+      "subscribers": 120000,
+      "view_sub_ratio": 7.5,
+      "velocity": 300000,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "(샘플) 마지막 표정 뭐야 ㅋㅋㅋ",
+          "likes": 320
+        },
+        {
+          "text": "(샘플) 다음 편도 올려 주세요",
+          "likes": 150
+        }
+      ]
+    },
+    {
+      "genre": "인기 · 종합",
+      "market": "kr",
+      "kind": "popular",
+      "video_id": "smplKRall01",
+      "url": "https://www.youtube.com/shorts/smplKRall01",
+      "title": "(샘플) 3초 만에 끝나는 정리법",
+      "channel": "샘플라이프",
+      "channel_id": "UCsamplesmpl",
+      "published_at": "2026-11-24T03:00:00Z",
+      "duration_sec": 15,
+      "views": 7200000,
+      "likes": 180000,
+      "comments": 3600,
+      "description_head": "",
+      "hashtags": [
+        "#shorts"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/smplKRall01/hqdefault.jpg",
+      "subscribers": 120000,
+      "view_sub_ratio": 60.0,
+      "velocity": 2400000,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "(샘플) 마지막 표정 뭐야 ㅋㅋㅋ",
+          "likes": 320
+        },
+        {
+          "text": "(샘플) 다음 편도 올려 주세요",
+          "likes": 150
+        }
+      ]
+    },
+    {
+      "genre": "해외 인기 · 상황극·코미디",
+      "market": "global",
+      "kind": "popular",
+      "video_id": "smplGLskit1",
+      "url": "https://www.youtube.com/shorts/smplGLskit1",
+      "title": "(sample) When your boss says one more thing",
+      "channel": "SampleSkits",
+      "channel_id": "UCsamplesmpl",
+      "published_at": "2026-11-24T03:00:00Z",
+      "duration_sec": 31,
+      "views": 12000000,
+      "likes": 300000,
+      "comments": 6000,
+      "description_head": "",
+      "hashtags": [
+        "#comedy",
+        "#skit"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/smplGLskit1/hqdefault.jpg",
+      "subscribers": 120000,
+      "view_sub_ratio": 100.0,
+      "velocity": 4000000,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "(샘플) 마지막 표정 뭐야 ㅋㅋㅋ",
+          "likes": 320
+        },
+        {
+          "text": "(샘플) 다음 편도 올려 주세요",
+          "likes": 150
+        }
+      ]
+    },
+    {
+      "genre": "해외 인기 · 동물",
+      "market": "global",
+      "kind": "popular",
+      "video_id": "smplGLpet01",
+      "url": "https://www.youtube.com/shorts/smplGLpet01",
+      "title": "(sample) Dog pretends nothing happened",
+      "channel": "SamplePets",
+      "channel_id": "UCsamplesmpl",
+      "published_at": "2026-11-24T03:00:00Z",
+      "duration_sec": 22,
+      "views": 25000000,
+      "likes": 625000,
+      "comments": 12500,
+      "description_head": "",
+      "hashtags": [
+        "#dog",
+        "#funny"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/smplGLpet01/hqdefault.jpg",
+      "subscribers": 120000,
+      "view_sub_ratio": 208.3,
+      "velocity": 8333333,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "(샘플) 마지막 표정 뭐야 ㅋㅋㅋ",
+          "likes": 320
+        },
+        {
+          "text": "(샘플) 다음 편도 올려 주세요",
+          "likes": 150
+        }
+      ]
+    },
+    {
+      "genre": "해외 인기 · 애니·캐릭터",
+      "market": "global",
+      "kind": "popular",
+      "video_id": "smplGLani01",
+      "url": "https://www.youtube.com/shorts/smplGLani01",
+      "title": "(sample) Tiny dragon learns to fly",
+      "channel": "SampleToons",
+      "channel_id": "UCsamplesmpl",
+      "published_at": "2026-11-24T03:00:00Z",
+      "duration_sec": 40,
+      "views": 8000000,
+      "likes": 200000,
+      "comments": 4000,
+      "description_head": "",
+      "hashtags": [
+        "#animation"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/smplGLani01/hqdefault.jpg",
+      "subscribers": 120000,
+      "view_sub_ratio": 66.7,
+      "velocity": 2666666,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "(샘플) 마지막 표정 뭐야 ㅋㅋㅋ",
+          "likes": 320
+        },
+        {
+          "text": "(샘플) 다음 편도 올려 주세요",
+          "likes": 150
+        }
+      ]
+    },
+    {
+      "genre": "해외 인기 · 종합",
+      "market": "global",
+      "kind": "popular",
+      "video_id": "smplGLall01",
+      "url": "https://www.youtube.com/shorts/smplGLall01",
+      "title": "(sample) Wait for the ending",
+      "channel": "SampleShorts",
+      "channel_id": "UCsamplesmpl",
+      "published_at": "2026-11-24T03:00:00Z",
+      "duration_sec": 12,
+      "views": 40000000,
+      "likes": 1000000,
+      "comments": 20000,
+      "description_head": "",
+      "hashtags": [
+        "#shorts"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/smplGLall01/hqdefault.jpg",
+      "subscribers": 120000,
+      "view_sub_ratio": 333.3,
+      "velocity": 13333333,
+      "velocity_type": "평균",
+      "rank": 1,
+      "top_comments": [
+        {
+          "text": "(샘플) 마지막 표정 뭐야 ㅋㅋㅋ",
+          "likes": 320
+        },
+        {
+          "text": "(샘플) 다음 편도 올려 주세요",
+          "likes": 150
+        }
+      ]
     }
-   ],
-   "market": "global"
-  }
- ]
+  ]
 }

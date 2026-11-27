@@ -1,4 +1,5 @@
 """① 유행 수집 — YouTube Data API v3 공식 연동만 사용.
+숏드라마 장르(genres·global_genres)와 인기 숏폼(popular: 검색 + 인기 급상승 차트)을 함께 모은다.
 
 사용법:
   python trends/scripts/collect.py            # 실제 수집 (YOUTUBE_API_KEY 필요)
@@ -119,6 +120,30 @@ def prune_old_dirs(retention_days, today):
 
 # ---------------- 수집 ----------------
 
+def genre_table(cfg):
+    """(장르, 검색어들, 지역, 언어, 시장 kr/global, 종류 drama/popular) 목록.
+    숏드라마 장르가 먼저, 인기 숏폼은 세부 장르 → 종합 순서 (먼저 찾은 장르에 영상을 둔다)."""
+    yc, gc, pc = cfg["youtube"], cfg.get("global", {}), cfg.get("popular") or {}
+    kr = (yc["region"], yc["language"])
+    gl = (gc.get("region", "US"), gc.get("language", "en"))
+    rows = [(g, q or [], *kr, "kr", "drama") for g, q in cfg["genres"].items()]
+    rows += [(g, q or [], *gl, "global", "drama") for g, q in (cfg.get("global_genres") or {}).items()]
+    rows += [(g, q or [], *kr, "kr", "popular") for g, q in (pc.get("kr") or {}).items()]
+    rows += [(g, q or [], *gl, "global", "popular") for g, q in (pc.get("global") or {}).items()]
+    return rows
+
+
+def chart_targets(cfg):
+    """인기 급상승 차트 결과를 넣을 (장르, 지역). 시장별 인기 숏폼의 마지막 장르(종합)에 넣는다."""
+    yc, gc, pc = cfg["youtube"], cfg.get("global", {}), cfg.get("popular") or {}
+    out = []
+    if pc.get("kr"):
+        out.append((list(pc["kr"])[-1], yc["region"]))
+    if pc.get("global"):
+        out.append((list(pc["global"])[-1], gc.get("region", "US")))
+    return out
+
+
 def collect(cfg, key, today):
     yc = cfg["youtube"]
     yt = YouTube(key, yc["quota_budget"])
@@ -127,10 +152,9 @@ def collect(cfg, key, today):
 
     # 1) 장르별 검색 (중복 제거: 먼저 찾은 장르에 둔다)
     found = {}          # video_id -> genre
-    gc = cfg.get("global", {})
-    markets = [(g, q, yc["region"], yc["language"]) for g, q in cfg["genres"].items()] + \
-              [(g, q, gc.get("region", "US"), gc.get("language", "en")) for g, q in (cfg.get("global_genres") or {}).items()]
-    for genre, queries, region, lang in markets:
+    markets = genre_table(cfg)
+    info = {g: (market, kind) for g, _, _, _, market, kind in markets}
+    for genre, queries, region, lang, _, _ in markets:
         for q in queries:
             if not yt.can_spend(COST["search"] + 60):   # 상세조회·댓글용 여유분 남김
                 log.append(f"할당량 예산 초과 우려로 검색 중단: '{q}'")
@@ -144,6 +168,29 @@ def collect(cfg, key, today):
                 if vid and vid not in found:
                     found[vid] = genre
             log.append(f"검색 '{q}' → 누적 {len(found)}개")
+
+    # 1-2) 인기 급상승 차트 (지역당 50개에 1단위). 3분 이하만 뒤에서 걸러 "인기 · 종합"에 넣는다
+    pc = cfg.get("popular") or {}
+    if pc.get("chart"):
+        for genre, region in chart_targets(cfg):
+            token = None
+            for _ in range(int(pc.get("chart_pages", 2))):
+                if not yt.can_spend(COST["videos"] + 60):
+                    break
+                params = dict(part="id", chart="mostPopular", regionCode=region, maxResults=50)
+                if token:
+                    params["pageToken"] = token
+                try:
+                    res = yt.get("videos", **params)
+                except YouTubeError as e:
+                    log.append(f"인기 차트({region}) 건너뜀: {e.code} {e.reason}")
+                    break
+                for it in res.get("items", []):
+                    found.setdefault(it["id"], genre)
+                token = res.get("nextPageToken")
+                if not token:
+                    break
+            log.append(f"인기 차트 {region} → 누적 {len(found)}개")
 
     # 2) 상세 정보 (지난 7일 동안 추적한 영상도 함께 갱신 → 상승 속도 계산)
     history = load_history()
@@ -172,7 +219,10 @@ def collect(cfg, key, today):
             continue
         sec = parse_duration(it["contentDetails"].get("duration"))
         views = int(it.get("statistics", {}).get("viewCount", 0))
-        if sec == 0 or sec > yc["max_duration_sec"] or views < yc["min_views"]:
+        market, kind = info.get(genre, ("kr", "drama"))
+        max_sec = pc.get("max_duration_sec", yc["max_duration_sec"]) if kind == "popular" else yc["max_duration_sec"]
+        min_views = pc.get("min_views", yc["min_views"]) if kind == "popular" else yc["min_views"]
+        if sec == 0 or sec > max_sec or views < min_views:
             continue
         sn, st = it["snippet"], it.get("statistics", {})
         desc = sn.get("description", "")
@@ -180,7 +230,7 @@ def collect(cfg, key, today):
         thumb = (thumbs.get("high") or thumbs.get("medium") or thumbs.get("default") or {}).get("url", "")
         tags = re.findall(r"#[\w가-힣]+", sn.get("title", "") + " " + desc)
         videos.append({
-            "genre": genre, "market": "global" if genre in (cfg.get("global_genres") or {}) else "kr", "video_id": vid, "url": f"https://www.youtube.com/shorts/{vid}",
+            "genre": genre, "market": market, "kind": kind, "video_id": vid, "url": f"https://www.youtube.com/shorts/{vid}",
             "title": sn.get("title", ""), "channel": sn.get("channelTitle", ""),
             "channel_id": sn.get("channelId", ""), "published_at": sn.get("publishedAt", ""),
             "duration_sec": sec, "views": views, "likes": int(st.get("likeCount", 0)),
@@ -206,9 +256,10 @@ def collect(cfg, key, today):
     key_fn = {"views": lambda v: v["views"], "ratio": lambda v: v["view_sub_ratio"] or 0,
               "velocity": lambda v: v["velocity"]}[yc.get("rank_by", "views")]
     top = []
-    for genre in list(cfg["genres"]) + list(cfg.get("global_genres") or {}):
+    for genre, (market, kind) in info.items():
         g = sorted([v for v in videos if v["genre"] == genre], key=key_fn, reverse=True)
-        for rank, v in enumerate(g[:yc["top_per_genre"]], 1):
+        n_top = pc.get("top_per_genre", yc["top_per_genre"]) if kind == "popular" else yc["top_per_genre"]
+        for rank, v in enumerate(g[:n_top], 1):
             v["rank"] = rank
             top.append(v)
 

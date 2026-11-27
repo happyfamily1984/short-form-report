@@ -4,7 +4,7 @@
   python trends/scripts/analyze.py          # 실제 분석 (GEMINI_API_KEY 필요)
   python trends/scripts/analyze.py --mock   # 키 없이 가짜 응답으로 흐름 시험
 
-요청 수: 장르 수(5) + 전체 요약(1) = 하루 6회 (재시도 포함 최대 약 12회)
+요청 수: 장르 수(숏드라마 10 + 인기 숏폼 10) + 전체 요약(1) + 영상 직접 보기(watch.max_total) = 하루 약 29회
 실패해도 프로그램은 멈추지 않고, 수집 요약만 담은 analysis.md를 만든 뒤
 status.json에 실패 사실을 남긴다 → notify.py가 텔레그램으로 알려 줌.
 """
@@ -26,7 +26,10 @@ RULES = """규칙:
 - 제목·설명·댓글·대사를 그대로 옮겨 적지 않는다. 반드시 내 말로 요약한다 (따옴표 인용 금지).
 - 영상 본편을 직접 본 것이 아니므로, 제목·설명·댓글·길이·썸네일로 추정한 내용은 끝에 "(추정)"을 붙인다.
 - 모든 답은 쉬운 한국어로, 항목마다 1~2문장으로 짧게.
-- cast(등장인물 2~4명), flow(결말 직전까지 3~5단계), ending(결말)은 다른 사람이 인물·사건·결말만 바꿔 같은 흐름의 새 대본을 쓸 수 있게 구체적으로 나눠 적는다. 실명·대사 인용은 쓰지 않는다.
+- cast(등장인물 0~4명), flow(결말 직전까지 3~5단계), ending(결말)은 다른 사람이 인물·사건·결말만 바꿔 같은 흐름의 새 대본을 쓸 수 있게 구체적으로 나눠 적는다. 실명·대사 인용은 쓰지 않는다.
+- cast 는 사람만이 아니다. 동물이면 kind 를 "동물", 애니메이션·그림·3D 캐릭터면 "캐릭터", 물건·음식 같은 것이 주인공이면 "사물"로 적는다. 등장인물이 없는 영상(풍경·글자·손만 나오는 영상 등)은 cast 를 빈 목록 [] 으로 둔다.
+- cast 의 look 은 그림으로 다시 그릴 수 있게 외형만 적는다. 사람: 나이대·성별·머리·옷·인상 / 동물: 종·털색·크기·특징 / 캐릭터: 그림체·색·생김새·특징. 실존 인물 이름, 기존 작품의 캐릭터 이름·상표는 쓰지 않고 생김새로만 적는다.
+- script 는 장면 순서대로 4~8줄. 줄마다 화면에 보이는 것(scene)과 그 장면의 말·내레이션·자막의 요지(line)를 내 말로 적는다. 말이 없는 장면은 line 을 빈 문자열로 둔다.
 - 반드시 지정한 JSON 형식으로만 답한다."""
 
 GENRE_SCHEMA = """{
@@ -36,7 +39,10 @@ GENRE_SCHEMA = """{
       "title_ko": "해외 영상만: 제목을 자연스러운 한국어로 번역 (한국 영상은 빈 문자열)",
       "hook": "제목 훅 방식 (예: 반전 예고, 대사 인용형, 질문형, 숫자형)",
       "structure": "추정 이야기 구조 (예: 무시 → 반전 → 사이다)",
-      "cast": [{"role": "역할 (주인공/악역/조력자/구경꾼 등)", "who": "이 영상 속 인물 설정 한 줄 (나이대·직업·처지·숨은 정체)"}],
+      "format": "영상 종류 한 단어 (숏드라마/상황극/동물/애니메이션/썰·사연/정보/챌린지/기타)",
+      "audio": "소리 방식 (인물 대사 / 내레이션 / 자막만 / 음악만)",
+      "cast": [{"role": "역할 (주인공/악역/조력자/구경꾼 등)", "kind": "사람/동물/캐릭터/사물 중 하나", "who": "이 영상 속 인물 설정 한 줄 (나이대·직업·처지·숨은 정체, 동물·캐릭터면 성격과 처지)", "look": "외형 한 줄 (그림으로 다시 그릴 수 있게)"}],
+      "script": [{"t": "0~3초", "scene": "화면에 보이는 것 한 줄", "line": "그 장면의 말·내레이션·자막 요지 (없으면 빈 문자열)"}],
       "flow": ["이야기 흐름 1단계 한 줄", "2단계", "3단계 (결말 직전까지 3~5단계)"],
       "ending": "결말 한 줄 (누가 어떻게 응징·역전되며 끝나는지)",
       "thumbnail": "썸네일 특징 (표정, 글자, 색). 이미지를 못 받은 영상은 제목 기준 추정",
@@ -65,7 +71,19 @@ SUMMARY_SCHEMA = """{
   "ideas": [
     {"title": "회차 제목 예시", "background": "배경", "hook": "첫 3초 훅", "structure": "구조 (예: 무시 → 반전 → 사이다)", "length": "추천 길이",
      "cast": [{"role": "역할", "who": "인물 설정 한 줄"}], "flow": ["흐름 1단계", "2단계", "3단계"], "ending": "결말 한 줄"}
-  ]
+  ],
+  "popular": ["숏드라마가 아닌 인기 숏폼에서 지금 잘 되는 형식 (근거 포함, 1~3개). 인기 숏폼 자료가 없으면 빈 목록"]
+}"""
+
+WATCH_SCHEMA = """{
+  "format": "영상 종류 한 단어 (숏드라마/상황극/동물/애니메이션/썰·사연/정보/챌린지/기타)",
+  "audio": "소리 방식 (인물 대사 / 내레이션 / 자막만 / 음악만)",
+  "hook": "첫 3초에 시선을 잡는 방식 한 줄",
+  "cast": [{"role": "역할", "kind": "사람/동물/캐릭터/사물 중 하나", "who": "설정 한 줄", "look": "외형 한 줄 (그림으로 다시 그릴 수 있게)"}],
+  "script": [{"t": "0~3초", "scene": "화면에 보이는 것 한 줄", "line": "그 장면의 말·내레이션·자막 요지 (없으면 빈 문자열)"}],
+  "flow": ["이야기 흐름 1단계", "2단계", "3단계 (결말 직전까지 3~5단계)"],
+  "ending": "결말 한 줄",
+  "structure": "이야기 구조 (예: 무시 → 반전 → 사이다)"
 }"""
 
 
@@ -206,6 +224,57 @@ def video_brief(v):
     }
 
 
+def kind_of(v):
+    return v.get("kind") or "drama"
+
+
+def yt_watch_url(v):
+    return f"https://www.youtube.com/watch?v={v['video_id']}"
+
+
+def clean_cast(cast):
+    """cast 를 [{role, kind, who, look}] 로 고르게 맞춘다 (없으면 빈 목록)."""
+    out = []
+    for c in cast if isinstance(cast, list) else []:
+        if not isinstance(c, dict):
+            continue
+        kind = str(c.get("kind") or "사람").strip()
+        kind = next((k for k in ("동물", "캐릭터", "사물", "사람") if k in kind), "사람")
+        out.append({"role": str(c.get("role") or "인물"), "kind": kind,
+                    "who": str(c.get("who") or c.get("desc") or ""), "look": str(c.get("look") or "")})
+    return out[:4]
+
+
+def clean_script(script):
+    out = []
+    for x in script if isinstance(script, list) else []:
+        if isinstance(x, dict) and (x.get("scene") or x.get("line")):
+            out.append({"t": str(x.get("t") or ""), "scene": str(x.get("scene") or ""), "line": str(x.get("line") or "")})
+    return out[:10]
+
+
+def tidy_video(a):
+    """영상 한 편의 분석을 앱이 읽기 좋게 고른다."""
+    if not isinstance(a, dict):
+        return a
+    a["cast"] = clean_cast(a.get("cast"))
+    a["script"] = clean_script(a.get("script"))
+    if not isinstance(a.get("flow"), list):
+        a["flow"] = [str(a["flow"])] if a.get("flow") else []
+    return a
+
+
+def watch_targets(vids, wc):
+    """직접 볼 영상 고르기: 종류(kinds) 순서대로, 장르마다 상위 per_genre 개, 모두 합쳐 max_total 개."""
+    out = []
+    for kind in wc.get("kinds") or ["popular"]:
+        for rank in range(1, int(wc.get("per_genre", 1)) + 1):
+            for v in vids:
+                if kind_of(v) == kind and v.get("rank") == rank and v["duration_sec"] <= int(wc.get("max_duration_sec", 90)):
+                    out.append(v)
+    return out[:int(wc.get("max_total", 0))]
+
+
 def past_patterns(today, days=7):
     """지난 7일 analysis.json에서 장르별 패턴·공통 구조를 모은다."""
     out = []
@@ -243,7 +312,12 @@ def mock_genre(genre, vids):
             "video_id": v["video_id"], "hook": f"{hooks[i % 4]} (샘플)",
             "title_ko": "(샘플) 한국어로 옮긴 제목" if v.get("market") == "global" else "",
             "structure": "무시당함 → 정체 공개 → 사이다 응징 (추정·샘플)",
-            "cast": [{"role": "주인공", "who": "무시당하는 30대 배달원, 사실 건물주 (샘플)"}, {"role": "악역", "who": "갑질하는 고급 아파트 입주민 (샘플)"}],
+            "format": mock_format(genre), "audio": "내레이션 (샘플)" if kind_of(v) == "popular" else "인물 대사 (샘플)",
+            "cast": mock_cast(genre),
+            "script": [{"t": "0~3초", "scene": "주인공이 화면 가운데로 들어온다 (샘플)", "line": "오늘 무슨 일이 있었는지 한 줄로 알린다 (샘플)"},
+                       {"t": "3~8초", "scene": "상대가 끼어들어 방해한다 (샘플)", "line": "상대가 비웃는 말을 한다 (샘플)"},
+                       {"t": "8~14초", "scene": "주인공이 뜻밖의 행동을 한다 (샘플)", "line": ""},
+                       {"t": "14~20초", "scene": "상황이 뒤집히고 모두 놀란다 (샘플)", "line": "마지막 한마디로 끝낸다 (샘플)"}],
             "flow": ["입주민이 배달원을 공개적으로 모욕 (샘플)", "주민들이 구경하며 비웃음 (샘플)", "관리인이 배달원을 '회장님'이라 부름 (샘플)"],
             "ending": "입주민이 관리 규정 위반으로 쫓겨남 (샘플)",
             "thumbnail": "놀란 표정 클로즈업 + 노란 큰 글자 (샘플)",
@@ -256,6 +330,28 @@ def mock_genre(genre, vids):
     }
 
 
+def mock_format(genre):
+    return next((f for k, f in (("동물", "동물"), ("애니", "애니메이션"), ("상황극", "상황극"), ("썰", "썰·사연")) if k in genre),
+                "숏드라마" if "인기" not in genre else "기타") + " (샘플)"
+
+
+def mock_cast(genre):
+    if "동물" in genre:
+        return [{"role": "주인공", "kind": "동물", "who": "간식을 숨겨 두고 시치미 떼는 강아지 (샘플)", "look": "작은 흰색 말티즈, 동그란 검은 눈, 빨간 목줄 (샘플)"},
+                {"role": "상대", "kind": "동물", "who": "간식을 노리는 고양이 (샘플)", "look": "회색 줄무늬 고양이, 노란 눈, 통통한 몸 (샘플)"}]
+    if "애니" in genre:
+        return [{"role": "주인공", "kind": "캐릭터", "who": "실수투성이 꼬마 로봇 (샘플)", "look": "둥근 머리의 파란 3D 로봇, 큰 노란 눈, 짧은 팔다리 (샘플)"}]
+    if "종합" in genre:
+        return []
+    return [{"role": "주인공", "kind": "사람", "who": "무시당하는 30대 배달원, 사실 건물주 (샘플)", "look": "30대 남성, 짧은 검은 머리, 낡은 배달 조끼, 차분한 눈빛 (샘플)"},
+            {"role": "악역", "kind": "사람", "who": "갑질하는 고급 아파트 입주민 (샘플)", "look": "50대 여성, 화려한 정장과 진주 목걸이, 날카로운 인상 (샘플)"}]
+
+
+def mock_watch(v):
+    r = mock_genre(v["genre"], [v])["videos"][0]
+    return {k: r[k] for k in ("format", "audio", "hook", "cast", "script", "flow", "ending", "structure")}
+
+
 def mock_summary(bg):
     return {
         "common": [{"name": "제목 패턴", "detail": "결과·반전을 제목에 먼저 공개 (샘플)"},
@@ -266,6 +362,7 @@ def mock_summary(bg):
                    "structure": "무시 → 반전 → 사이다", "length": "60초",
                    "cast": [{"role": "주인공", "who": f"무시당하는 {b} (샘플)"}, {"role": "악역", "who": "겉모습으로 사람을 판단하는 갑 (샘플)"}],
                    "flow": ["공개적인 무시 (샘플)", "숨은 정체를 암시하는 단서 (샘플)", "정체 공개 (샘플)"], "ending": "악역이 사과하고 대가를 치름 (샘플)"} for b in bg[:3]],
+        "popular": ["동물이 사람처럼 속마음을 말하는 내레이션 형식 (샘플)"],
     }
 
 
@@ -297,6 +394,9 @@ def render_md(today, raw, genres, summary, failures, model, requests_count):
         L += [f"- {x}" for x in summary.get("rising", [])] or ["- (자료 부족)"]
         L += ["", "**식는 형식**"]
         L += [f"- {x}" for x in summary.get("cooling", [])] or ["- (아직 비교할 과거 자료가 부족)"]
+        if summary.get("popular"):
+            L += ["", "**인기 숏폼에서 잘 되는 형식**"]
+            L += [f"- {x}" for x in summary["popular"]]
         L += ["", "## 내일 바로 써먹을 회차 아이디어", ""]
         for i, x in enumerate(summary.get("ideas", []), 1):
             L.append(f"{i}. **{x.get('title')}** ({x.get('background')}, {x.get('length')})")
@@ -326,7 +426,10 @@ def render_md(today, raw, genres, summary, failures, model, requests_count):
                   f"하루 상승: +{fmt_num(v.get('velocity', 0))} ({v.get('velocity_type', '-')})",
                   f"제목 훅 방식: {a.get('hook', '-')}",
                   f"추정 이야기 구조: {a.get('structure', '-')}",
-                  "등장인물: " + (" / ".join(f"{c.get('role')}: {c.get('who')}" for c in a.get("cast", [])) or "-"),
+                  f"종류: {a.get('format', '-')} / 소리: {a.get('audio', '-')}" + (" / 영상을 직접 보고 분석" if a.get("watched") else ""),
+                  "등장인물: " + (" / ".join(f"{c.get('role')}({c.get('kind', '사람')}): {c.get('who')}" + (f" [외형: {c.get('look')}]" if c.get("look") else "")
+                                         for c in a.get("cast", [])) or "없음"),
+                  *(["장면별 대본:"] + [f"  {x.get('t', '')} {x.get('scene', '')}" + (f" — {x.get('line')}" if x.get("line") else "") for x in a["script"]] if a.get("script") else []),
                   "흐름: " + (" → ".join(a.get("flow", [])) or "-"),
                   f"결말: {a.get('ending', '-')}",
                   f"썸네일 특징: {a.get('thumbnail', '-')}",
@@ -370,8 +473,12 @@ def main():
             overseas = any(v.get("market") == "global" for v in gv)
             local = ("이 장르는 해외(영어권) 인기 영상이다. 모든 답은 한국어로 쓰고, title_ko에 제목을 자연스러운 한국어로 번역한다. "
                      "cast·flow·ending은 한국 시청자가 바로 찍을 수 있게 한국식 배경·직업·인물로 바꿔 적되 흐름(단계·반전 위치)은 그대로 둔다.\n") if overseas else ""
-            prompt = (f"너는 숏드라마 형식 분석가다. 장르: {g}\n{local}"
-                      f"아래는 최근 7일 한국 유튜브 쇼츠 인기 영상 {len(gv)}개의 공개 정보다.\n"
+            popular = kind_of(gv[0]) == "popular"
+            who = ("너는 숏폼(쇼츠·릴스) 형식 분석가다. 이 묶음은 숏드라마가 아닌 일반 인기 숏폼이다. "
+                   "드라마 공식에 끼워 맞추지 말고 영상 종류(상황극·동물·애니메이션·썰·정보 등)에 맞게 적는다. "
+                   "동물·캐릭터가 주인공이면 cast 에 그대로 적고, 등장인물이 없으면 cast 는 빈 목록으로 둔다.") if popular else "너는 숏드라마 형식 분석가다."
+            prompt = (f"{who} 장르: {g}\n{local}"
+                      f"아래는 최근 7일 유튜브 쇼츠 인기 영상 {len(gv)}개의 공개 정보다.\n"
                       f"함께 붙인 썸네일 이미지 {len(from_img)}장은 순서대로 이 영상들의 것이다: {from_img}\n"
                       f"모든 영상에 대해 템플릿을 채워라.\n{RULES}\n\n"
                       f"영상 정보(JSON):\n{json.dumps([video_brief(v) for v in gv], ensure_ascii=False)}\n\n"
@@ -381,6 +488,7 @@ def main():
                 if not isinstance(res.get("videos"), list):
                     res["videos"] = [res] if res.get("video_id") else []
                 res.setdefault("patterns", {})
+                res["videos"] = [tidy_video(x) for x in res["videos"] if isinstance(x, dict)]
                 genres[g] = res
                 print(f"[분석] {g} 완료")
             except Exception as e:
@@ -399,6 +507,7 @@ def main():
             }
             prompt = ("너는 숏드라마 채널 기획 도우미다. 오늘 장르별 분석 결과와 지난 7일 기록을 비교해 요약하라.\n"
                       "- common: 여러 장르에 반복되는 공통 구조 정확히 3가지 (제목 패턴, 길이대, 이야기 구조)\n"
+                      "- popular: 이름이 '인기' 또는 '해외 인기'로 시작하는 장르(숏드라마가 아닌 일반 인기 숏폼)에서 지금 잘 되는 형식 1~3개\n"
                       "- rising/cooling: past_7_days와 비교. 과거 자료가 없으면 오늘 상승 속도(fast_rising) 기준으로 rising만 쓰고 cooling은 빈 목록\n"
                       f"- ideas: 내일 바로 찍을 회차 아이디어 정확히 3개. 배경은 {bg} 중에서 하나씩 골라 바꿔라. "
                       "남의 영상 줄거리를 그대로 옮기지 말고 형식만 빌려 새 이야기로.\n"
@@ -409,6 +518,47 @@ def main():
             except Exception as e:
                 failures.append(f"전체 요약 실패({scrub(e)[:80]})")
 
+    # 영상 직접 보기: 고른 영상을 제미나이가 실제로 보고 장면별 대본·등장인물 외형을 다시 적는다.
+    # 실패해도 위의 추정 분석이 남으므로 멈추지 않는다.
+    wc = cfg.get("watch") or {}
+    watched, misses = 0, 0
+    if gm and int(wc.get("max_total", 0)) > 0:
+        for v in watch_targets(vids, wc):
+            if misses >= 2:      # 연속으로 안 되면 한도·권한 문제이므로 남은 요청을 아낀다
+                break
+            parts = ["(가짜 응답)"] if args.mock else None
+            if not args.mock:
+                from google.genai import types
+                parts = [types.Part(file_data=types.FileData(file_uri=yt_watch_url(v)))]
+            overseas = v.get("market") == "global"
+            prompt = ("너는 숏폼 영상 분석가다. 붙인 유튜브 영상을 처음부터 끝까지 직접 보고 답 형식을 채워라.\n"
+                      "- 직접 본 내용만 적는다. 추정 표시는 붙이지 않는다.\n"
+                      "- 대사·내레이션·자막은 그대로 받아쓰지 말고 요지를 내 말로 적는다. 실존 인물 이름, 기존 작품 캐릭터 이름·상표는 쓰지 않고 생김새로만 적는다.\n"
+                      "- cast 의 kind 는 사람/동물/캐릭터/사물 중 하나. 등장인물이 없으면 cast 는 빈 목록 [].\n"
+                      "- look 은 그림으로 다시 그릴 수 있게 외형만 (사람: 나이대·성별·머리·옷·인상 / 동물: 종·털색·크기 / 캐릭터: 그림체·색·특징).\n"
+                      "- script 는 장면 순서대로 4~8줄, t 는 그 장면의 시간 구간.\n"
+                      + ("- 해외 영상이다. 모든 답은 한국어로 쓴다.\n" if overseas else "- 모든 답은 쉬운 한국어로 쓴다.\n")
+                      + f"영상 길이: {v['duration_sec']}초. 반드시 지정한 JSON 형식으로만 답한다.\n\n답 형식(JSON):\n{WATCH_SCHEMA}")
+            try:
+                res = tidy_video(gm.ask_json(parts + [prompt], lambda: mock_watch(v)))
+                if not res.get("script"):
+                    raise ValueError("대본이 비어 있음")
+                g = genres.setdefault(v["genre"], {"videos": [], "patterns": {}})
+                cur = next((x for x in g["videos"] if x.get("video_id") == v["video_id"]), None)
+                if cur is None:
+                    cur = {"video_id": v["video_id"]}
+                    g["videos"].append(cur)
+                cur.update({k: res[k] for k in ("format", "audio", "hook", "cast", "script", "flow", "ending", "structure") if res.get(k) not in (None, "")})
+                cur["cast"] = res["cast"]          # 직접 봤으면 "등장인물 없음"도 그대로 믿는다
+                cur["watched"] = True
+                watched, misses = watched + 1, 0
+                print(f"[분석] 영상 직접 보기 완료: {v['video_id']} ({v['genre']})")
+            except Exception as e:
+                misses += 1
+                print(f"[분석] 영상 직접 보기 건너뜀 {v['video_id']}: {scrub(e)[:160]}")
+        if watched:
+            print(f"[분석] 직접 본 영상 {watched}개")
+
     model = gm.model_used if gm else "-"
     reqs = gm.requests if gm else 0
     if args.mock:
@@ -416,7 +566,11 @@ def main():
     md = render_md(today, raw, genres, summary, failures, model, reqs)
     (d / "analysis.md").write_text(md, encoding="utf-8")
     write_json(d / "analysis.json", {"date": today, "sample": bool(raw.get("sample")), "model": model, "requests": reqs,
-                                     "genres": genres, "summary": summary, "failures": failures})
+                                     "genres": genres, "summary": summary, "failures": failures,
+                                     "genre_info": {g: {"market": next((v.get("market", "kr") for v in vids if v["genre"] == g), "kr"),
+                                                        "kind": next((kind_of(v) for v in vids if v["genre"] == g), "drama")}
+                                                    for g in dict.fromkeys(v["genre"] for v in vids)},
+                                     "watched": watched})
     print(f"[분석] 제미나이 요청 {reqs}회 · 모델 {model}")
     ok = bool(summary) and not failures
     write_status(today, "analyze", ok, " / ".join(failures) if failures else f"요청 {reqs}회")
