@@ -1,8 +1,9 @@
 name: 숏폼 유행 리포트
 
 on:
-  schedule:
-    - cron: "0 21 * * *"   # UTC 21:00 = 한국 시간 매일 아침 6시
+  # 자동 수집 멈춤 (2026-11-27 사용자 요청). 다시 켜려면 아래 두 줄의 # 를 지운다.
+  # schedule:
+  #   - cron: "0 21 * * *"   # UTC 21:00 = 한국 시간 매일 아침 6시
   workflow_dispatch:
     inputs:
       sample:
